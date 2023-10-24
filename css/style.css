@@ -754,6 +754,7 @@ z-index: 2;
 }
 
 .overlay-2 {
+  /*background.jpg*/
 background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGElEQVQIW2NkYGD4D8SMQAwhYAIwDlgAADZsAwPtIY3UAAAAAElFTkSuQmCC) rgba(0,0,0,0.5);
 height:100%;
 left:0;
