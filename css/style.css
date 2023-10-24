@@ -2,6 +2,7 @@
 html,body {
 height:100%;
 width:100%;
+scroll-behavior: smooth;
 }
 
 body {
@@ -208,6 +209,7 @@ width:100%;
     -webkit-animation: pulse 1s;
     animation: pulse 1s;
 }
+
 
 /* FORMS */
 form {
@@ -644,6 +646,10 @@ background:url(../images/3.jpg);
 background-position-x:50% !important;
 background-size:cover;
 }
+.keystat-logo{
+  max-height: 150px;
+  object-fit: contain;
+}
 
 .caption-wrapper {
 position: absolute;
@@ -654,6 +660,19 @@ top: 50%;
 left: 0%;
 margin: -8% 0px 0px 0px;
 z-index: 100;
+}
+.about-wrapper{
+  max-width: 1000px;
+  display: flex;
+  margin: 0 auto;
+}
+.about-wrapper.info{
+  justify-content: center;
+  max-width: 100%;
+}
+.caption-p{
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .slide-caption {
@@ -762,6 +781,9 @@ z-index: 0;
 .services-box {
 padding:35px 20px;
 text-align:center;
+}
+.services-box p{
+  /* text-align: left; */
 }
 
 .services-box h3 {
@@ -887,7 +909,9 @@ display:block;
 font-weight:700;
 margin-bottom:5px;
 }
-
+.description-item.info{
+  max-width: 390px;
+}
 /*
 * PORTFOLIO
 * -------------------------------------------------- */
@@ -909,7 +933,6 @@ background:#fff;
 border:2px solid #93A7D1;
 color:#333;
 font-size:12px;
-letter-spacing:2px;
 padding:7px 25px;
 text-transform:uppercase;
 -moz-transition: .3s;

@@ -204,6 +204,9 @@ jQuery(document).ready(function($) {
 	
 	$("#quote-slider").owlCarousel({
 	  	items: 1,
+		 autoplay: true, // Включить автоматическую смену слайдов
+		  autoplayTimeout: 40000, // Время в миллисекундах (40 секунд)
+		  loop: true, // Зациклить слайды
 	  });
 	
 	$("#clients-slider").owlCarousel({
