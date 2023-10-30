@@ -1027,7 +1027,7 @@ display:none;
 
 .home-projects .project-item {
 margin-bottom:0;
-width:33.333333333333%;
+width:43.333333333333%;
 }
 
 .project-item .actions {
@@ -2853,3 +2853,9 @@ img.mfp-img {
   top: 0;
   right: 0;
   padding-top: 0; }
+/*my media*/
+@media (min-width: 992px) {
+  .col-md-4{
+    width:43.333333333333%;
+  }
+}
