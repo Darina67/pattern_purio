@@ -195,7 +195,7 @@ jQuery(document).ready(function($) {
 		margin:0,
 		loop:true,
 		autoplay:true,
-		autoplayTimeout:5000,
+		autoplayTimeout:10000,
 		autoplayHoverPause:false,
 		dots: false,
 		stagePadding:0,
