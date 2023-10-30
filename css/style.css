@@ -947,6 +947,9 @@ text-align:center;
 #members .info p{
   margin-bottom: 10px;
 }
+#members .info h3{
+  color: #93A7D1;
+}
 
 #members .info span {
 color:#93A7D1;
@@ -1138,7 +1141,7 @@ text-align:left;
 * QUOTE
 * -------------------------------------------------- */
 #quote-section {
-background:url(../images/4.jpg) center center fixed;
+background:url(../images/background.png) center center fixed;
 color:#fff;
 background-size:cover;
 }
