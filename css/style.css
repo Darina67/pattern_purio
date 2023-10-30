@@ -117,6 +117,10 @@ border-radius:0;
 box-shadow:none;
 margin:0 auto;
 }
+span.rf{
+  font-style: italic;
+  font-weight: bold;
+}
 
 /* BS Buttons */
 .btn {
@@ -958,6 +962,7 @@ margin-bottom:5px;
 .font-color.orng.italic{
   color: #FF7400;
   font-style: italic;
+  font-size: 32px;
 }
 /*
 * PORTFOLIO
