@@ -2365,6 +2365,11 @@ left:45%;
 .caption-wrapper{
   top: 10%;
 }
+iframe.map{
+  max-width: 450px;
+  display: flex;
+  margin: 0 auto;
+}
 .about-wrapper{
   justify-content: center;
 }
@@ -2415,6 +2420,17 @@ text-align:center;
 
 footer #back-top {
 left:44%;
+}
+.caption-wrapper{
+  top: 10%;
+}
+iframe.map{
+  max-width: 350px;
+  display: flex;
+  margin: 0 auto;
+}
+.about-wrapper{
+  justify-content: center;
 }
 
 }
