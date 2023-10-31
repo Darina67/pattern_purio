@@ -2380,6 +2380,9 @@ iframe.map{
 .keystat-logo.pl-media{
 padding-left: 20px;
 }
+#timeline ul.timeline li.time + li.note{
+  margin-top: -30px;
+}
 
 }
 
@@ -2446,6 +2449,9 @@ iframe.map{
 }
 .keystat-logo.pl-media{
   padding-left: 20px;
+  }
+  #timeline ul.timeline li.time + li.note{
+    margin-top: -30px;
   }
 
 }
