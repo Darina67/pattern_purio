@@ -11,3 +11,7 @@ section.privacy{
     color: #565656;
     line-height: 19px;
 }
+ p{
+    font-size: 14px !important;
+    line-height: 19px;
+}
