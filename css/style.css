@@ -2387,6 +2387,10 @@ form{
   padding-left: 15px;
   padding-right: 15px;
 }
+.quote p{
+  padding-right: 15px;
+  padding-left: 15px;
+}
 
 }
 
@@ -2460,6 +2464,10 @@ iframe.map{
   form{
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .quote p{
+    padding-right: 15px;
+    padding-left: 15px;
   }
 
 }
