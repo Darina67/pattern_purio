@@ -2362,6 +2362,9 @@ right:48%;
 footer #back-top {
 left:45%;
 }
+.slide-caption p{
+  font-size: 20px !important;
+}
 .caption-wrapper{
   top: 10%;
 }
@@ -2421,8 +2424,12 @@ text-align:center;
 footer #back-top {
 left:44%;
 }
+
 .caption-wrapper{
   top: 10%;
+}
+.slide-caption p{
+  font-size: 20px !important;
 }
 iframe.map{
   max-width: 350px;
