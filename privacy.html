@@ -1,44 +1,196 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Опыт и качество. Keystat</title>
-</head>
-<body>
-    <main>
-        <h1>ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</h1>
-        <p>Компания «Кейстат» обязуется соблюдать настоящую Политику, заботясь о защите личных данных пользователей.
+<html lang="ru" class="no-js">
+	<head>
+    	<meta charset="utf-8">
+      	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+      	<title>Опыт и качество. Keystat</title>
+      	<!-- Core CSS -->
+      	<link href="css\bootstrap.css" rel="stylesheet">
+        <link href="css\owl.carousel.min.css" rel="stylesheet">
+      	<link href="css\font-awesome.min.css" rel="stylesheet">
+        <link href="css\jquery.mmenu.all.css" rel="stylesheet">
+        <link href="css\animate.min.css" rel="stylesheet">
+      	<!-- Custom styles for this template -->
+      	<link href="css\style.css" rel="stylesheet">
+      	<link href="css\privacy.css" rel="stylesheet">
 
-            Личные данные
-            К личным данным пользователя сайта относится вся информация, содержащаяся в обязательных для заполнения полях форм сайта, в том числе:
-               * имя пользователя;
-               * его электронный адрес.
-            
-            Сбор личных данных
-            Мы ставим посетителей сайта в известность, если нам потребуется получить информацию, которая позволяет установить их личность или их контактные данные. Эти данные запрашиваются при регистрации, а также при подписке на новости, рассылаемые по электронной почте и при получении доступа к закрытым тематическим разделам сайта.
-            На сайте компании «Кейстат» осуществляется сбор статистики посещаемости сайта.
-            
-            Статистическая информация может включать в себя:
-               * IP-адрес пользователя;
-               * тип браузера;
-               * количество предыдущих посещений;
-               * адрес сайта, с которого пользователь осуществил переход на наш сайт.
-            
-            Использование личных данных
-            Личные данные посетителей сайта необходимы компании «Кейстат» для решения ряда задач:
-               * предоставление спектра услуг:
-                  o подписке на рассылки информационных бюллетеней, пресс-релизов, отчётов;
-                  o приглашении на мероприятия «Кейстат»;
-                  oб организации доступа для загрузки программного обеспечения;
-                  oб организации доступа для загрузки документации по продуктам.
-               * оперативное оповещение об обновлениях в разделах продуктов и услуг, а также информирование об обновлениях информации на сайте, предоставляемых по запросу пользователей;
-               * предоставление ограниченного доступа к защищенным разделам сайта.
-            
-            Контроль личных данных
-            Личные данные не будут передаваться третьим организациям и лицам без разрешения пользователей, за исключением случаев, в которых этого требует действующее законодательство РФ.
-            
-            Тем не менее, Интернет не безопасен, и компания «Кейстат» не может гарантировать безопасную передачу любой информации.</p>
-    </main>
-</body>
+      	<!-- Google Fonts -->
+      	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   	</head>
+	<body class="home">
+        <div id="wrapper">
+            <!-- Page Loader -->
+            <div id="pageloader">
+                <div class="loader-item fa fa-spin"></div>
+            </div>
+            <!-- nav menu -->
+            <div class="sticky-wrap">
+                <div id="nav">
+                    <div class="navbar navbar-inverse" role="navigation">
+                        <div class="container">
+                            <div class="row">
+                                <!-- logo/title -->
+                                <div class="navbar-header">
+                                    <a class="navbar-brand" href="index.html"><img src="images\keystat-logo-black.png" alt="Keystat"></a>
+                                </div>
+                                <!-- mobile menu trigger -->
+                                <div class="open nav navbar-right">
+                                    <a id="toggle-menu" href="#mmenu-side-menu"><i class="fa fa-bars"></i></a>
+                                </div>
+                                <!-- menu links -->
+                                 <div id="side-menu" class="remove">
+                                    <ul class="nav home-nav navbar-nav navbar-right" id="top-nav">
+                                        <li>
+                                            <a href="index.html#slides">Главная</a>
+                                        </li>
+                                        <li>
+                                            <a href="index.html#about">О компании</a>
+                                        </li>
+                                        <li>
+                                            <a href="index.html#projects">Опыт</a>
+                                        </li>
+                                        <li>
+                                            <a href="index.html#features">Услуги</a>
+                                        </li>
+                                        <li>
+                                            <a href="index.html#blog">Новости</a>
+                                        </li>
+                                        <li>
+                                            <a href="index.html#contact-section" class="external">Контакты</a>
+                                         </li>
+                                     </ul>
+                                </div>
+                                <!--end menu links -->
+                            </div>
+                            <!-- end row -->
+                        </div>
+                        <!-- end container -->
+                    </div>
+                    <!-- end navbar -->
+                </div>
+                <!-- end nav -->
+            </div>
+            <!-- end nav menu -->
+            <section class="privacy">
+               <div class="container">
+               <h1 class="privacy header">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</h1>
+               <div class="privacy-text">
+              
+                     Компания «Кейстат» обязуется соблюдать настоящую Политику, заботясь о защите личных данных пользователей.
+                     <br>
+                     <br>
+                     Личные данные
+                     <br>
+                     К личным данным пользователя сайта относится вся информация, содержащаяся в обязательных для заполнения полях форм сайта, в том числе:
+                     <ul class="privacy-list">
+                        <li class="list-unstyled">* имя пользователя;</li>
+                        <li class="list-unstyled"> * его электронный адрес.</li>
+                     </ul>
+                     <br>
+                     <br>
+
+                     Сбор личных данных<br>
+                     Мы ставим посетителей сайта в известность, если нам потребуется получить информацию, которая позволяет установить их личность или их контактные данные. Эти данные запрашиваются при регистрации, а также при подписке на новости, рассылаемые по электронной почте и при получении доступа к закрытым тематическим разделам сайта.
+                    <br> На сайте компании «Кейстат» осуществляется сбор статистики посещаемости сайта. <br>
+                   <br>
+                     Статистическая информация может включать в себя:
+                     <ul class="privacy-list">
+                        <li class="list-unstyled">* IP-адрес пользователя;</li>
+                        <li class="list-unstyled">* тип браузера;</li>
+                        <li class="list-unstyled">* количество предыдущих посещений;</li>
+                        <li class="list-unstyled">* адрес сайта, с которого пользователь осуществил переход на наш сайт.</li>     
+                     </ul>
+                     <br>
+                     <br>
+                     Использование личных данных
+                     <br>
+                     Личные данные посетителей сайта необходимы компании «Кейстат» для решения ряда задач:
+                     <ul class="privacy-list">
+                        <li class="list-unstyled">* предоставление спектра услуг:
+                           o подписке на рассылки информационных бюллетеней, пресс-релизов, отчётов;
+                           o приглашении на мероприятия «Кейстат»;
+                           oб организации доступа для загрузки программного обеспечения;
+                           oб организации доступа для загрузки документации по продуктам.</li>
+                        <li class="list-unstyled">* оперативное оповещение об обновлениях в разделах продуктов и услуг, а также информирование об обновлениях информации на сайте, предоставляемых по запросу пользователей;</li>
+                        <li class="list-unstyled">* предоставление ограниченного доступа к защищенным разделам сайта.</li>
+                        </ul>
+                        <br>
+                        <br>
+                     Контроль личных данных<br>
+                     Личные данные не будут передаваться третьим организациям и лицам без разрешения пользователей, за исключением случаев, в которых этого требует действующее законодательство РФ.
+                     <br>
+                     <br>
+                     Тем не менее, Интернет не безопасен, и компания «Кейстат» не может гарантировать безопасную передачу любой информации.
+               </div>
+            </div>
+            </section>
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="column-wrapper">
+ <div class="column">
+    <div class="about">
+        <div class="about__header"><h4>О компании</h4></div>
+        <div class="about__description">Управление сбором и обработкой данных, разработка программного обеспечения и внедрение информационных решений, медицинская статистика (биостатистика), консультации и обучение. Профессионализм и опыт наших сотрудников позволяет обеспечить выполнение задач любой сложности в оптимальные сроки.</div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="about">
+        <div class="about__header"><h4>Полезные ссылки</h4></div>
+        <div class="about__description">
+        <ul class="link-list">
+            <li class="link-list__item"> <a href="#slides">Главная</a></li>
+            <li class="link-list__item"> <a href="#about">О компании</a></li>
+            <li class="link-list__item"> <a href="#projects">Опыт</a></li>
+            <li class="link-list__item"> <a href="#features">Услуги</a></li>
+            <li class="link-list__item"> <a href="#blog">Новости</a></li>
+            <li class="link-list__item"> <a href="#contact-section">Контакты</a></li>
+        </ul>
+        </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="about">
+        <div class="about__header"><h4>Контакты</h4></div>
+        <div class="about__description"><ul class="contact-list">
+            <li class="contact-list__item"><i class="fa fa-home" aria-hidden="true" style="color: #ff7400;"></i> 214000 Г.СМОЛЕНСК УЛ.НИКОЛАЕВА Д.27 214000 Г.СМОЛЕНСК УЛ.2-Я ЛИНИЯ КРАСНОАРМЕЙСКОЙ СЛОБОДЫ Д.3</li>
+            <li class="contact-list__item"> <i class="fa fa-mobile" aria-hidden="true" style="color: #ff7400;"></i> <a href="teL:111111111">111-111-111</a></li>
+            <li class="contact-list__item"> <i class="fa fa-envelope-o" aria-hidden="true"  style="color: #ff7400; font-size: 16px;"></i><a href="mailto:mail@html6.com.ru">mail@html6.com.ru</a></li>
+        </ul></div>
+    </div>
+  </div>
+</div>
+</div>
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+        <div class="copy-text">Copyright</div>
+        <div class="copy-hrefs">© 2023 | <a href="privacy.html"> ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ </a> | <a href="responsibility.html"> ОТКАЗ ОТ ОТВЕТСТВЕННОСТИ</a></div>
+    </div>
+</div>
+      <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+        	<!-- end footer -->
+      		<!-- CORE JAVASCRIPTS -->  
+      		<script type="text/javascript" src="js\jquery.js"></script>
+            <script type="text/javascript" src="js\bootstrap.min.js"></script>
+            <script type="text/javascript" src="js\jquery.mixitup.min.js"></script>
+            <script type="text/javascript" src="js\jquery.easing.min.js"></script>
+            <script type="text/javascript" src="js\waypoints.min.js"></script>
+            <script type="text/javascript" src="js\jquery.parallax.js"></script>
+            <script type="text/javascript" src="js\owl.carousel.min.js"></script>
+            <script type="text/javascript" src="js\jquery.validate.min.js"></script>
+            <script type="text/javascript" src="js\jquery.sticky.js"></script>
+            <script type="text/javascript" src="js\jquery.mmenu.all.min.js"></script>
+            <script type="text/javascript" src="js\jquery.animate-enhaced.min.js"></script>
+            <script type="text/javascript" src="js\jquery.appear.js"></script>
+            <script type="text/javascript" src="js\jquery.magnific-popup.min.js"></script>
+      		<script type="text/javascript" src="js\plugins.js"></script>
+            <script type="text/javascript" src="js\modernizr.min.js"></script>
+      		<script type="text/javascript" src="js\main.js"></script>
+              <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        </div>
+	</body>
 </html>
