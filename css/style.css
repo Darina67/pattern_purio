@@ -977,12 +977,15 @@ line-height:40px;
 list-style:none;
 margin:10px 0 40px;
 padding:10px 0;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
 }
 
 #filters li {
 display:inline;
 line-height:200%;
-margin-top:5px;
+margin: 5px 2px;
 }
 
 #filters li a {
