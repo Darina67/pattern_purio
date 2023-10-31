@@ -2383,6 +2383,10 @@ padding-left: 20px;
 #timeline ul.timeline li.time + li.note{
   margin-top: -30px;
 }
+form{
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 }
 
@@ -2452,6 +2456,10 @@ iframe.map{
   }
   #timeline ul.timeline li.time + li.note{
     margin-top: -30px;
+  }
+  form{
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
 }
