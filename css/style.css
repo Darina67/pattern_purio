@@ -2367,6 +2367,7 @@ left:45%;
 }
 .caption-wrapper{
   top: 10%;
+  padding: 6px;
 }
 iframe.map{
   max-width: 450px;
@@ -2375,6 +2376,9 @@ iframe.map{
 }
 .about-wrapper{
   justify-content: center;
+}
+.keystat-logo.pl-media{
+padding-left: 20px;
 }
 
 }
@@ -2427,6 +2431,7 @@ left:44%;
 
 .caption-wrapper{
   top: 10%;
+  padding: 6px;
 }
 .slide-caption p{
   font-size: 20px !important;
@@ -2439,6 +2444,9 @@ iframe.map{
 .about-wrapper{
   justify-content: center;
 }
+.keystat-logo.pl-media{
+  padding-left: 20px;
+  }
 
 }
 
