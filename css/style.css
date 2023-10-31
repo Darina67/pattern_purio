@@ -693,6 +693,7 @@ z-index: 100;
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .about-wrapper.info{
   justify-content: center;
@@ -2360,6 +2361,12 @@ right:48%;
 
 footer #back-top {
 left:45%;
+}
+.caption-wrapper{
+  top: 10%;
+}
+.about-wrapper{
+  justify-content: center;
 }
 
 }
