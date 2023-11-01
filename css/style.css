@@ -657,19 +657,19 @@ display:none;
 * HOMEPAGE SLIDER
 * -------------------------------------------------- */
 #slides .image1{
-background:url(../images/1.jpg);
+background:url(../images/1.webp);
 background-position-x:50% !important;
 background-size:cover;
 }
 
 #slides .image2{
-background:url(../images/2.jpg);
+background:url(../images/2.webp);
 background-position-x:50% !important;
 background-size:cover;
 }
 
 #slides .image3{
-background:url(../images/3.jpg);
+background:url(../images/3.webp);
 background-position: center !important;
 background-size:cover;
 }
@@ -903,7 +903,7 @@ margin-bottom:20px;
 * INTERESTING INFO
 * -------------------------------------------------- */
 #interesting-info {
-background:url(../images/3.jpg) center center fixed;
+background:url(../images/3.webp) center center fixed;
 color:#fff;
 background-size:cover;
 }
@@ -1145,7 +1145,7 @@ text-align:left;
 * QUOTE
 * -------------------------------------------------- */
 #quote-section {
-background:url(../images/background.png) center center fixed;
+background:url(../images/background.webp) center center fixed;
 color:#fff;
 background-size:cover;
 }
@@ -1262,7 +1262,7 @@ font-size:21px;
 * TIMELINE SECTION
 * -------------------------------------------------- */
 #timeline {
-background:url(../images/3.jpg) center center fixed;
+background:url(../images/3.webp) center center fixed;
 color:#fff;
 background-size:cover;
 }
@@ -1863,7 +1863,7 @@ margin-right:10px;
 }
 
 #contact-info {
-background:url(../images/background3.png) center center fixed;
+background:url(../images/background3.webp) center center fixed;
 color:#fff;
 background-size:cover;
 }
