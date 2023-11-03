@@ -390,76 +390,79 @@
                         <div class="col-md-12 text-center">
                             <div id="options" data-effect="fade">
                                 <!-- portfolio filters -->
-                                <ul id="filters" class="option-set">
-                                    <li><a class="filter active" data-filter="all">Все</a></li>
-                                    <li><a data-filter=".photo" class="filter">Cердечно-сосудистые заболевания</a></li>
-                                    <li><a data-filter=".web" class="filter">Урология</a></li>
-                                    <li><a data-filter=".brand" class="filter">Заболевания печени</a></li>
-                                    <li><a data-filter=".design" class="filter">Гематология</a></li>
-                                    <li><a data-filter=".design" class="filter">Онкология</a></li>
-                                    <li><a data-filter=".design" class="filter">Вирусные инфекции</a></li>
-                                    <li><a data-filter=".design" class="filter">Ревматология</a></li>
-                                    <li><a data-filter=".design" class="filter">Офтальмология</a></li>
-                                    <li><a data-filter=".design" class="filter">Заболевания опорно-двигательного аппарата</a></li>
-                                    <li><a data-filter=".design" class="filter">Заболевания органов дыхания</a></li>
-                                    <li><a data-filter=".design" class="filter">Центральная нервная система</a></li>
-                                    <li><a data-filter=".design" class="filter">Травматология</a></li>
-                                    <li><a data-filter=".design" class="filter">Гинекология</a></li>
-                                    <li><a data-filter=".design" class="filter">Анестезиология</a></li>
-                                    <li><a data-filter=".design" class="filter">Кардиология</a></li>
-                                    <li><a data-filter=".design" class="filter">Заболевания органов ЖКТ</a></li>
-                                    <li><a data-filter=".design" class="filter">Иммунология</a></li>
-                                    <li><a data-filter=".design" class="filter">Дерматология</a></li>
-                                    <li><a data-filter=".design" class="filter">Неврология</a></li>
-                                    <li><a data-filter=".design" class="filter">Стоматология</a></li>
-                                    <li><a data-filter=".design" class="filter">Другие области</a></li>
-
-                                </ul>
+                                <div id="filters-container">
+                                    <ul id="filters" class="option-set category-filter">
+                                        <li><a class="filter active" data-filter="all">Все</a></li>
+                                        <li><a data-filter=".сardiovascular" class="filter">Cердечно-сосудистые заболевания</a></li>
+                                    <li><a data-filter=".urology" class="filter">Урология</a></li>
+                                    <li><a data-filter=".liver-disease" class="filter">Заболевания печени</a></li>
+                                    <li><a data-filter=".hematology" class="filter">Гематология</a></li>
+                                    <li><a data-filter=".oncology" class="filter">Онкология</a></li>
+                                    <li><a data-filter=".viral_infections" class="filter">Вирусные инфекции</a></li>
+                                    <li><a data-filter=".rheumatology" class="filter">Ревматология</a></li>
+                                    <li><a data-filter=".ophthalmology" class="filter">Офтальмология</a></li>
+                                    <li><a data-filter=".musculoskeletal-disease" class="filter">Заболевания опорно-двигательного аппарата</a></li>
+                                    <li><a data-filter=".respiratory-diseases" class="filter">Заболевания органов дыхания</a></li>
+                                    <li><a data-filter=".cns" class="filter">Центральная нервная система</a></li>
+                                    <li><a data-filter=".traumatology" class="filter">Травматология</a></li>
+                                    <li><a data-filter=".gynecology" class="filter">Гинекология</a></li>
+                                    <li><a data-filter=".anesthesiology" class="filter">Анестезиология</a></li>
+                                    <li><a data-filter=".cardiology" class="filter">Кардиология</a></li>
+                                    <li><a data-filter=".gastrointestinal-tract" class="filter">Заболевания органов ЖКТ</a></li>
+                                    <li><a data-filter=".immunology" class="filter">Иммунология</a></li>
+                                    <li><a data-filter=".dermatology" class="filter">Дерматология</a></li>
+                                    <li><a data-filter=".neurology" class="filter">Неврология</a></li>
+                                    <li><a data-filter=".dentistry" class="filter">Стоматология</a></li>
+                                    <li><a data-filter=".endocrinology" class="filter">Эндокринология</a></li>
+                                    <li><a data-filter=".other" class="filter">Другие области</a></li>                            
+                                    
+                                        <!-- категории заболеваний здесь -->
+                                    </ul>
+                                    <!-- years filters -->
+                                    <ul id="year-filters" class="option-set year-filter">
+                                        <li><a class="filter" data-filter="all">Все</a></li>
+                                        <li><a data-filter=".2002" class="filter">2002</a></li>
+                                        <li><a data-filter=".2003" class="filter">2003</a></li>
+                                        <li><a data-filter=".2004" class="filter">2004</a></li>
+                                        <li><a data-filter=".2005" class="filter">2005</a></li>
+                                        <li><a data-filter=".2006" class="filter">2006</a></li>
+                                        <li><a data-filter=".2007" class="filter">2007</a></li>
+                                        <li><a data-filter=".2008" class="filter">2008</a></li>
+                                        <li><a data-filter=".2009" class="filter">2009</a></li>
+                                        <li><a data-filter=".2010" class="filter">2010</a></li>
+                                        <li><a data-filter=".2011" class="filter">2011</a></li>
+                                        <li><a data-filter=".2012" class="filter">2012</a></li>
+                                        <li><a data-filter=".2013" class="filter">2013</a></li>
+                                        <li><a data-filter=".2014" class="filter">2014</a></li>
+                                        <li><a data-filter=".2015" class="filter">2015</a></li>
+                                        <li><a data-filter=".2016" class="filter">2016</a></li>
+                                        <li><a data-filter=".2017" class="filter">2017</a></li>
+                                        <li><a data-filter=".2018" class="filter">2018</a></li>
+                                        <li><a data-filter=".2019" class="filter">2019</a></li>
+                                        <li><a data-filter=".2020" class="filter">2020</a></li>
+                                        <li><a data-filter=".2021" class="filter">2021</a></li>
+                                        <li><a data-filter=".2022" class="filter">2022</a></li>
+                                        <li><a data-filter=".2023" class="filter">2023</a></li>
+                                        <!-- года здесь -->
+                                    </ul>
+                                </div>
                                 <!-- end portfolio filters -->
-                            </div>
-                            <div id="options" data-effect="fade">
-                                <!-- years filters -->
-                                <ul id="filters" class="option-set">
-                                    <li><a class="filter active" data-filter="all">Все</a></li>
-                                    <li><a data-filter=".photo" class="filter">2002</a></li>
-                                    <li><a data-filter=".web" class="filter">2003</a></li>
-                                    <li><a data-filter=".brand" class="filter">2004</a></li>
-                                    <li><a data-filter=".design" class="filter">2005</a></li>
-                                    <li><a data-filter=".design" class="filter">2006</a></li>
-                                    <li><a data-filter=".design" class="filter">2007</a></li>
-                                    <li><a data-filter=".design" class="filter">2008</a></li>
-                                    <li><a data-filter=".design" class="filter">2009</a></li>
-                                    <li><a data-filter=".design" class="filter">2010</a></li>
-                                    <li><a data-filter=".design" class="filter">2011</a></li>
-                                    <li><a data-filter=".design" class="filter">2012</a></li>
-                                    <li><a data-filter=".design" class="filter">2013</a></li>
-                                    <li><a data-filter=".design" class="filter">2014</a></li>
-                                    <li><a data-filter=".design" class="filter">2015</a></li>
-                                    <li><a data-filter=".design" class="filter">2016</a></li>
-                                    <li><a data-filter=".design" class="filter">2017</a></li>
-                                    <li><a data-filter=".design" class="filter">2018</a></li>
-                                    <li><a data-filter=".design" class="filter">2019</a></li>
-                                    <li><a data-filter=".design" class="filter">2020</a></li>
-                                    <li><a data-filter=".design" class="filter">2021</a></li>
-                                    <li><a data-filter=".design" class="filter">2022</a></li>
-                                    <li><a data-filter=".design" class="filter">2023</a></li>
-                                </ul>
-                                <!-- end years filters -->
                             </div>
                         </div>
                     </div>
+                    
                     <!-- end row -->
                     <div class="row">
-                        <div class="home-projects animated text-center" data-animation="fadeInDown">
+                        <div id="container" class="home-projects animated text-center" data-animation="fadeInDown">
                             <!-- portfolio item -->
-                            <article class="project-item mix photo design">
+                            <article class="project-item mix сardiovascular 2002">
                             	<a href="images\portfolio\1.jpg" class="popup">
                                 <figure>
                                     <img src="images\portfolio\1.jpg" class="img-responsive">
                                     <figcaption>
                                         <div class="caption-wrap">
                                             <div class="actions">
-                                                <h3>I Фаза: 2 исследования</h3>
+                                                <h3>IV/NI: 2 исследования</h3>
                                             </div>
                                         </div>
                                     </figcaption>
@@ -467,14 +470,14 @@
                                 </a>
                             </article>
                             <!-- portfolio item -->
-                            <article class="project-item mix photo web">
+                            <article class="project-item mix сardiovascular 2003">
                             	<a href="images\portfolio\2.jpg" class="popup">
                                 <figure>
                                     <img src="images\portfolio\2.jpg" class="img-responsive">
                                     <figcaption>
                                         <div class="caption-wrap">
                                             <div class="actions">
-                                                <h3>II Фаза: 2 исследования</h3>
+                                                <h3>IV/NIS: 3 исследования</h3>
                                             </div>
                                         </div>
                                     </figcaption>
@@ -482,14 +485,14 @@
                                 </a>
                             </article>
                             <!-- portfolio item -->
-                            <article class="project-item mix brand design">
+                            <article class="project-item mix сardiovascular 2004">
                             	<a href="images\portfolio\3.jpg" class="popup">
                                 <figure>
                                     <img src="images\portfolio\3.jpg" class="img-responsive">
                                     <figcaption>
                                         <div class="caption-wrap">
                                             <div class="actions">
-                                                <h3>Название проекта</h3>
+                                                <h3>IV/NIS: 3 исследования</h3>
                                             </div>
                                         </div>
                                     </figcaption>
@@ -497,14 +500,14 @@
                                 </a>
                             </article>
                             <!-- portfolio item -->
-                            <article class="project-item mix photo">
+                            <article class="project-item mix сardiovascular 2005">
                             	<a href="images\portfolio\4.jpg" class="popup">
                                 <figure>
                                     <img src="images\portfolio\4.jpg" class="img-responsive">
                                     <figcaption>
                                         <div class="caption-wrap">
                                             <div class="actions">
-                                                <h3>III Фаза: 3 исследования</h3>
+                                                <h3>IV/NIS: 1 исследование</h3>
                                             </div>
                                         </div>
                                     </figcaption>
@@ -512,14 +515,14 @@
                                 </a>
                             </article>
                             <!-- portfolio item -->
-                            <article class="project-item mix design brand">
+                            <article class="project-item mix  сardiovascular 2006">
                             	<a href="images\portfolio\5.jpg" class="popup">
                                 <figure>
                                     <img src="images\portfolio\5.jpg" class="img-responsive">
                                     <figcaption>
                                         <div class="caption-wrap">
                                             <div class="actions">
-                                                <h3>Название проекта</h3>
+                                                <h3>IV/NIS: 4 исследования</h3>
                                             </div>
                                         </div>
                                     </figcaption>
@@ -527,14 +530,179 @@
                                 </a>
                             </article>
                             <!-- portfolio item -->
-                            <article class="project-item mix photo design">
+                            <article class="project-item mix  сardiovascular 2007">
+                                <a href="images\portfolio\5.jpg" class="popup">
+                                <figure>
+                                    <img src="images\portfolio\5.jpg" class="img-responsive">
+                                    <figcaption>
+                                        <div class="caption-wrap">
+                                            <div class="actions">
+                                                <h3>IV/NIS: 1 исследование</h3>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                                </a>
+                            </article>
+                            <!-- portfolio item -->
+                            <article class="project-item mix  сardiovascular 2008">
+                                <a href="images\portfolio\5.jpg" class="popup">
+                                <figure>
+                                    <img src="images\portfolio\5.jpg" class="img-responsive">
+                                    <figcaption>
+                                        <div class="caption-wrap">
+                                            <div class="actions">
+                                                <h3>IV/NIS: 5 исследований</h3>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                                </a>
+                            </article>
+                            <!-- portfolio item -->
+                            <article class="project-item mix  сardiovascular 2009">
+                            <a href="images\portfolio\5.jpg" class="popup">
+                            <figure>
+                                <img src="images\portfolio\5.jpg" class="img-responsive">
+                                <figcaption>
+                                    <div class="caption-wrap">
+                                        <div class="actions">
+                                            <h3>IV/NIS: 2 исследования</h3>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            </a>
+                        </article>
+                        <!-- portfolio item -->
+                        <article class="project-item mix  сardiovascular 2012">
+                        <a href="images\portfolio\5.jpg" class="popup">
+                        <figure>
+                            <img src="images\portfolio\5.jpg" class="img-responsive">
+                            <figcaption>
+                                <div class="caption-wrap">
+                                    <div class="actions">
+                                        <h3>IV/NIS: 1 исследование</h3>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        </a>
+                    </article>
+                    <!-- portfolio item -->
+                    <article class="project-item mix  сardiovascular 2014">
+                        <a href="images\portfolio\5.jpg" class="popup">
+                        <figure>
+                            <img src="images\portfolio\5.jpg" class="img-responsive">
+                            <figcaption>
+                                <div class="caption-wrap">
+                                    <div class="actions">
+                                        <h3>III: 2 исследования</h3>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        </a>
+                    </article>
+                    <!-- portfolio item -->
+                    <article class="project-item mix  сardiovascular 2014">
+                        <a href="images\portfolio\5.jpg" class="popup">
+                        <figure>
+                            <img src="images\portfolio\5.jpg" class="img-responsive">
+                            <figcaption>
+                                <div class="caption-wrap">
+                                    <div class="actions">
+                                        <h3>IV/NIS: 1 исследование</h3>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        </a>
+                    </article>
+                    <!-- portfolio item -->
+                    <article class="project-item mix  сardiovascular 2015">
+                        <a href="images\portfolio\5.jpg" class="popup">
+                        <figure>
+                            <img src="images\portfolio\5.jpg" class="img-responsive">
+                            <figcaption>
+                                <div class="caption-wrap">
+                                    <div class="actions">
+                                        <h3>I: 1 исследование</h3>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        </a>
+                    </article>
+                    <!-- portfolio item -->
+                    <article class="project-item mix  сardiovascular 2017">
+                        <a href="images\portfolio\5.jpg" class="popup">
+                        <figure>
+                            <img src="images\portfolio\5.jpg" class="img-responsive">
+                            <figcaption>
+                                <div class="caption-wrap">
+                                    <div class="actions">
+                                        <h3>I: 1 исследование</h3>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        </a>
+                    </article>
+                    <!-- portfolio item -->
+                    <article class="project-item mix  сardiovascular 2020">
+                        <a href="images\portfolio\5.jpg" class="popup">
+                        <figure>
+                            <img src="images\portfolio\5.jpg" class="img-responsive">
+                            <figcaption>
+                                <div class="caption-wrap">
+                                    <div class="actions">
+                                        <h3>II: 1 исследование</h3>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        </a>
+                    </article>
+                    <!-- portfolio item -->
+                    <article class="project-item mix  сardiovascular 2020">
+                        <a href="images\portfolio\5.jpg" class="popup">
+                        <figure>
+                            <img src="images\portfolio\5.jpg" class="img-responsive">
+                            <figcaption>
+                                <div class="caption-wrap">
+                                    <div class="actions">
+                                        <h3>III: 1 исследование</h3>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        </a>
+                    </article>
+                    <!-- portfolio item -->
+                    <article class="project-item mix  сardiovascular 2021">
+                        <a href="images\portfolio\5.jpg" class="popup">
+                        <figure>
+                            <img src="images\portfolio\5.jpg" class="img-responsive">
+                            <figcaption>
+                                <div class="caption-wrap">
+                                    <div class="actions">
+                                        <h3>I: 1 исследование</h3>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        </a>
+                    </article>
+                            <!-- portfolio item -->
+                            <article class="project-item mix anesthesiology 2014">
                            		<a href="images\portfolio\6.jpg" class="popup">
                                 <figure>
                                     <img src="images\portfolio\6.jpg" class="img-responsive">
                                     <figcaption>
                                         <div class="caption-wrap">
                                             <div class="actions">
-                                                <h3>IV Фаза: 23 исследования</h3>
+                                                <h3>III Фаза: 1 исследование</h3>
                                             </div>
                                         </div>
                                     </figcaption>
@@ -542,14 +710,14 @@
                                 </a>
                             </article>
                             <!-- portfolio item -->
-                            <article class="project-item mix design brand">
+                            <article class="project-item mix viral_infections 2014">
                             	<a href="images\portfolio\7.jpg" class="popup">
                                 <figure>
                                     <img src="images\portfolio\7.jpg" class="img-responsive">
                                     <figcaption>
                                         <div class="caption-wrap">
                                             <div class="actions">
-                                                <h3>Название проекта</h3>
+                                                <h3>II: 1 исследование</h3>
                                             </div>
                                         </div>
                                     </figcaption>
@@ -557,20 +725,1940 @@
                                 </a>
                             </article>
                             <!-- portfolio item -->
-                            <article class="project-item mix brand design">
-                            	<a href="images\portfolio\8.jpg" class="popup">
+                            <article class="project-item mix viral_infections 2015">
+                                <a href="images\portfolio\7.jpg" class="popup">
                                 <figure>
-                                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                                    <img src="images\portfolio\7.jpg" class="img-responsive">
                                     <figcaption>
                                         <div class="caption-wrap">
                                             <div class="actions">
-                                                <h3>Название проекта</h3>
+                                                <h3>I: 1 исследование</h3>
                                             </div>
                                         </div>
                                     </figcaption>
                                 </figure>
                                 </a>
                             </article>
+                            <!-- portfolio item -->
+                            <article class="project-item mix viral_infections 2015">
+                            <a href="images\portfolio\7.jpg" class="popup">
+                            <figure>
+                                <img src="images\portfolio\7.jpg" class="img-responsive">
+                                <figcaption>
+                                    <div class="caption-wrap">
+                                        <div class="actions">
+                                            <h3>II: 1 исследование</h3>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            </a>
+                        </article>
+                            <!-- portfolio item -->
+                            <article class="project-item mix viral_infections 2015">
+                                <a href="images\portfolio\7.jpg" class="popup">
+                                <figure>
+                                    <img src="images\portfolio\7.jpg" class="img-responsive">
+                                    <figcaption>
+                                        <div class="caption-wrap">
+                                            <div class="actions">
+                                                <h3>III: 2 исследование</h3>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                                </a>
+                            </article>
+                            <!-- portfolio item -->
+                            <article class="project-item mix viral_infections 2016">
+                                <a href="images\portfolio\7.jpg" class="popup">
+                                <figure>
+                                    <img src="images\portfolio\7.jpg" class="img-responsive">
+                                    <figcaption>
+                                        <div class="caption-wrap">
+                                            <div class="actions">
+                                                <h3>I: 3 исследования</h3>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                                </a>
+                            </article>
+                            <!-- portfolio item -->
+                            <article class="project-item mix viral_infections 2017">
+                                <a href="images\portfolio\7.jpg" class="popup">
+                                <figure>
+                                    <img src="images\portfolio\7.jpg" class="img-responsive">
+                                    <figcaption>
+                                        <div class="caption-wrap">
+                                            <div class="actions">
+                                                <h3>I: 2 исследования</h3>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                                </a>
+                            </article>
+                            <!-- portfolio item -->
+                            <article class="project-item mix viral_infections 2017">
+                                <a href="images\portfolio\7.jpg" class="popup">
+                                <figure>
+                                    <img src="images\portfolio\7.jpg" class="img-responsive">
+                                    <figcaption>
+                                        <div class="caption-wrap">
+                                            <div class="actions">
+                                                <h3>II: 2 исследования</h3>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                                </a>
+                            </article>
+                            <!-- portfolio item -->
+                            <article class="project-item mix viral_infections 2017">
+                                <a href="images\portfolio\7.jpg" class="popup">
+                                <figure>
+                                    <img src="images\portfolio\7.jpg" class="img-responsive">
+                                    <figcaption>
+                                        <div class="caption-wrap">
+                                            <div class="actions">
+                                                <h3>III: 1 исследование</h3>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                                </a>
+                            </article>
+                            <!-- portfolio item -->
+                            <article class="project-item mix viral_infections 2018">
+                                <a href="images\portfolio\7.jpg" class="popup">
+                                <figure>
+                                    <img src="images\portfolio\7.jpg" class="img-responsive">
+                                    <figcaption>
+                                        <div class="caption-wrap">
+                                            <div class="actions">
+                                                <h3>I: 2 исследования</h3>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                                </a>
+                            </article>
+                            <!-- portfolio item -->
+                            <article class="project-item mix viral_infections 2018">
+                                <a href="images\portfolio\7.jpg" class="popup">
+                                <figure>
+                                    <img src="images\portfolio\7.jpg" class="img-responsive">
+                                    <figcaption>
+                                        <div class="caption-wrap">
+                                            <div class="actions">
+                                                <h3>II: 1 исследование</h3>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                                </a>
+                            </article>
+                            <!-- portfolio item -->
+                            <article class="project-item mix viral_infections 2020">
+                            <a href="images\portfolio\7.jpg" class="popup">
+                            <figure>
+                                <img src="images\portfolio\7.jpg" class="img-responsive">
+                                <figcaption>
+                                    <div class="caption-wrap">
+                                        <div class="actions">
+                                            <h3>III: 1 исследование</h3>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            </a>
+                        </article>
+                        <!-- portfolio item -->
+                        <article class="project-item mix viral_infections 2020">
+                            <a href="images\portfolio\7.jpg" class="popup">
+                            <figure>
+                                <img src="images\portfolio\7.jpg" class="img-responsive">
+                                <figcaption>
+                                    <div class="caption-wrap">
+                                        <div class="actions">
+                                            <h3>IV/NIS: 2 исследования</h3>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            </a>
+                        </article>
+                        <!-- portfolio item -->
+                        <article class="project-item mix viral_infections 2021">
+                            <a href="images\portfolio\7.jpg" class="popup">
+                            <figure>
+                                <img src="images\portfolio\7.jpg" class="img-responsive">
+                                <figcaption>
+                                    <div class="caption-wrap">
+                                        <div class="actions">
+                                            <h3>II: 1 исследование</h3>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            </a>
+                        </article>
+                        <!-- portfolio item -->
+                        <article class="project-item mix viral_infections 2021">
+                            <a href="images\portfolio\7.jpg" class="popup">
+                            <figure>
+                                <img src="images\portfolio\7.jpg" class="img-responsive">
+                                <figcaption>
+                                    <div class="caption-wrap">
+                                        <div class="actions">
+                                            <h3>III: 1 исследование</h3>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            </a>
+                        </article>
+                            <!-- portfolio item -->
+                            <article class="project-item mix  hematology 2019">
+                            	<a href="images\portfolio\8.jpg" class="popup">
+                                <figure>
+                                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                                    <figcaption>
+                                        <div class="caption-wrap">
+                                            <div class="actions">
+                                                <h3>II: 1 исследование</h3>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                                </a>
+                            </article>
+                            <!-- portfolio item -->
+                            <article class="project-item mix  hematology 2020">
+                                <a href="images\portfolio\8.jpg" class="popup">
+                                <figure>
+                                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                                    <figcaption>
+                                        <div class="caption-wrap">
+                                            <div class="actions">
+                                                <h3>II: 1 исследование</h3>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                                </a>
+                            </article>
+                            <!-- portfolio item -->
+                            <article class="project-item mix  gynecology 2009">
+                            <a href="images\portfolio\8.jpg" class="popup">
+                            <figure>
+                                <img src="images\portfolio\8.jpg" class="img-responsive">
+                                <figcaption>
+                                    <div class="caption-wrap">
+                                        <div class="actions">
+                                            <h3>IV/NIS: 1 исследование</h3>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            </a>
+                        </article>
+                        <!-- portfolio item -->
+                        <article class="project-item mix  gynecology 2010">
+                            <a href="images\portfolio\8.jpg" class="popup">
+                            <figure>
+                                <img src="images\portfolio\8.jpg" class="img-responsive">
+                                <figcaption>
+                                    <div class="caption-wrap">
+                                        <div class="actions">
+                                            <h3>IV/NIS: 1 исследование</h3>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            </a>
+                        </article>
+                        <!-- portfolio item -->
+                        <article class="project-item mix  gynecology 2017">
+                            <a href="images\portfolio\8.jpg" class="popup">
+                            <figure>
+                                <img src="images\portfolio\8.jpg" class="img-responsive">
+                                <figcaption>
+                                    <div class="caption-wrap">
+                                        <div class="actions">
+                                            <h3>I: 1 исследование</h3>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            </a>
+                        </article>
+                        <!-- portfolio item -->
+                        <article class="project-item mix  gynecology 2017">
+                            <a href="images\portfolio\8.jpg" class="popup">
+                            <figure>
+                                <img src="images\portfolio\8.jpg" class="img-responsive">
+                                <figcaption>
+                                    <div class="caption-wrap">
+                                        <div class="actions">
+                                            <h3>III: 1 исследование</h3>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            </a>
+                        </article>
+                        <!-- portfolio item -->
+                        <article class="project-item mix  gynecology 2018">
+                            <a href="images\portfolio\8.jpg" class="popup">
+                            <figure>
+                                <img src="images\portfolio\8.jpg" class="img-responsive">
+                                <figcaption>
+                                    <div class="caption-wrap">
+                                        <div class="actions">
+                                            <h3>IV/NIS: 1 исследование</h3>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            </a>
+                        </article>
+                        <!-- portfolio item -->
+                        <article class="project-item mix  gynecology 2019">
+                            <a href="images\portfolio\8.jpg" class="popup">
+                            <figure>
+                                <img src="images\portfolio\8.jpg" class="img-responsive">
+                                <figcaption>
+                                    <div class="caption-wrap">
+                                        <div class="actions">
+                                            <h3>IV/NIS: 1 исследование</h3>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            </a>
+                        </article>
+                        <!-- portfolio item -->
+                        <article class="project-item mix  gynecology 2020">
+                        <a href="images\portfolio\8.jpg" class="popup">
+                        <figure>
+                            <img src="images\portfolio\8.jpg" class="img-responsive">
+                            <figcaption>
+                                <div class="caption-wrap">
+                                    <div class="actions">
+                                        <h3>III: 1 исследование</h3>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        </a>
+                    </article>
+                    <!-- portfolio item -->
+                    <article class="project-item mix  dermatology 2011">
+                    <a href="images\portfolio\8.jpg" class="popup">
+                    <figure>
+                        <img src="images\portfolio\8.jpg" class="img-responsive">
+                        <figcaption>
+                            <div class="caption-wrap">
+                                <div class="actions">
+                                    <h3>IV/NIS: 1 исследование</h3>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    </a>
+                </article>
+                <!-- portfolio item -->
+                <article class="project-item mix  dermatology 2015">
+                    <a href="images\portfolio\8.jpg" class="popup">
+                    <figure>
+                        <img src="images\portfolio\8.jpg" class="img-responsive">
+                        <figcaption>
+                            <div class="caption-wrap">
+                                <div class="actions">
+                                    <h3>IV/NIS: 1 исследование</h3>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    </a>
+                </article>
+                <!-- portfolio item -->
+                <article class="project-item mix  dermatology 2016">
+                    <a href="images\portfolio\8.jpg" class="popup">
+                    <figure>
+                        <img src="images\portfolio\8.jpg" class="img-responsive">
+                        <figcaption>
+                            <div class="caption-wrap">
+                                <div class="actions">
+                                    <h3>III: 1 исследование</h3>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    </a>
+                </article>
+                <!-- portfolio item -->
+                <article class="project-item mix  dermatology 2018">
+                    <a href="images\portfolio\8.jpg" class="popup">
+                    <figure>
+                        <img src="images\portfolio\8.jpg" class="img-responsive">
+                        <figcaption>
+                            <div class="caption-wrap">
+                                <div class="actions">
+                                    <h3>III: 1 исследование</h3>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    </a>
+                </article>
+                <!-- portfolio item -->
+                <article class="project-item mix  dermatology 2021">
+                    <a href="images\portfolio\8.jpg" class="popup">
+                    <figure>
+                        <img src="images\portfolio\8.jpg" class="img-responsive">
+                        <figcaption>
+                            <div class="caption-wrap">
+                                <div class="actions">
+                                    <h3>III: 1 исследование</h3>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    </a>
+                </article>
+                <!-- portfolio item -->
+                <article class="project-item mix  other 2012">
+                    <a href="images\portfolio\8.jpg" class="popup">
+                    <figure>
+                        <img src="images\portfolio\8.jpg" class="img-responsive">
+                        <figcaption>
+                            <div class="caption-wrap">
+                                <div class="actions">
+                                    <h3>IV/NIS: 1 исследование</h3>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    </a>
+                </article>
+                <!-- portfolio item -->
+                <article class="project-item mix  other 2013">
+                    <a href="images\portfolio\8.jpg" class="popup">
+                    <figure>
+                        <img src="images\portfolio\8.jpg" class="img-responsive">
+                        <figcaption>
+                            <div class="caption-wrap">
+                                <div class="actions">
+                                    <h3>IV/NIS: 1 исследование</h3>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    </a>
+                </article>
+                <!-- portfolio item -->
+                <article class="project-item mix  other 2017">
+                    <a href="images\portfolio\8.jpg" class="popup">
+                    <figure>
+                        <img src="images\portfolio\8.jpg" class="img-responsive">
+                        <figcaption>
+                            <div class="caption-wrap">
+                                <div class="actions">
+                                    <h3>I: 1 исследование</h3>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    </a>
+                </article>
+                <!-- portfolio item -->
+                <article class="project-item mix  musculoskeletal-disease 2016">
+                    <a href="images\portfolio\8.jpg" class="popup">
+                    <figure>
+                        <img src="images\portfolio\8.jpg" class="img-responsive">
+                        <figcaption>
+                            <div class="caption-wrap">
+                                <div class="actions">
+                                    <h3>IV/NIS: 1 исследование</h3>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    </a>
+                </article>
+                <!-- portfolio item -->
+                <article class="project-item mix  musculoskeletal-disease 2016">
+                    <a href="images\portfolio\8.jpg" class="popup">
+                    <figure>
+                        <img src="images\portfolio\8.jpg" class="img-responsive">
+                        <figcaption>
+                            <div class="caption-wrap">
+                                <div class="actions">
+                                    <h3>I: 1 исследование</h3>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    </a>
+                </article>
+                <!-- portfolio item -->
+                <article class="project-item mix  musculoskeletal-disease 2017">
+                    <a href="images\portfolio\8.jpg" class="popup">
+                    <figure>
+                        <img src="images\portfolio\8.jpg" class="img-responsive">
+                        <figcaption>
+                            <div class="caption-wrap">
+                                <div class="actions">
+                                    <h3>I: 1 исследование</h3>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    </a>
+                </article>
+                 <!-- portfolio item -->
+                 <article class="project-item mix  respiratory-diseases 2007">
+                    <a href="images\portfolio\8.jpg" class="popup">
+                    <figure>
+                        <img src="images\portfolio\8.jpg" class="img-responsive">
+                        <figcaption>
+                            <div class="caption-wrap">
+                                <div class="actions">
+                                    <h3>IV/NIS: 1 исследование</h3>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    </a>
+                </article>
+                <!-- portfolio item -->
+                <article class="project-item mix  respiratory-diseases 2009">
+                   <a href="images\portfolio\8.jpg" class="popup">
+                   <figure>
+                       <img src="images\portfolio\8.jpg" class="img-responsive">
+                       <figcaption>
+                           <div class="caption-wrap">
+                               <div class="actions">
+                                   <h3>IV/NIS: 1 исследование</h3>
+                               </div>
+                           </div>
+                       </figcaption>
+                   </figure>
+                   </a>
+               </article>
+               <!-- portfolio item -->
+               <article class="project-item mix  respiratory-diseases 2011">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 2 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix  respiratory-diseases 2013">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>III: 3 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix  respiratory-diseases 2014">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>I: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix  respiratory-diseases 2014">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>III: 3 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix  respiratory-diseases 2015">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>I: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix  respiratory-diseases 2015">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>II: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix  respiratory-diseases 2016">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>III: 2 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix  respiratory-diseases 2020">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>III: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix  respiratory-diseases 2022">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>III: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix  gastrointestinal-tract 2014">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>III: 3 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix  gastrointestinal-tract 2015">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>III: 1 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix  gastrointestinal-tract 2017">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>I: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix  gastrointestinal-tract 2019">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix  gastrointestinal-tract 2021">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>III: 3 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+                <!-- portfolio item -->
+            <article class="project-item mix  liver-disease 2004">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix  liver-disease 2005">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix  liver-disease 2014">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>II: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix  liver-disease 2015">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>II: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix immunology 2018">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix immunology 2020">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>II: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+             <!-- portfolio item -->
+             <article class="project-item mix immunology 2020">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>III: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+             <!-- portfolio item -->
+             <article class="project-item mix immunology 2022">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>II: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix cardiology 2015">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>III: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix neurology 2015">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>III: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix oncology 2003">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix oncology 2004">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 2 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix oncology 2005">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix oncology 2006">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix oncology 2007">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 2 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix oncology 2008">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 4 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix oncology 2009">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 5 исследований</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix oncology 2010">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 2 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+             <!-- portfolio item -->
+             <article class="project-item mix oncology 2011">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>III: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+             <!-- portfolio item -->
+             <article class="project-item mix oncology 2011">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 2 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+             <!-- portfolio item -->
+             <article class="project-item mix oncology 2014">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>I: 2 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix oncology 2015">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>II: 2 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix oncology 2015">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>III: 2 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix oncology 2016">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>I: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix oncology 2019">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>I: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix oncology 2022">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>I: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix oncology 2022">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>III: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix oncology 2023">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 2 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix ophthalmology 2013">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>III: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix ophthalmology 2013">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 2 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix ophthalmology 2019">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix rheumatology 2007">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix rheumatology 2012">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 2 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix rheumatology 2017">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>I: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix rheumatology 2017">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix rheumatology 2018">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>I: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix rheumatology 2022">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>II: 2 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix rheumatology 2022">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>III: 3 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+             <!-- portfolio item -->
+             <article class="project-item mix dentistry 2014">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>III: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix dentistry 2017">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>III: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix traumatology 2015">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>III: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix traumatology 2018">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>II: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix traumatology 2019">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>III: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix urology 2003">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix urology 2005">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix urology 2008">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix urology 2009">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix urology 2014">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>III: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix urology 2016">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>I: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix urology 2017">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>I: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix urology 2017">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix urology 2018">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>I: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix urology 2018">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix cns 2003">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 2 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix cns 2004">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 4 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix cns 2006">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix cns 2007">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix cns 2010">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix cns 2011">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix cns 2013">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>III: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix cns 2014">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix cns 2015">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>I: 2 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix cns 2015">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>III: 2 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix cns 2016">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>I: 2 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix cns 2017">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>I: 3 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix endocrinology 2004">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 2 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix endocrinology 2005">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 5 исследований</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix endocrinology 2005">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 5 исследований</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix endocrinology 2006">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 5 исследований</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix endocrinology 2007">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 4 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix endocrinology 2008">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 4 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix endocrinology 2009">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 4 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix endocrinology 2010">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 2 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix endocrinology 2011">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix endocrinology 2012">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>IV/NIS: 3 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix endocrinology 2013">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>III: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix endocrinology 2016">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>I: 2 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix endocrinology 2016">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>III: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix endocrinology 2017">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>I: 1 исследование</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>
+            <!-- portfolio item -->
+            <article class="project-item mix endocrinology 2018">
+                <a href="images\portfolio\8.jpg" class="popup">
+                <figure>
+                    <img src="images\portfolio\8.jpg" class="img-responsive">
+                    <figcaption>
+                        <div class="caption-wrap">
+                            <div class="actions">
+                                <h3>I: 3 исследования</h3>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                </a>
+            </article>               
                         </div>
                         <!-- end home projects -->
                     </div>
@@ -1723,6 +3811,7 @@
       		<script type="text/javascript" src="js\jquery.js"></script>
             <script type="text/javascript" src="js\bootstrap.min.js"></script>
             <script type="text/javascript" src="js\jquery.mixitup.min.js"></script>
+            <script type="text/javascript" src="js\mixitup-multifilter.js"></script>
             <script type="text/javascript" src="js\jquery.easing.min.js"></script>
             <script type="text/javascript" src="js\waypoints.min.js"></script>
             <script type="text/javascript" src="js\jquery.parallax.js"></script>

@@ -267,10 +267,139 @@ jQuery(document).ready(function($) {
    /* ==============================================
 		MIXITUP PORTFOLIO
 	=============================================== */	
-	//Mixitup
+	// Mixitup
 	$(function(){
-    	$('.home-projects').mixItUp();  
+    	$('#container').mixItUp();  
 	});
+
+	// $(function() {
+	// 	var $container = $('#container'); // Замените #container на ID вашего контейнера с элементами для фильтрации
+
+	// 	// $container.mixItUp();  
+	
+	// 	// Обработчик клика для фильтров по категориям болезней
+	// 	$('.category-filter').on('click', 'a', function() {
+	// 		$('.category-filter').find('.active').removeClass('active');
+	// 		$(this).addClass('active');
+	
+	// 		// Перезапустите фильтрацию
+	// 		applyFilters();
+	// 	});
+	
+	// 	// Обработчик клика для фильтров по годам
+	// 	$('.year-filter').on('click', 'a', function() {
+	// 		$('.year-filter').find('.active').removeClass('active');
+	// 		$(this).addClass('active');
+	
+	// 		// Перезапустите фильтрацию
+	// 		applyFilters();
+	// 	});
+	
+	// 	function applyFilters() {
+	// 		var categoryFilter = $('.category-filter').find('.active').attr('data-filter');
+	// 		var yearFilter = $('.year-filter').find('.active').attr('data-filter');
+	
+	// 		// Комбинируйте фильтры, добавив их к классу 'mix'
+	// 		var finalFilter = categoryFilter + yearFilter;
+	
+	// 		// Примените фильтрацию MixItUp
+	// 		$container.mixItUp('filter', finalFilter);
+	// 	}
+	// });
+	// $('#container').mixItUp();  
+
+	
+// 	var containerEl = document.getElementById('container');
+// 	var mixer = mixitup(containerEl, {
+// 		multifilter: {
+// 			enable: true // enable the multifilter extension for the mixer
+// 		}
+// 	});
+// var mixer = mixitup(containerEl, {
+//     selectors: {
+//         target: '.project-item'
+//     }
+// });
+// // Фильтры по категориям заболеваниям
+// var categoryFilterButtons = document.querySelectorAll('#filters .filter');
+// categoryFilterButtons.forEach(function(button) {
+//     button.addEventListener('click', function() {
+//         var selectedCategories = [];
+//         categoryFilterButtons.forEach(function(categoryButton) {
+//             if (categoryButton.classList.contains('active')) {
+//                 selectedCategories.push(categoryButton.getAttribute('data-filter'));
+//             }
+//         });
+//         var categoryFilter = selectedCategories.join('');
+        
+//         var selectedYears = [];
+//         yearFilterButtons.forEach(function(yearButton) {
+//             if (yearButton.classList.contains('active')) {
+//                 selectedYears.push(yearButton.getAttribute('data-filter'));
+//             }
+//         });
+//         var yearFilter = selectedYears.join('');
+        
+//         var finalFilter = categoryFilter + yearFilter;
+//         mixer.filter(finalFilter);
+//     });
+// });
+
+// // Фильтры по годам
+// var yearFilterButtons = document.querySelectorAll('#year-filters .filter');
+// yearFilterButtons.forEach(function(button) {
+//     button.addEventListener('click', function() {
+//         var selectedCategories = [];
+//         categoryFilterButtons.forEach(function(categoryButton) {
+//             if (categoryButton.classList.contains('active')) {
+//                 selectedCategories.push(categoryButton.getAttribute('data-filter'));
+//             }
+//         });
+//         var categoryFilter = selectedCategories.join('');
+        
+//         var selectedYears = [];
+//         yearFilterButtons.forEach(function(yearButton) {
+//             if (yearButton.classList.contains('active')) {
+//                 selectedYears.push(yearButton.getAttribute('data-filter'));
+//             }
+//         });
+//         var yearFilter = selectedYears.join('');
+        
+//         var finalFilter = categoryFilter + yearFilter;
+//         mixer.filter(finalFilter);
+//     });
+// });
+
+	
+	
+
+// Фильтры по годам
+var yearFilterButtons = document.querySelectorAll('#year-filters .filter');
+yearFilterButtons.forEach(function(button) {
+    button.addEventListener('click', function() {
+        var selectedCategories = [];
+        categoryFilterButtons.forEach(function(categoryButton) {
+            if (categoryButton.classList.contains('active')) {
+                selectedCategories.push(categoryButton.getAttribute('data-filter'));
+            }
+        });
+        var categoryFilter = selectedCategories.join('');
+        
+        var selectedYears = [];
+        yearFilterButtons.forEach(function(yearButton) {
+            if (yearButton.classList.contains('active')) {
+                selectedYears.push(yearButton.getAttribute('data-filter'));
+            }
+        });
+        var yearFilter = selectedYears.join('');
+        
+        var finalFilter = categoryFilter + yearFilter;
+        mixer.filter(finalFilter);
+    });
+});
+
+	
+	
 	
 	/* ==============================================
 		MAGNIFIC POPUP
