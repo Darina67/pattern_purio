@@ -1,3 +1,41 @@
+// /*показать еще*/
+// document.addEventListener("DOMContentLoaded", function() {
+// 	const projectItems = document.querySelectorAll('.project-item');
+// 	const showMoreBtn = document.getElementById('show-more-btn');
+// 	const itemsToShow = 10;
+// 	let visibleItems = itemsToShow;
+  
+// 	function updateVisibility() {
+// 	  for (let i = 0; i < projectItems.length; i++) {
+// 		if (i < visibleItems) {
+// 		  projectItems[i].style.display = 'inline-block';
+// 		} else {
+// 		  projectItems[i].style.display = 'none';
+// 		}
+// 	  }
+  
+// 	  if (visibleItems >= projectItems.length) {
+// 		showMoreBtn.style.display = 'none';
+// 	  } else {
+// 		showMoreBtn.style.display = 'inline-block';
+// 	  }
+// 	}
+  
+// 	function showMoreItems() {
+// 	  visibleItems += itemsToShow;
+// 	  updateVisibility();
+// 	}
+  
+// 	showMoreBtn.addEventListener('click', showMoreItems);
+  
+// 	// Начальная установка видимости блоков
+// 	updateVisibility();
+//   });
+  
+  
+  
+  
+
 jQuery(document).ready(function($) {
    'use strict';	
  
@@ -195,12 +233,14 @@ jQuery(document).ready(function($) {
 		margin:0,
 		loop:true,
 		autoplay:true,
-		autoplayTimeout:10000,
+		autoplayTimeout:7000,
 		autoplayHoverPause:false,
 		dots: false,
 		stagePadding:0,
 		smartSpeed:1000,
 	});
+	
+	
 	
 	$("#quote-slider").owlCarousel({
 	  	items: 1,

@@ -45,6 +45,9 @@ a:active, a:focus {
    outline:  none;
    ie-dummy: expression(this.hideFocus=true);
 }
+.contact-href{
+  color: #ffff;
+}
 
 h1,h2,h3,h4,h5,h6 {
 color:#000;
@@ -721,10 +724,13 @@ text-transform:uppercase;
 }
 .slide-caption .btn {
 width: 140px;
+position: absolute;
+bottom: 0;
+left: 46%;
 }
 .slide-caption p {
 color:#fff;
-font-size:20px;
+font-size:22px;
 font-weight:400;
 margin-bottom:.2em;
 text-transform:uppercase;
@@ -868,7 +874,7 @@ padding:10px 0;
 }
 
 .progress {
-/* height:auto; */
+height:auto;
 position:relative;
 }
 .progress:last-child{
@@ -1028,9 +1034,6 @@ color:#2b2a38;
 font-size:0;
 }
 
-.home-projects .mix {
-display:none;
-}
 
 .home-projects .project-item {
 margin-bottom:0;
@@ -1401,6 +1404,9 @@ transform:rotate(-45deg);
 width:12px;
 }
 
+article{
+  display: none ;
+}
 #timeline ul.timeline li.time {
 background:#fff;
 border-radius:50%;
@@ -1478,6 +1484,10 @@ li.note p.timeline-head {
 color:#696969;
 font-size:17px;
 margin:3px auto;
+}
+.timeline-head.uppercase.semibold.keystat{
+  padding-top: 20px;
+  text-align: center;
 }
 
 /* Tooltip */
@@ -2382,6 +2392,9 @@ iframe.map{
 }
 .keystat-logo.pl-media{
 padding-left: 20px;
+max-width: 315px;
+margin: 0 auto;
+
 }
 #timeline ul.timeline li.time + li.note{
   margin-top: -30px;
@@ -2394,6 +2407,11 @@ form{
   padding-right: 15px;
   padding-left: 15px;
 }
+.slide-caption .btn{
+  left: 33% !important;
+  bottom: -25%;
+}
+
 
 }
 
@@ -2471,6 +2489,10 @@ iframe.map{
   .quote p{
     padding-right: 15px;
     padding-left: 15px;
+  }
+  .slide-caption .btn{
+    left: 33% !important;
+    bottom: -25%;
   }
 
 }
