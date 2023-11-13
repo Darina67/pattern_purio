@@ -82,6 +82,11 @@ line-height:24px;
 margin-bottom:1.25em;
 word-wrap:break-word;
 }
+.p-more-features{
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 1.4;
+}
 
 hr {
 border-top:1px solid #111;
@@ -1259,6 +1264,9 @@ text-align:center;
 
 .more-features-box h3 {
 font-size:21px;
+}
+.icon-more-features{
+  margin-bottom: 10px;
 }
 
 /*
