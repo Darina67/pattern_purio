@@ -84,7 +84,7 @@ word-wrap:break-word;
 }
 .p-more-features{
   font-weight: 900;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.4;
 }
 
@@ -1265,8 +1265,10 @@ text-align:center;
 .more-features-box h3 {
 font-size:21px;
 }
-.icon-more-features{
-  margin-bottom: 10px;
+.icon-more-features img{
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
 }
 
 /*
