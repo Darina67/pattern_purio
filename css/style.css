@@ -1404,9 +1404,9 @@ transform:rotate(-45deg);
 width:12px;
 }
 
-article{
+/* ???? article{
   display: none ;
-}
+} */
 #timeline ul.timeline li.time {
 background:#fff;
 border-radius:50%;
