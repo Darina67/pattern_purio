@@ -1355,7 +1355,7 @@ border-left-color:#93A7D1;
 
 #timeline ul.timeline li.note:nth-of-type(2n+1):before {
 border-bottom:10px solid transparent;
-border-right:10px solid #93A7D1;
+border-right:10px solid #056a97;
 border-top:10px solid transparent;
 content:'';
 display:block;
