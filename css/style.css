@@ -665,19 +665,19 @@ display:none;
 * HOMEPAGE SLIDER
 * -------------------------------------------------- */
 #slides .image1{
-background:url(../images/1.webp);
+background:url(../images/1.jpg);
 background-position-x:50% !important;
 background-size:cover;
 }
 
 #slides .image2{
-background:url(../images/2.webp);
+background:url(../images/2.jpg);
 background-position-x:50% !important;
 background-size:cover;
 }
 
 #slides .image3{
-background:url(../images/3.webp);
+background:url(../images/3.jpg);
 background-position: center !important;
 background-size:cover;
 }
