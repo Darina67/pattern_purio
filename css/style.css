@@ -1059,7 +1059,7 @@ margin-top:20%;
 -webkit-backface-visibility:hidden;
 -webkit-transition:all .3s;
 backface-visibility:hidden;
-background:rgba(85, 133, 181, 0.7);
+background:rgba(255 116 0 / 70%);
 border:1px solid transparent;
 bottom:-1px;
 left:0;
