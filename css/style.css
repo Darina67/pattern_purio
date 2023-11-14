@@ -1564,7 +1564,6 @@ width:53px;
 
 .accordion h4 a span:before {
 content:"-";
-padding-right: 5px;
 }
 
 .accordion h4 a,.accordion h4 a:hover,.accordion h4 a:focus {
@@ -1572,8 +1571,14 @@ text-decoration:none;
 }
 
 .accordion h4 a.collapsed span:before {
-content:"+";
+  content: "\f055";
+  font-family: FontAwesome;
+}
 
+
+.accordion h4 a.collapsed span.plus-square:before {
+  content: "\f0fe";
+  font-family: FontAwesome;
 }
 
 .accordion h4 a.collapsed,.accordion h4 a {
