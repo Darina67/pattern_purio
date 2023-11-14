@@ -1327,6 +1327,7 @@ z-index:20;
 }
 
 #timeline ul.timeline li.note p.timeline-date,#timeline ul.timeline li.note p.timeline-head,#timeline ul.timeline li.note p.timeline-desc {
+font-size: 22px;
 color:#FFF;
 }
 
