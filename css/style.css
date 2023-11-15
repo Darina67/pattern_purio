@@ -665,19 +665,19 @@ display:none;
 * HOMEPAGE SLIDER
 * -------------------------------------------------- */
 #slides .image1{
-background:url(../images/1.jpg);
+background:url(../images/sliders/darken/11.png);
 background-position-x:50% !important;
 background-size:cover;
 }
 
 #slides .image2{
-background:url(../images/2.jpg);
+background:url(../images/sliders/darken/22.png);
 background-position-x:50% !important;
 background-size:cover;
 }
 
 #slides .image3{
-background:url(../images/3.jpg);
+background:url(../images/sliders/darken/33.png);
 background-position: center !important;
 background-size:cover;
 }
