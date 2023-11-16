@@ -22,6 +22,7 @@ ul{
   padding: 0;
 }
 .main-list {
+  color: #000;
   list-style: none;
   padding: 0;
 }
@@ -710,6 +711,9 @@ z-index: 100;
 .caption-p{
   max-width: 1000px;
   margin: 0 auto;
+}
+.caption-p.first-slide{
+  padding-top: 140px;
 }
 
 .slide-caption {
@@ -1547,7 +1551,7 @@ padding:0;
 }
 
 .accordion h4 a span {
-background:#93A7D1;
+background:#056a97;
 color:#3F3E49;
 display:block;
 font-size:20px;
@@ -1563,6 +1567,7 @@ width:53px;
 
 .accordion h4 a span:before {
 content:"-";
+color: #fff;
 }
 
 .accordion h4 a,.accordion h4 a:hover,.accordion h4 a:focus {
@@ -1572,12 +1577,16 @@ text-decoration:none;
 .accordion h4 a.collapsed span:before {
   content: "\f055";
   font-family: FontAwesome;
+  color: #fff;
+
 }
 
 
 .accordion h4 a.collapsed span.plus-square:before {
   content: "\f0fe";
   font-family: FontAwesome;
+  color: #fff;
+
 }
 
 .accordion h4 a.collapsed,.accordion h4 a {
