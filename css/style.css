@@ -695,11 +695,14 @@ position: absolute;
 text-align: center;
 width: 100%;
 height: 50%;
-top: 50%;
+top: 30%;
 left: 0%;
 margin: -8% 0px 0px 0px;
 z-index: 100;
 }
+/* .caption-wrapper.first-slide{
+  top: 29%;
+} */
 .about-wrapper{
   max-width: 1200px;
   display: flex;
@@ -716,7 +719,7 @@ z-index: 100;
   margin: 0 auto;
 }
 .caption-p.first-slide{
- padding-top: 150px;
+ padding-top: 160px;
 }
 
 .slide-caption {
@@ -737,7 +740,7 @@ text-transform:uppercase;
 .slide-caption .btn {
 width: 140px;
 position: absolute;
-bottom: 0;
+bottom: -74px;
 left: 46%;
 }
 .slide-caption p {
