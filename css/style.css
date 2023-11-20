@@ -152,6 +152,9 @@ text-transform:uppercase;
 transition:color .3s;
 z-index:1;
 }
+.btn.features{
+  margin-top: 20px;
+}
 
 .btn:hover {
 text-decoration:none;
@@ -713,7 +716,7 @@ z-index: 100;
   margin: 0 auto;
 }
 .caption-p.first-slide{
-  padding-top: 140px;
+ padding-top: 150px;
 }
 
 .slide-caption {
@@ -1127,6 +1130,7 @@ font-size:21px;
 font-weight:400;
 }
 .features.h4{
+  text-align: left;
   font-size: 16px;
   line-height: 40px;
   font-weight: bolder;
@@ -1524,6 +1528,10 @@ font-size:15px;
 * -------------------------------------------------- */
 .accordion {
 padding:0;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+transition: max-height 0.3s ease;
 }
 
 .accordion .panel {
@@ -1543,6 +1551,7 @@ line-height:18px;
 
 .accordion .panel-collapse .text {
 padding:15px 20px;
+text-align: left;
 }
 
 .accordion h4 {
@@ -2242,6 +2251,10 @@ left: -12%;
 	
 #timeline ul.timeline li.note:nth-of-type(2n) .note-circle {
 right: -12.3%;
+}
+.accordion{
+  text-align: center;
+  display: block;
 }
 
 }
