@@ -2210,6 +2210,7 @@ i.fa{
 }
 .column-wrapper{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .column{
@@ -2629,6 +2630,7 @@ iframe.map{
   .slide-caption .btn.first-slide{
     bottom: -415%;
   }
+  
   /* .controls{
     justify-content: center;
   } */
