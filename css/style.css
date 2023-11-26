@@ -1127,6 +1127,7 @@ margin-bottom:5px;
   display:none;
   } */
   
+
   .projects-container .project-item {
   margin-bottom:0;
   width:43.333333333333%;
@@ -1136,7 +1137,7 @@ margin-bottom:5px;
   cursor:pointer;
   margin-top:20%;
   }
-  
+
   .project-item figcaption {
     -moz-backface-visibility:hidden;
     -moz-transition:all .3s;
@@ -1150,7 +1151,7 @@ margin-bottom:5px;
     border:1px solid transparent;
     bottom:-1px;
     left:0;
-    /*opacity:0;*/
+    /* opacity:0; */
     position:absolute;
     right:0;
     text-align:center;
