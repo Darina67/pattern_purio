@@ -155,6 +155,10 @@ z-index:1;
 .btn.features{
   margin-top: 20px;
 }
+.blog.btn{
+  position: absolute;
+  bottom: 0;
+}
 
 .btn:hover {
 text-decoration:none;
@@ -168,10 +172,10 @@ position:relative;
 top:2px;
 }
 
-.btn:active {
+/* .btn:active {
 position:relative;
 top:2px;
-}
+} */
 
 .btn-border{
 -moz-transition:color .3s;
@@ -216,6 +220,56 @@ font-size:12px;
 height:40px;
 line-height:40px;
 padding:0 10px;
+}
+
+.control-btn {
+  display: block;
+  position: relative;
+  background:#fff;
+border:2px solid #a94442;
+color:#a94442;
+cursor: pointer;
+padding:7px 25px;
+text-decoration:none;
+}
+.control-btn.active {
+  display: block;
+  position: relative;
+  background:#ff7400;
+border:2px solid #a94442;
+color:#fff;
+cursor: pointer;
+padding:7px 25px;
+text-decoration:none;
+}
+.control-btn input {
+  appearance: none;
+  position: absolute;
+  height: 100%;
+  opacity: 0;
+}
+
+.control[data-filter]:after,
+.control[data-toggle]:after {
+content: '';
+position: absolute;
+width: 10px;
+height: 10px;
+top: calc(50% - 6px);
+left: calc(50% - 6px);
+border: 2px solid currentColor;
+border-radius: 2px;
+background: currentColor;
+transition: background-color 150ms, border-color 150ms;
+}
+
+#projects .mixitup-control-active {
+background: #ff7400 !important;
+color: #fff !important;
+}
+
+.mixitup-control-active[data-toggle]:after {
+background: transparent;
 }
 
 
@@ -691,6 +745,7 @@ background-size:cover;
 }
 
 .caption-wrapper {
+  display: flex;
 position: absolute;
 text-align: center;
 width: 100%;
@@ -721,10 +776,11 @@ z-index: 100;
 .caption-p.first-slide{
  padding-top: 160px;
 }
-
 .slide-caption {
 margin: 0 auto;
-/*max-width:800px;*/
+justify-content: space-between;
+flex-direction: column;
+display: flex;
 }
 
 .slide-caption h1 {
@@ -739,9 +795,7 @@ text-transform:uppercase;
 }
 .slide-caption .btn {
 width: 140px;
-position: absolute;
-bottom: -74px;
-left: 46%;
+
 }
 .slide-caption p {
 color:#fff;
@@ -1009,7 +1063,7 @@ margin-bottom:5px;
     margin: 5px 2px;
     }
   
-    #filters li a, #year-filters li a {
+    #filters li button, #year-filters li button {
       background:#fff;
       border:2px solid #a94442;
       color:#333;
@@ -1022,7 +1076,7 @@ margin-bottom:5px;
       transition: .3s;
       }
   
-      #filters li a.active,#filters li a:hover, #year-filters li a.active,#year-filters li a:hover {
+      #filters li button.active,#filters li button:hover, #year-filters li button.active,#year-filters li button:hover {
         background:#ff7400;
         border:2px solid #a94442;
         color:#fff;
@@ -1031,7 +1085,28 @@ margin-bottom:5px;
         text-decoration:none;
         }
   
-  
+        .control[data-filter]:after,
+.control[data-toggle]:after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: calc(50% - 6px);
+    left: calc(50% - 6px);
+    border: 2px solid currentColor;
+    border-radius: 2px;
+    background: currentColor;
+    transition: background-color 150ms, border-color 150ms;
+}
+
+#projects .mixitup-control-active {
+    background: #ff7400 !important;
+    color: #fff !important;
+}
+
+.mixitup-control-active[data-toggle]:after {
+    background: transparent;
+}
   .btn-project i {
   display:table-cell;
   vertical-align:middle;
@@ -1041,15 +1116,17 @@ margin-bottom:5px;
   color:#2b2a38;
   }
   
-  .home-projects {
+  .projects-container {
   font-size:0;
+  display: flex;
+  flex-wrap: wrap;
   }
   
-  .home-projects .mix {
+  /* .projects-container .mix {
   display:none;
-  }
+  } */
   
-  .home-projects .project-item {
+  .projects-container .project-item {
   margin-bottom:0;
   width:43.333333333333%;
   }
@@ -1079,6 +1156,10 @@ margin-bottom:5px;
     top:0;
     transition:all .3s;
     z-index:10;
+    min-height: 300px;
+    background: linear-gradient(rgba(85, 133, 181, 0.7), rgba(85, 133, 181, 0.7)), url(../images/phases/1.jpg);
+    background-position: center;
+    background-size: cover;
     }
   
   .project-item figcaption:hover {
@@ -1091,6 +1172,7 @@ margin-bottom:5px;
   
   .project-item figure {
   position:relative;
+  min-height: 300px;
   }
   
   .project-item h3 {
@@ -1207,6 +1289,15 @@ z-index:2;
 #quote-section i {
 font-size:25px;
 line-height:60px;
+}
+.controls {
+  line-height: 40px;
+  list-style: none;
+  margin: 10px 0 40px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .owl-theme .owl-controls .owl-nav div {
@@ -1832,7 +1923,7 @@ content:"";
 
 .post-title h2.title,.post-title h2.title a {
 color:#2D4059;
-font-size:22px;
+font-size:18px;
 letter-spacing:1px;
 margin:0;
 font-weight:400;
@@ -2224,7 +2315,7 @@ border:1px solid #93A7D1;
 
 @media (min-width: 1200px){
 
-.home-projects .project-item{
+.projects-container .project-item{
 width:25%;
 }
 
@@ -2333,7 +2424,7 @@ margin-bottom:40px;
 font-size:12px;
 }
 
-.home-projects .project-item {
+.projects-container .project-item {
 width:50%;
 }
 
@@ -2447,8 +2538,10 @@ form{
   padding-left: 15px;
 }
 .slide-caption .btn{
-  left: 33% !important;
   bottom: -25%;
+}
+.slide-caption .btn.first-slide{
+  bottom: -415%;
 }
 
 
@@ -2488,7 +2581,8 @@ text-align:center;
 width:100%;
 }
 
-.home-projects .project-item {
+.projects-container .project-item {
+margin-bottom: 20px;
 width:100%;
 }
 
@@ -2530,9 +2624,14 @@ iframe.map{
     padding-left: 15px;
   }
   .slide-caption .btn{
-    left: 33% !important;
     bottom: -25%;
   }
+  .slide-caption .btn.first-slide{
+    bottom: -415%;
+  }
+  /* .controls{
+    justify-content: center;
+  } */
 
 }
 
@@ -2542,6 +2641,9 @@ iframe.map{
     margin: 0;
     padding: 0;
     list-style: none;
+ }
+ #blog-slider.owl-carousel .owl-item{
+  min-height: 700px !important;
  }
 #slides .owl-item li {
     position: relative;
@@ -2613,7 +2715,7 @@ iframe.map{
 }
 
 .owl-theme .owl-controls {
-    margin-top: 10px;
+    margin-top: 50px;
     text-align: center;
     -webkit-tap-highlight-color: transparent
 }

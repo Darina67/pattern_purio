@@ -14,8 +14,10 @@
       	<link href="css\style.css" rel="stylesheet">
       	<!-- Google Fonts -->
       	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">       
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="js\file1.js"></script>
+        <script src="js\file2.js"></script>    
    	</head>
 	<body class="home">
         <div id="wrapper">
@@ -156,7 +158,7 @@
                                     <span class="fa fa-bar-chart" aria-hidden="true"></span> 
                                     <h3>Медицинская статистика
                                         (биостатистика)</h3>
-                                    <p>Глубокие знания и многолетний опыт работы специалистов Кейстат в области биостатистики позволяют разрабатывать методологии исследований и анализа данных, выполнять анализ в профессиональных программных пакетах R и SAS, оформлять отчеты по итогам анализа в соответствии с отраслевыми стандартами и подготавливать данные для подач в контролирующие инстанции
+                                    <p>Глубокие знания и многолетний опыт работы специалистов Кейстат в области биостатистики позволяют разрабатывать методологии исследований и анализа данных, выполнять анализ в профессиональных программных пакетах R и SAS, оформлять отчеты по итогам анализа в соответствии с отраслевыми стандартами и подготавливать данные для подач в контролирующие инстанции.
                                     </p>
                                     <p><a href="#features" class="btn">Подробнее</a></p>
                                 </div>
@@ -224,7 +226,7 @@
                                     <p>Более 220 проектов, выполненных в рамках клинических исследований I-IV фазы, спонсорами которых среди прочих в разные годы выступили российские (ОАО «АКРИХИН», ФГБУ «НИЦЭМ им. Н.Ф. Гамалеи», АО «Р-Фарм», АО "Фармасинтез", ООО «НИИ ХимРар») и зарубежные (Abbott, Berlin-Chemie AG, Sanofi, Servier, TEVA, Pfizer) фармацевтические компании.</p>
                                 </div>
                                 <div class="tab-pane" id="knowledge">
-                                    <p>Деятельность компании осуществляется квалифицированным персоналом на основании стандартных операционных процедур (СОП), разработанных в соответствии с <a href="https://www.ich.org/">требованиями международного совета по гармонизации технических требований к фармацевтическим препаратам для человеческого применения (ICH)</a> и национальными стандартами Российской Федерации (ГОСТ Р ИСО 14155-2022 (???) и  <a href="https://roszdravnadzor.gov.ru/drugs/controllslp/documents/155">ГОСТ Р 52379-2005</a>). </p>
+                                    <p>Деятельность компании осуществляется квалифицированным персоналом на основании стандартных операционных процедур (СОП), разработанных в соответствии с <a href="https://www.ich.org/">требованиями международного совета по гармонизации технических требований к фармацевтическим препаратам для человеческого применения (ICH)</a> и национальными стандартами Российской Федерации <a href="https://www.gostinfo.ru/catalog/Details/?id=7069698">ГОСТ Р ИСО 14155-2022</a> и <a href="https://www.gostinfo.ru/catalog/Details/?id=4145941">ГОСТ Р 52379-2005</a>. </p>
                                 </div>
                                 <div class="tab-pane" id="experience">
                                     <p>Компания гарантирует сохранность информации и её быстрое восстановление в случае чрезвычайных происшествий посредством регулярного тестирования процедур обеспечения непрерывности деятельности (Business continuity), процедур устранения последствий чрезвычайных происшествий и восстановления нормальной деятельности (Disaster recovery).
@@ -233,7 +235,7 @@
                                             <li class="list-unstyled">
                                             <p>► Централизованный контроль доступа к информации исследования (требуется более полная формулировка с учётом ISO 27001 с правильной ссылкой на него)
                                             </p></li>
-                                            <li class="list-unstyled"><p>► Регистрация изменений данных (Audit Trail) с возможностью восстановления предыдущих версий в соответствии с российскими (ссылка на ГОСТ Р ИСО 14155-2022 (???)) и  <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/electronic-source-data-clinical-investigations?source=govdelivery&utm_medium=email&utm_source=govdelivery">международными</a> стандартами</p>
+                                            <li class="list-unstyled"><p>► Регистрация изменений данных (Audit Trail) с возможностью восстановления предыдущих версий в соответствии с <a href="https://www.gostinfo.ru/catalog/Details/?id=7069698">российскими</a>   и  <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/electronic-source-data-clinical-investigations?source=govdelivery&utm_medium=email&utm_source=govdelivery">международными</a> стандартами</p>
                                             </li>
                                             <li class="list-unstyled"><p>► Полное ежедневное резервное копирование данных на локальный сервер, а также программного обеспечения и данных – на удалённый сервер</p></li>
                                             <li class="list-unstyled"><p>► Дублирование серверов, позволяющее в считанные минуты восстановить работоспособность системы</p></li>
@@ -382,139 +384,70 @@
                     <div class="row">
                         <div class=" col-sm-8 col-sm-offset-2 client-intro text-center">
                             <h1 class="section-head"><strong>ОПЫТ РАБОТЫ </strong>КОМПАНИИ</h1>
-                            <hr class="style" style="width:20%;">
-                        </div>
-                    </div>
-                    <!-- end row -->
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <div id="options" data-effect="fade">
-                                <!-- portfolio filters -->
-                                <div id="filters-container">
-                                    <ul id="filters" class="option-set category-filter">
-                                        <li><a class="filter active" data-filter="all">Все</a></li>
-                                        <li><a data-filter=".сardiovascular" class="filter">Cердечно-сосудистые заболевания</a></li>
-                                    <li><a data-filter=".urology" class="filter">Урология</a></li>
-                                    <li><a data-filter=".liver-disease" class="filter">Заболевания печени</a></li>
-                                    <li><a data-filter=".hematology" class="filter">Гематология</a></li>
-                                    <li><a data-filter=".oncology" class="filter">Онкология</a></li>
-                                    <li><a data-filter=".viral_infections" class="filter">Вирусные инфекции</a></li>
-                                    <li><a data-filter=".rheumatology" class="filter">Ревматология</a></li>
-                                    <li><a data-filter=".ophthalmology" class="filter">Офтальмология</a></li>
-                                    <li><a data-filter=".musculoskeletal-disease" class="filter">Заболевания опорно-двигательного аппарата</a></li>
-                                    <li><a data-filter=".respiratory-diseases" class="filter">Заболевания органов дыхания</a></li>
-                                    <li><a data-filter=".cns" class="filter">Центральная нервная система</a></li>
-                                    <li><a data-filter=".traumatology" class="filter">Травматология</a></li>
-                                    <li><a data-filter=".gynecology" class="filter">Гинекология</a></li>
-                                    <li><a data-filter=".anesthesiology" class="filter">Анестезиология</a></li>
-                                    <li><a data-filter=".cardiology" class="filter">Кардиология</a></li>
-                                    <li><a data-filter=".gastrointestinal-tract" class="filter">Заболевания органов ЖКТ</a></li>
-                                    <li><a data-filter=".immunology" class="filter">Иммунология</a></li>
-                                    <li><a data-filter=".dermatology" class="filter">Дерматология</a></li>
-                                    <li><a data-filter=".neurology" class="filter">Неврология</a></li>
-                                    <li><a data-filter=".dentistry" class="filter">Стоматология</a></li>
-                                    <li><a data-filter=".endocrinology" class="filter">Эндокринология</a></li>
-                                    <li><a data-filter=".other" class="filter">Другие области</a></li>                            
-                                    
-                                        <!-- категории заболеваний здесь -->
-                                    </ul>
-                                    <!-- years filters -->
-                                    <ul id="year-filters" class="option-set year-filter">
-                                        <li><a class="filter" data-filter="all">Все</a></li>
-                                        <li><a data-filter=".2002" class="filter">2002</a></li>
-                                        <li><a data-filter=".2003" class="filter">2003</a></li>
-                                        <li><a data-filter=".2004" class="filter">2004</a></li>
-                                        <li><a data-filter=".2005" class="filter">2005</a></li>
-                                        <li><a data-filter=".2006" class="filter">2006</a></li>
-                                        <li><a data-filter=".2007" class="filter">2007</a></li>
-                                        <li><a data-filter=".2008" class="filter">2008</a></li>
-                                        <li><a data-filter=".2009" class="filter">2009</a></li>
-                                        <li><a data-filter=".2010" class="filter">2010</a></li>
-                                        <li><a data-filter=".2011" class="filter">2011</a></li>
-                                        <li><a data-filter=".2012" class="filter">2012</a></li>
-                                        <li><a data-filter=".2013" class="filter">2013</a></li>
-                                        <li><a data-filter=".2014" class="filter">2014</a></li>
-                                        <li><a data-filter=".2015" class="filter">2015</a></li>
-                                        <li><a data-filter=".2016" class="filter">2016</a></li>
-                                        <li><a data-filter=".2017" class="filter">2017</a></li>
-                                        <li><a data-filter=".2018" class="filter">2018</a></li>
-                                        <li><a data-filter=".2019" class="filter">2019</a></li>
-                                        <li><a data-filter=".2020" class="filter">2020</a></li>
-                                        <li><a data-filter=".2021" class="filter">2021</a></li>
-                                        <li><a data-filter=".2022" class="filter">2022</a></li>
-                                        <li><a data-filter=".2023" class="filter">2023</a></li>
-                                        <!-- года здесь -->
-                                    </ul>
-                                </div>
-                                <!-- end portfolio filters -->
-                            </div>
+                            <hr class="style" style="width:70px;">
                         </div>
                     </div>
                     
-                    <!-- end row -->
+                    <div id="diseaseButtons" class="controls">
+                        <!-- Радиокнопки будут добавлены динамически с использованием jQuery -->
+                    </div>
+    
+                    <div id="yearButtons" class="controls" style="margin-top: 20px; margin-bottom: 120px;">
+                        <!-- Радиокнопки для годов будут добавлены динамически с использованием jQuery -->
+                    </div>
+                    <!-- <div id="filters" class="controls">
+                                            <li><button class="control" data-filter="all">Все</button></li>
+                                            <li><button data-toggle=".сardiovascular" class="control">Cердечно-сосудистые заболевания</button></li>
+                                            <li><button data-toggle=".urology" class="control">Урология</button></li>
+                                            <li><button data-toggle=".liver-disease" class="control">Заболевания печени</button></li>
+                                            <li><button data-toggle=".hematology" class="control">Гематология</button></li>
+                                            <li><button data-toggle=".oncology" class="control">Онкология</button></li>
+                                            <li><button data-toggle=".viral_infections" class="control">Вирусные инфекции</button></li>
+                                            <li><button data-toggle=".rheumatology" class="control">Ревматология</button></li>
+                                            <li><button data-toggle=".ophthalmology" class="control">Офтальмология</button></li>
+                                            <li><button data-toggle=".musculoskeletal-disease" class="control">Заболевания опорно-двигательного аппарата</button></li>
+                                            <li><button data-toggle=".respiratory-diseases" class="control">Заболевания органов дыхания</button></li>
+                                            <li><button data-toggle=".cns" class="control">Центральная нервная система</button></li>
+                                            <li><button data-toggle=".traumatology" class="control">Травматология</button></li>
+                                            <li><button data-toggle=".gynecology" class="control">Гинекология</button></li>
+                                            <li><button data-toggle=".anesthesiology" class="control">Анестезиология</button></li>
+                                            <li><button data-toggle=".cardiology" class="control">Кардиология</button></li>
+                                            <li><button data-toggle=".gastrointestinal-tract" class="control">Заболевания органов ЖКТ</button></li>
+                                            <li><button data-toggle=".immunology" class="control">Иммунология</button></li>
+                                            <li><button data-toggle=".dermatology" class="control">Дерматология</button></li>
+                                            <li><button data-toggle=".neurology" class="control">Неврология</button></li>
+                                            <li><button data-toggle=".dentistry" class="control">Стоматология</button></li>
+                                            <li><button data-toggle=".endocrinology" class="control">Эндокринология</button></li>
+                                            <li><button data-toggle=".other" class="control">Другие области</button></li>  
+                                        </div>
+                                        <div id="year-filters" class="controls">
+                                            <li><button class="control" data-toggle=".twothousandtwo">2002</button></li>
+                                            <li><button class="control" data-toggle=".twothousandandthree">2003</button></li>
+                                            <li><button class="control" data-toggle=".twothousandandfour">2004</button></li>
+                                            <li><button class="control" data-toggle=".twothousandandfive">2005</button></li>
+                                            <li><button class="control" data-toggle=".twothousandandsix">2006</button></li>
+                                            <li><button class="control" data-toggle=".twothousandandseventh">2007</button></li>
+                                            <li><button class="control" data-toggle=".twothousandandeight">2008</button></li>
+                                            <li><button class="control" data-toggle=".twothousandandninth">2009</button></li>
+                                            <li><button class="control" data-toggle=".twothousandtenth">2010</button></li>
+                                            <li><button class="control" data-toggle=".twothousandandeleventh">2011</button></li>
+                                            <li><button class="control" data-toggle=".twothousandandtwelfth">2012</button></li>
+                                            <li><button class="control" data-toggle=".twothousandthirteenth">2013</button></li>
+                                            <li><button class="control" data-toggle=".twothousandfourteen">2014</button></li>
+                                            <li><button class="control" data-toggle=".twothousandfifteen">2015</button></li>
+                                            <li><button class="control" data-toggle=".twothousandandsixteenth">2016</button></li>
+                                            <li><button class="control" data-toggle=".twothousandseventeen">2017</button></li>
+                                            <li><button class="control" data-toggle=".twothousandeighteen">2018</button></li>
+                                            <li><button class="control" data-toggle=".twothousandnineteen">2019</button></li>
+                                            <li><button class="control" data-toggle=".twothousandtwenty">2020</button></li>
+                                            <li><button class="control" data-toggle=".twothousandtwenty-one">2021</button></li>
+                                            <li><button class="control" data-toggle=".twothousandtwenty-second">2022</button></li>
+                                            <li><button class="control" data-toggle=".twothousandtwenty-third">2023</button></li>
+                                        </div> -->
                     <div class="row">
-                        <div  class="home-projects animated text-center" data-animation="fadeInDown">
+                        <div class="projects-container animated text-center" data-animation="fadeInDown">
                             <!-- portfolio item -->
-                            <article class="project-item mix">
-                            	<a href="images\phases\1.jpg" class="popup">
-                                <figure>
-                                    <img src="images\phases\1.jpg" class="img-responsive">
-                                    <figcaption>
-                                        <div class="caption-wrap">
-                                            <div class="actions">
-                                                <h3>I: 40 исследований</h3>
-                                            </div>
-                                        </div>
-                                    </figcaption>
-                                </figure>
-                                </a>
-                            </article>
-                            <!-- portfolio item -->
-                            <article class="project-item mix сardiovascular">
-                            <a href="images\phases\2.png" class="popup">
-                            <figure>
-                                <img src="images\phases\2.png" class="img-responsive">
-                                <figcaption>
-                                    <div class="caption-wrap">
-                                        <div class="actions">
-                                            <h3>II: 20 исследований</h3>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                            </a>
-                        </article>
-                        <!-- portfolio item -->
-                        <article class="project-item mix сardiovascular">
-                        <a href="images\phases\3.jpg" class="popup">
-                        <figure>
-                            <img src="images\phases\3.jpg" class="img-responsive">
-                            <figcaption>
-                                <div class="caption-wrap">
-                                    <div class="actions">
-                                        <h3>III: 49 исследований</h3>
-                                    </div>
-                                </div>
-                            </figcaption>
-                        </figure>
-                        </a>
-                    </article>
-                       <!-- portfolio item -->
-                       <article class="project-item mix">
-                        <a href="images\phases\4.jpg" class="popup">
-                        <figure>
-                            <img src="images\phases\4.jpg" class="img-responsive">
-                            <figcaption>
-                                <div class="caption-wrap">
-                                    <div class="actions">
-                                        <h3>IV/NIS: 49 исследований</h3>
-                                    </div>
-                                </div>
-                            </figcaption>
-                        </figure>
-                        </a>
-                    </article>
-           
+    
                         </div>
                         <!-- end home projects -->
                     </div>
@@ -700,7 +633,7 @@
                                             </li>
                                             <li class="list-unstyled"> Разработка спецификации эИРК (описания Базы Данных), включая аннотированную ИРК</li>
                                             <li class="list-unstyled"> Программирование функционала чистки данных (edit checks)</li>
-                                            <li class="list-unstyled"> Настройка функционала отложенной валиадции данных (batch validation)</li>
+                                            <li class="list-unstyled"> Настройка функционала отложенной валидации данных (batch validation)</li>
                                             <li class="list-unstyled"> Организация удаленного ввода данных (ежедневное резервное копирование на локальный и удаленный ресурс, программное обслуживание системы для бесперебойного функционирования, тестирование процедуры аварийного восстановления системы и данных, управление доступами)</li>
                                             <li class="list-unstyled"> Импортирование данных вендоров (центральная лаборатория, ЭКГ, и т.д.)</li>
                                             <li class="list-unstyled"> Подготовка ИРК с итоговыми данными пациентов в дизайне согласованного макета; печать ИРК в формате .pdf.</li>
@@ -881,7 +814,7 @@
                         <div class="col-sm-8 col-sm-offset-2 client-intro text-center">
                             <h1 class="section-head">Электронная ИРК <strong>Visual Stat Expert(тм)</strong></h1>
                             <hr class="style" style="width:10%;">
-                            <p class="p-more-features">Электронная ИРК Кейстат Visual Stat Expert(ТМ) разработана специалистами компании с учетом многолетнего опыта работы с различными системами сбора и обработки информации, прошла все стадии тестирования и отвечает с российским (ссылка на ГОСТ Р ИСО 14155-2022 (???)) и <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/electronic-source-data-clinical-investigations?source=govdelivery&utm_medium=email&utm_source=govdelivery">международным</a> стандартам и требованиям к программному обеспечению  </p>
+                            <p class="p-more-features">Электронная ИРК Кейстат Visual Stat Expert(ТМ) разработана специалистами компании с учетом многолетнего опыта работы с различными системами сбора и обработки информации, прошла все стадии тестирования и отвечает с <a href="https://www.gostinfo.ru/catalog/Details/?id=7069698">российским</a> и <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/electronic-source-data-clinical-investigations?source=govdelivery&utm_medium=email&utm_source=govdelivery">международным</a> стандартам и требованиям к программному обеспечению  </p>
                         </div>
                     </div>
                     <div class="row wrapper">
@@ -1179,20 +1112,88 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-8 col-sm-offset-2 client-intro text-center">
-                            <h1 class="section-head">Последние <strong>новости</strong></h1>
+                            <h1 class="section-head">Полезные<strong> ссылки</strong></h1>
                             <hr class="style" style="width:10%;">
-                            <p>Начальная стадия проведения исследования регулярно отражает мониторинг активности. </p>
+                            <p> Здесь вы найдете ссылки на статьи, научные публикации, руководства и официальные документы.</p>
                          </div>
                     </div>
                     <div class="row">
                     <!-- blog slider -->
                     <div id="blog-slider" class="owl-carousel animated" data-animation="fadeInDown">
+                        <!-- blog item -->
+                        <article class="blog-item">
+                            <!-- Post Img -->
+                            <div class="post-media">
+                                <a href="documents\gost_r_iso_14155-2022.pdf">
+                                    <img src="images\blog\blog-15.png" alt="" class="img-responsive">
+                                </a>
+                            </div>
+                            <!-- end Post Img -->
+                            <!-- Post Content -->
+                            <div class="item-content">
+                                <!-- Post Title -->
+                                <div class="post-title">
+                                    <h2 class="title">
+                                        <a href="documents\gost_r_iso_14155-2022.pdf">ГОСТ Р ИСО 14155-2022</a>
+                                    </h2>
+                                </div>
+                                <!-- end Post Title -->
+                                <!-- Post Meta -->
+                                <div class="post-meta">
+                                </div>
+                                <!-- end Post Meta -->
+                                <!-- Post Entry -->
+                                <div class="post-entry">
+                                    <p>КЛИНИЧЕСКИЕ ИССЛЕДОВАНИЯ
+                                        МЕДИЦИНСКИХ ИЗДЕЛИЙ,
+                                        ПРОВОДИМЫЕ С УЧАСТИЕМ ЧЕЛОВЕКА
+                                        В КАЧЕСТВЕ СУБЪЕКТА</p>
+                                </div>
+                                <!-- end Post Entry -->
+                                <a href="documents\gost_52379-2005.pdf" target="_blank" class="blog btn">Читать далее</a>
+                            </div>
+                            <!-- end Post Content -->
+                        </article>
+                        <!-- blog item -->
+                        <article class="blog-item">
+                        <!-- Post Img -->
+                        <div class="post-media">
+                            <a href="documents\gost_52379-2005.pdf">
+                                <img src="images\blog\blog-15.png" alt="" class="img-responsive">
+                            </a>
+                        </div>
+                        <!-- end Post Img -->
+                        <!-- Post Content -->
+                        <div class="item-content">
+                            <!-- Post Title -->
+                            <div class="post-title">
+                                <h2 class="title">
+                                    <a href="documents\gost_52379-2005.pdf">ГОСТ Р 52379-2005</a>
+                                </h2>
+                            </div>
+                            <!-- end Post Title -->
+                            <!-- Post Meta -->
+                            <div class="post-meta">
+                            </div>
+                            <!-- end Post Meta -->
+                            <!-- Post Entry -->
+                            <div class="post-entry">
+                                <p>КЛИНИЧЕСКИЕ ИССЛЕДОВАНИЯ
+                                    МЕДИЦИНСКИХ ИЗДЕЛИЙ,
+                                    ПРОВОДИМЫЕ С УЧАСТИЕМ ЧЕЛОВЕКА
+                                    В КАЧЕСТВЕ СУБЪЕКТА</p>
+                            </div>
+                            <!-- end Post Entry -->
+                            <a href="documents\gost_52379-2005.pdf" target="_blank" class="blog btn">Читать далее</a>
+                        </div>
+                        <!-- end Post Content -->
+                    </article>
                             <!-- blog item -->
                             <article class="blog-item">
                                 <!-- Post Img -->
                                 <div class="post-media">
-                                    <a href="#">
-                                        <img src="images\blog-2.jpg" alt="" class="img-responsive">
+                                    <a href="https://database.ich.org/sites/default/files/E6_R2_Addendum.pdf">
+                                        <img src="images\blog\blog-2.png" alt="" class="img-responsive">
                                     </a>
                                 </div>
                                 <!-- end Post Img -->
@@ -1201,29 +1202,22 @@
                                     <!-- Post Title -->
                                     <div class="post-title">
                                         <h2 class="title">
-                                            <a href="#">Заголвок побликуемой новости на сайте</a>
+                                            <a href="https://database.ich.org/sites/default/files/E6_R2_Addendum.pdf">INTEGRATED ADDENDUM TO ICH E6(R1): GUIDELINE FOR GOOD CLINICAL PRACTICE E6(R2)</a>
                                         </h2>
                                     </div>
                                     <!-- end Post Title -->
                                     <!-- Post Meta -->
                                     <div class="post-meta">
-                                        <ul>
-                                            <li class="date">31 августа 2016</li>
-                                            <li>
-                                                <span>От <a href="#">Джон Доу</a></span>
-                                            </li>
-                                            <li>
-                                                <span>В <a href="#">Новости</a></span>
-                                            </li>
-                                        </ul>
                                     </div>
                                     <!-- end Post Meta -->
                                     <!-- Post Entry -->
                                     <div class="post-entry">
-                                        <p>Создание приверженного покупателя, как принято считать, недостижимо. Выставочный стенд абстрактен.</p>
+                                        <p>Good Clinical Practice (GCP) is an international ethical and scientific quality standard for
+                                            designing, conducting, recording and reporting trials that involve the participation of human
+                                            subjects.</p>
                                     </div>
                                     <!-- end Post Entry -->
-                                    <a href="#" class="btn">Читать далее</a>
+                                    <a href="https://database.ich.org/sites/default/files/E6_R2_Addendum.pdf" class="blog btn">Читать далее</a>
                                 </div>
                                 <!-- end Post Content -->
                             </article>
@@ -1232,8 +1226,8 @@
                             <article class="blog-item">
                                 <!-- Post Img -->
                                 <div class="post-media">
-                                    <a href="#">
-                                        <img src="images\blog-9.jpg" alt="" class="img-responsive">
+                                    <a href="https://database.ich.org/sites/default/files/ICH_E6-R3_GCP-Principles_Draft_2021_0419.pdf">
+                                        <img src="images\blog\blog-1.png" alt="" class="img-responsive">
                                     </a>
                                 </div>
                                 <!-- end Post Img -->
@@ -1242,29 +1236,22 @@
                                     <!-- Post Title -->
                                     <div class="post-title">
                                         <h2 class="title">
-                                            <a href="#">Заголвок побликуемой новости на сайте</a>
+                                            <a href="https://database.ich.org/sites/default/files/ICH_E6-R3_GCP-Principles_Draft_2021_0419.pdf">E6(R3) Draft Principles</a>
                                         </h2>
                                     </div>
                                     <!-- end Post Title -->
                                     <!-- Post Meta -->
                                     <div class="post-meta">
-                                        <ul>
-                                            <li class="date">31 августа 2016</li>
-                                            <li>
-                                                <span>От <a href="#">Джон Доу</a></span>
-                                            </li>
-                                            <li>
-                                                <span>В <a href="#">Новости</a></span>
-                                            </li>
-                                        </ul>
                                     </div>
                                     <!-- end Post Meta -->
                                     <!-- Post Entry -->
                                     <div class="post-entry">
-                                        <p>Создание приверженного покупателя, как принято считать, недостижимо. Выставочный стенд абстрактен.</p>
+                                        <p>The International Council for Harmonisation (ICH) is committed to developing timely technical
+                                            requirements for pharmaceuticals for human use in a manner that is responsive to the needs of the
+                                            global community.</p>
                                     </div>
                                     <!-- end Post Entry -->
-                                    <a href="#" class="btn">Читать далее</a>
+                                    <a href="https://database.ich.org/sites/default/files/ICH_E6-R3_GCP-Principles_Draft_2021_0419.pdf" class="blog btn">Читать далее</a>
                                 </div>
                                 <!-- end Post Content -->
                             </article>
@@ -1273,8 +1260,8 @@
                             <article class="blog-item">
                                 <!-- Post Img -->
                                 <div class="post-media">
-                                    <a href="#">
-                                        <img src="images\blog-11.jpg" alt="" class="img-responsive">
+                                    <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/electronic-source-data-clinical-investigations?source=govdelivery&utm_medium=email&utm_source=govdelivery">
+                                        <img src="images\blog\blog-7.png" alt="" class="img-responsive">
                                     </a>
                                 </div>
                                 <!-- end Post Img -->
@@ -1283,29 +1270,21 @@
                                     <!-- Post Title -->
                                     <div class="post-title">
                                         <h2 class="title">
-                                            <a href="#">Заголвок побликуемой новости на сайте</a>
+                                            <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/electronic-source-data-clinical-investigations?source=govdelivery&utm_medium=email&utm_source=govdelivery">GUIDANCE FOR INDUSTRY: ELECTRONIC SOURCE DATA IN CLINICAL INVESTIGATIONS</a>
                                         </h2>
                                     </div>
                                     <!-- end Post Title -->
                                     <!-- Post Meta -->
                                     <div class="post-meta">
-                                        <ul>
-                                            <li class="date">31 августа 2016</li>
-                                            <li>
-                                                <span>От <a href="#">Джон Доу</a></span>
-                                            </li>
-                                            <li>
-                                                <span>В <a href="#">Новости</a></span>
-                                            </li>
-                                        </ul>
+
                                     </div>
                                     <!-- end Post Meta -->
                                     <!-- Post Entry -->
                                     <div class="post-entry">
-                                        <p>Создание приверженного покупателя, как принято считать, недостижимо. Выставочный стенд абстрактен.</p>
+                                        <p>This guidance provides recommendations to sponsors, Contract Research Organizations (CROs), clinical investigators, and others involved in the capture, review, and retention of electronic source data in FDA-regulated clinical investigations</p>
                                     </div>
                                     <!-- end Post Entry -->
-                                    <a href="#" class="btn">Читать далее</a>
+                                    <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/electronic-source-data-clinical-investigations?source=govdelivery&utm_medium=email&utm_source=govdelivery" class="blog btn">Читать далее</a>
                                 </div>
                                 <!-- end Post Content -->
                             </article>
@@ -1314,8 +1293,8 @@
                             <article class="blog-item">
                                 <!-- Post Img -->
                                 <div class="post-media">
-                                    <a href="#">
-                                        <img src="images\blog-12.jpg" alt="" class="img-responsive">
+                                    <a href="https://database.ich.org/sites/default/files/E9_Guideline.pdf">
+                                        <img src="images\blog\blog-3.png" alt="" class="img-responsive">
                                     </a>
                                 </div>
                                 <!-- end Post Img -->
@@ -1324,29 +1303,22 @@
                                     <!-- Post Title -->
                                     <div class="post-title">
                                         <h2 class="title">
-                                            <a href="#">Заголвок побликуемой новости на сайте</a>
+                                            <a href="https://database.ich.org/sites/default/files/E9_Guideline.pdf">ICH HARMONISED TRIPARTITE GUIDELINE: STATISTICAL PRINCIPLES FOR CLINICAL TRIALS (E9) </a>
                                         </h2>
                                     </div>
                                     <!-- end Post Title -->
                                     <!-- end Post Meta -->
                                     <div class="post-meta">
-                                        <ul>
-                                            <li class="date">31 августа 2016</li>
-                                            <li>
-                                                <span>От <a href="#">Джон Доу</a></span>
-                                            </li>
-                                            <li>
-                                                <span>В <a href="#">Новости</a></span>
-                                            </li>
-                                        </ul>
                                     </div>
                                     <!-- end Post Meta -->
                                     <!-- Post Entry -->
                                     <div class="post-entry">
-                                        <p>Создание приверженного покупателя, как принято считать, недостижимо. Выставочный стенд абстрактен.</p>
+                                        <p>The efficacy and safety of medicinal products should be demonstrated by clinical trials
+                                            which follow the guidance in 'Good Clinical Practice: Consolidated Guideline' (ICH
+                                            E6) adopted by the ICH, 1 May 1996.</p>
                                     </div>
                                     <!-- end Post Entry -->
-                                    <a href="#" class="btn">Читать далее</a>
+                                    <a href="https://database.ich.org/sites/default/files/E9_Guideline.pdf" class="blog btn">Читать далее</a>
                                 </div>
                             </article>
                             <!-- end blog item -->
@@ -1354,8 +1326,8 @@
                             <article class="blog-item">
                                 <!-- Post Img -->
                                 <div class="post-media">
-                                    <a href="#">
-                                        <img src="images\blog-10.jpg" alt="" class="img-responsive">
+                                    <a href="https://database.ich.org/sites/default/files/E9-R1_Step4_Guideline_2019_1203.pdf">
+                                        <img src="images\blog\blog-4.png" alt="" class="img-responsive">
                                     </a>
                                 </div>
                                 <!-- end Post Img -->
@@ -1364,29 +1336,22 @@
                                     <!-- Post Title -->
                                     <div class="post-title">
                                         <h2 class="title">
-                                            <a href="#">Заголвок побликуемой новости на сайте</a>
+                                            <a href="https://database.ich.org/sites/default/files/E9-R1_Step4_Guideline_2019_1203.pdf">ADDENDUM ON ESTIMANDS AND SENSITIVITY ANALYSIS IN CLINICAL TRIALS TO THE GUIDELINE ON STATISTICAL PRINCIPLES FOR CLINICAL TRIALS E9(R1)</a>
                                         </h2>
                                     </div>
                                     <!-- end Post Title -->
                                     <!-- Post Meta -->
                                     <div class="post-meta">
-                                        <ul>
-                                            <li class="date">31 августа 2016</li>
-                                            <li>
-                                                <span>От <a href="#">Джон Доу</a></span>
-                                            </li>
-                                            <li>
-                                                <span>В <a href="#">Новости</a></span>
-                                            </li>
-                                        </ul>
                                     </div>
                                     <!-- end Post Meta -->
                                     <!-- Post Entry -->
                                     <div class="post-entry">
-                                        <p>Создание приверженного покупателя, как принято считать, недостижимо. Выставочный стенд абстрактен.</p>
+                                        <p>To properly inform decision making by pharmaceutical companies, regulators, patients,
+                                            physicians and other stakeholders, clear descriptions of the benefits and risks of a treatment
+                                            (medicine) for a given medical condition should be made available.</p>
                                     </div>
                                     <!-- end Post Entry -->
-                                    <a href="#" class="btn">Читать далее</a>
+                                    <a href="https://database.ich.org/sites/default/files/E9-R1_Step4_Guideline_2019_1203.pdf" class="blog btn">Читать далее</a>
                                 </div>
                             </article>
                             <!-- end blog item -->
@@ -1394,8 +1359,8 @@
                             <article class="blog-item">
                                 <!-- Post Img -->
                                 <div class="post-media">
-                                    <a href="#">
-                                        <img src="images\blog-9.jpg" alt="" class="img-responsive">
+                                    <a href="https://database.ich.org/sites/default/files/E3_Guideline.pdf">
+                                        <img src="images\blog\blog-5.png" alt="" class="img-responsive">
                                     </a>
                                 </div>
                                 <!-- end Post Img -->
@@ -1404,29 +1369,21 @@
                                     <!-- Post Title -->
                                     <div class="post-title">
                                         <h2 class="title">
-                                            <a href="#">Заголвок побликуемой новости на сайте</a>
+                                            <a href="https://database.ich.org/sites/default/files/E3_Guideline.pdf">ICH HARMONISED TRIPARTITE GUIDELINE: STRUCTURE AND CONTENT OF CLINICAL STUDY REPORTS (E3)</a>
                                         </h2>
                                     </div>
                                     <!-- end Post Title -->
                                     <!-- Post Meta -->
                                     <div class="post-meta">
-                                        <ul>
-                                            <li class="date">31 августа 2016</li>
-                                            <li>
-                                                <span>От <a href="#">Джон Доу</a></span>
-                                            </li>
-                                            <li>
-                                                <span>В <a href="#">Новости</a></span>
-                                            </li>
-                                        </ul>
                                     </div>
                                     <!-- end Post Meta -->
                                     <!-- Post Entry -->
                                     <div class="post-entry">
-                                        <p>Создание приверженного покупателя, как принято считать, недостижимо. Выставочный стенд абстрактен.</p>
+                                        <p>The objective of this guideline is to allow the compilation of a single core clinical study
+                                            report acceptable to all regulatory authorities of the ICH regions</p>
                                     </div>
                                     <!-- end Post Entry -->
-                                    <a href="#" class="btn">Читать далее</a>
+                                    <a href="https://database.ich.org/sites/default/files/E3_Guideline.pdf" class="blog btn">Читать далее</a>
                                 </div>
                                 <!-- end Post Content -->
                             </article>
@@ -1435,8 +1392,8 @@
                             <article class="blog-item">
                                 <!-- Post Img -->
                                 <div class="post-media">
-                                    <a href="#">
-                                        <img src="images\blog-11.jpg" alt="" class="img-responsive">
+                                    <a href="https://database.ich.org/sites/default/files/E3_Q%26As_R1_Q%26As.pdf">
+                                        <img src="images\blog\blog-6.png" alt="" class="img-responsive">
                                     </a>
                                 </div>
                                 <!-- end Post Img -->
@@ -1445,29 +1402,21 @@
                                     <!-- Post Title -->
                                     <div class="post-title">
                                         <h2 class="title">
-                                            <a href="#">Заголвок побликуемой новости на сайте</a>
+                                            <a href="https://database.ich.org/sites/default/files/E3_Q%26As_R1_Q%26As.pdf">E3 Implementation Working Group ICH E3 Guideline: Structure and Content of Clinical Study Reports Questions & Answers (R1)</a>
                                         </h2>
                                     </div>
                                     <!-- end Post Title -->
                                     <!-- Post Meta -->
                                     <div class="post-meta">
-                                        <ul>
-                                            <li class="date">31 августа 2016</li>
-                                            <li>
-                                                <span>От <a href="#">Джон Доу</a></span>
-                                            </li>
-                                            <li>
-                                                <span>В <a href="#">Новости</a></span>
-                                            </li>
-                                        </ul>
                                     </div>
                                     <!-- end Post Meta -->
                                     <!-- Post Entry -->
                                     <div class="post-entry">
-                                        <p>Создание приверженного покупателя, как принято считать, недостижимо. Выставочный стенд абстрактен.</p>
+                                        <p>In order to facilitate the implementation of the E3 Guideline,
+                                            the ICH Experts have developed a series of Q&As</p>
                                     </div>
                                     <!-- end Post Entry -->
-                                    <a href="#" class="btn">Читать далее</a>
+                                    <a href="https://database.ich.org/sites/default/files/E3_Q%26As_R1_Q%26As.pdf" class="blog btn">Читать далее</a>
                                 </div>
                                 <!-- end Post Content -->
                             </article>
@@ -1476,8 +1425,8 @@
                             <article class="blog-item">
                                 <!-- Post Img -->
                                 <div class="post-media">
-                                    <a href="#">
-                                        <img src="images\blog-12.jpg" alt="" class="img-responsive">
+                                    <a href="https://advance.phuse.global/display/WEL/Welcome+to+the+PHUSE+Advance+Hub">
+                                        <img src="images\blog\blog-8.png" alt="" class="img-responsive">
                                     </a>
                                 </div>
                                 <!-- end Post Img -->
@@ -1486,29 +1435,208 @@
                                     <!-- Post Title -->
                                     <div class="post-title">
                                         <h2 class="title">
-                                            <a href="#">Заголвок побликуемой новости на сайте</a>
+                                            <a href="https://advance.phuse.global/display/WEL/Welcome+to+the+PHUSE+Advance+Hub">PHUSE Advance Hub</a>
                                         </h2>
                                     </div>
                                     <!-- end Post Title -->
                                     <!-- Post Meta -->
                                     <div class="post-meta">
-                                        <ul>
-                                            <li class="date">31 августа 2016</li>
-                                            <li>
-                                                <span>От <a href="#">Джон Доу</a></span>
-                                            </li>
-                                            <li>
-                                                <span>В <a href="#">Новости</a></span>
-                                            </li>
-                                        </ul>
                                     </div>
                                     <!-- end Post Meta -->
                                     <!-- Post Entry -->
                                     <div class="post-entry">
-                                        <p>Создание приверженного покупателя, как принято считать, недостижимо. Выставочный стенд абстрактен.</p>
+                                        <p> We are a global community and platform for the discussion of topics encompassing the work of data managers, biostatisticians, statistical programmers, data scientists and eClinical IT professionals.</p>
                                     </div>
                                     <!-- end Post Entry -->
-                                    <a href="#" class="btn">Читать далее</a>
+                                    <a href="https://advance.phuse.global/display/WEL/Welcome+to+the+PHUSE+Advance+Hub" class="blog btn">Читать далее</a>
+                                </div>
+                                <!-- end Post Content -->
+                            </article>
+                            <!-- blog item -->
+                            <article class="blog-item">
+                                <!-- Post Img -->
+                                <div class="post-media">
+                                    <a href="https://www.meddra.org/">
+                                        <img src="images\blog\blog-9.png" alt="" class="img-responsive">
+                                    </a>
+                                </div>
+                                <!-- end Post Img -->
+                                <!-- Post Content -->
+                                <div class="item-content">
+                                    <!-- Post Title -->
+                                    <div class="post-title">
+                                        <h2 class="title">
+                                            <a href="https://www.meddra.org/">MedDRA</a>
+                                        </h2>
+                                    </div>
+                                    <!-- end Post Title -->
+                                    <!-- Post Meta -->
+                                    <div class="post-meta">
+                                    </div>
+                                    <!-- end Post Meta -->
+                                    <!-- Post Entry -->
+                                    <div class="post-entry">
+                                        <p>Medical dictionary for regulatory activities</p>
+                                    </div>
+                                    <!-- end Post Entry -->
+                                    <a href="https://www.meddra.org/" class="blog btn">Читать далее</a>
+                                </div>
+                                <!-- end Post Content -->
+                            </article>
+                                                <!-- blog item -->
+                            <article class="blog-item">
+                                <!-- Post Img -->
+                                <div class="post-media">
+                                    <a href="https://who-umc.org/">
+                                        <img src="images\blog\blog-10.png" alt="" class="img-responsive">
+                                    </a>
+                                </div>
+                                <!-- end Post Img -->
+                                <!-- Post Content -->
+                                <div class="item-content">
+                                    <!-- Post Title -->
+                                    <div class="post-title">
+                                        <h2 class="title">
+                                            <a href="https://who-umc.org/">WHODrug</a>
+                                        </h2>
+                                    </div>
+                                    <!-- end Post Title -->
+                                    <!-- Post Meta -->
+                                    <div class="post-meta">
+                                        
+                                    </div>
+                                    <!-- end Post Meta -->
+                                    <!-- Post Entry -->
+                                    <div class="post-entry">
+                                        <p>we develop the science of pharmacovigilance and support initiatives to ensure the safety of medicines and patients around the world.</p>
+                                    </div>
+                                    <!-- end Post Entry -->
+                                    <a href="https://who-umc.org/" class="blog btn">Читать далее</a>
+                                </div>
+                                <!-- end Post Content -->
+                            </article>
+                            <!-- blog item -->
+                            <article class="blog-item">
+                            <!-- Post Img -->
+                            <div class="post-media">
+                                <a href="https://www.vidal.ru/">
+                                    <img src="images\blog\blog-11.png" alt="" class="img-responsive">
+                                </a>
+                            </div>
+                            <!-- end Post Img -->
+                            <!-- Post Content -->
+                            <div class="item-content">
+                                <!-- Post Title -->
+                                <div class="post-title">
+                                    <h2 class="title">
+                                        <a href="https://www.vidal.ru/">VIDAL</a>
+                                    </h2>
+                                </div>
+                                <!-- end Post Title -->
+                                <!-- Post Meta -->
+                                <div class="post-meta">
+                                    
+                                </div>
+                                <!-- end Post Meta -->
+                                <!-- Post Entry -->
+                                <div class="post-entry">
+                                    <p>СПРАВОЧНИК ЛЕКАРСТВЕННЫХ СРЕДСТВ</p>
+                                </div>
+                                <!-- end Post Entry -->
+                                <a href="https://www.vidal.ru/" class="blog btn">Читать далее</a>
+                            </div>
+                            <!-- end Post Content -->
+                        </article>
+                                                <!-- blog item -->
+                            <article class="blog-item">
+                                <!-- Post Img -->
+                                <div class="post-media">
+                                    <a href="https://www.pinnacle21.com/">
+                                        <img src="images\blog\blog-12.png" alt="" class="img-responsive">
+                                    </a>
+                                </div>
+                                <!-- end Post Img -->
+                                <!-- Post Content -->
+                                <div class="item-content">
+                                    <!-- Post Title -->
+                                    <div class="post-title">
+                                        <h2 class="title">
+                                            <a href="https://www.pinnacle21.com/">Pinnacle21</a>
+                                        </h2>
+                                    </div>
+                                    <!-- end Post Title -->
+                                    <!-- Post Meta -->
+                                    <div class="post-meta">
+                                    </div>
+                                    <!-- end Post Meta -->
+                                    <!-- Post Entry -->
+                                    <div class="post-entry">
+                                        <p>Pinnacle 21 offers a broad suite of solutions for your data needs: speccing, mapping, cleaning, checking, comparing, transforming, converting.</p>
+                                    </div>
+                                    <!-- end Post Entry -->
+                                    <a href="https://www.pinnacle21.com/" class="blog btn">Читать далее</a>
+                                </div>
+                                <!-- end Post Content -->
+                            </article>
+                            <!-- blog item -->
+                            <article class="blog-item">
+                            <!-- Post Img -->
+                            <div class="post-media">
+                                <a href="https://www.sas.com/en_us/home.html">
+                                    <img src="images\blog\blog-13.png" alt="" class="img-responsive">
+                                </a>
+                            </div>
+                            <!-- end Post Img -->
+                            <!-- Post Content -->
+                            <div class="item-content">
+                                <!-- Post Title -->
+                                <div class="post-title">
+                                    <h2 class="title">
+                                        <a href="https://www.sas.com/en_us/home.html">SAS Institute</a>
+                                    </h2>
+                                </div>
+                                <!-- end Post Title -->
+                                <!-- Post Meta -->
+                                <div class="post-meta">
+                                </div>
+                                <!-- end Post Meta -->
+                                <!-- Post Entry -->
+                                <div class="post-entry">
+                                    <p>With our open, cloud-native AI, analytics and data management platform you can discover insights from your data and make sense of it all. </p>
+                                </div>
+                                <!-- end Post Entry -->
+                                <a href="https://www.sas.com/en_us/home.html" class="blog btn">Читать далее</a>
+                            </div>
+                            <!-- end Post Content -->
+                        </article>
+                                                <!-- blog item -->
+                            <article class="blog-item">
+                                <!-- Post Img -->
+                                <div class="post-media">
+                                    <a href="https://www.r-project.org/">
+                                        <img src="images\blog\blog-14.png" alt="" class="img-responsive">
+                                    </a>
+                                </div>
+                                <!-- end Post Img -->
+                                <!-- Post Content -->
+                                <div class="item-content">
+                                    <!-- Post Title -->
+                                    <div class="post-title">
+                                        <h2 class="title">
+                                            <a href="https://www.r-project.org/">R Project for Statistical Computing</a>
+                                        </h2>
+                                    </div>
+                                    <!-- end Post Title -->
+                                    <!-- Post Meta -->
+                                    <div class="post-meta">
+                                    </div>
+                                    <!-- end Post Meta -->
+                                    <!-- Post Entry -->
+                                    <div class="post-entry">
+                                        <p>R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows and Mac OS.</p>
+                                    </div>
+                                    <!-- end Post Entry -->
+                                    <a href="https://www.r-project.org/" class="blog btn">Читать далее</a>
                                 </div>
                                 <!-- end Post Content -->
                             </article>
@@ -1527,7 +1655,7 @@
                     <div class="row">
                         <!-- col 8 -->
                         <div class="col-md-8 col-md-offset-2 text-center">
-                            <h1 class="section-head">Наши <strong>контакты</strong></h1>
+                            <h1 class="section-head">Наши<strong>контакты</strong></h1>
                             <hr class="style" style="width:18%;">
                             <p>Начальная стадия проведения исследования регулярно отражает мониторинг активности. </p>
                         </div>
@@ -1676,8 +1804,7 @@
       		<!-- CORE JAVASCRIPTS -->  
       		<script type="text/javascript" src="js\jquery.js"></script>
             <script type="text/javascript" src="js\bootstrap.min.js"></script>
-            <script type="text/javascript" src="js\jquery.mixitup.min.js"></script>
-            <!-- <script type="text/javascript" src="js\mixitup-multifilter.js"></script> -->
+            <script type="text/javascript" src="js\mixitup.min.js"></script>
             <script type="text/javascript" src="js\jquery.easing.min.js"></script>
             <script type="text/javascript" src="js\waypoints.min.js"></script>
             <script type="text/javascript" src="js\jquery.parallax.js"></script>
@@ -1692,6 +1819,174 @@
             <script type="text/javascript" src="js\modernizr.min.js"></script>
       		<script type="text/javascript" src="js\main.js"></script>
               <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+              <script>
+                var years = [
+                    "Не указан", 2003, 2014, 2015, 2016
+                ]
+    
+                // Функция для добавления радиокнопок для заболеваний
+                function populateRadioButtonsForDiseases(diseases) {
+                    var container = $('#diseaseButtons');
+                    container.empty(); 
+    
+                    // Добавляем радиокнопки для каждого заболевания
+                    $.each(diseases, function (index, disease) {
+                        container.append($(
+                        `<label class="control-btn-disease control-btn"> 
+                            ${disease.name}
+                           <input type="radio" name="diseaseRadio" id="diseaseRadio${index}" value="${disease.name}" />
+                        </label>`
+                        ))
+                        // container.append($('<input>', {
+                        //     type: 'radio',
+                        //     name: 'diseaseRadio',
+                        //     value: disease.name,
+                        //     id: 'diseaseRadio' + index
+                        // }));
+                        // container.append($('<label>', {
+                        //     for: 'diseaseRadio' + index,
+                        //     text: disease.name
+                        // }));
+                    });
+                }
+    
+                // Функция для добавления радиокнопок для годов
+                function populateRadioButtonsForYears(years) {
+                    var container = $('#yearButtons');
+                    container.empty();
+    
+                    // Добавляем радиокнопки для каждого года
+                    $.each(years, function (index, year) {
+                        container.append($(
+                        `<label class="control-btn control-btn-years"> 
+                            ${year}
+                           <input type="radio" name="yearRadio" id="yearRadio${index}" value="${year}" />
+                        </label>`
+                        ))
+                        // container.append($('<input>', {
+                        //     type: 'radio',
+                        //     name: 'yearRadio',
+                        //     value: year,
+                        //     id: 'yearRadio' + index
+                        // }));
+                        // container.append($('<label>', {
+                        //     for: 'yearRadio' + index,
+                        //     text: year
+                        // }));
+                    });
+                }
+    
+                // Инициализация радиокнопок при загрузке страницы
+                $(document).ready(function () {
+                    // Используем данные из первого файла по умолчанию
+                    populateRadioButtonsForDiseases(file1);
+                    populateRadioButtonsForYears(years)
+                });
+    
+                function update(selectedDisease, selectedYear) {
+                    // Ищем заболевание во втором файле
+                    var matchingDisease = file2.find(function (item) {
+                        return item.phases[selectedYear] && item.name === selectedDisease;
+                    });
+    
+                    // Если нашли соответствие, используем данные из второго файла, иначе используем данные из первого файла
+                    var selectedPhases = matchingDisease ? matchingDisease.phases[selectedYear] : file1.find(item => item.name === selectedDisease);
+                    var selectedFile = matchingDisease ? 2 : 1;
+    
+                    
+    
+                    // Выводим результат в консоль (вместо этого вы можете использовать данные как вам угодно)
+                    $(".projects-container").html('')
+                    if (selectedPhases) {
+                        // if (selectedPhases.phases) {
+                            if (selectedFile === 1) {
+                                for (var key in selectedPhases.phases) {
+                                    let p = selectedPhases.phases
+                                    if (p.hasOwnProperty(key)) {
+    
+                                        $('.projects-container').append(
+                                            `
+                                        <article class="project-item ">
+                                <a href="images\\phases\\1.jpg" class="popup">
+                                    <figure>
+                                        
+                                        <figcaption>
+                                            <div class="caption-wrap">
+                                                <div class="actions">
+                                                    <h3>${p[key]["title"]}: ${p[key]["count"]} исследований</h3>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                                
+                            </article>
+                                        `
+                                        )
+                                    }
+                                }
+                            }
+                            if(selectedFile === 2) {
+                                for (var key in selectedPhases) {
+                                    let p = selectedPhases
+                                    if (selectedPhases.hasOwnProperty(key)) {
+                                        $('.projects-container').append(
+                                            `
+                                        <article class="project-item ">
+                                <a href="images\\phases\\1.jpg" class="popup">
+                                    <figure>
+                                        
+                                        <figcaption>
+                                            <div class="caption-wrap">
+                                                <div class="actions">
+                                                    <h3>${p[key]["title"]}: ${p[key]["count"]} исследований</h3>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </article>
+                                        `)
+                                    }
+                                }
+                            // }
+    
+                        }
+                    }
+                    console.log(selectedPhases);
+                }
+    
+                
+    
+                // Обработчик изменения значения в радиокнопках для заболеваний
+                $(document).on('change', 'input[name=diseaseRadio]', function () {
+                    let selectedDisease = $(this).val();
+                    let selectedYear = $('input[name=yearRadio]:checked').val();
+                    update(selectedDisease, selectedYear);
+                });
+    
+                // Обработчик изменения значения в радиокнопках для годов
+                $(document).on('change', 'input[name=yearRadio]', function () {
+                    let selectedDisease = $('input[name=diseaseRadio]:checked').val();
+                    let selectedYear = $(this).val();
+                    update(selectedDisease, selectedYear);
+                });
+    
+                $(document).on('click', '.control-btn-disease', function() {
+                    document.querySelectorAll('.control-btn-disease').forEach(btn => {
+                        btn.classList.remove('active')
+                    })
+                    $(this).addClass('active')
+                })
+    
+                $(document).on('click', '.control-btn-years', function() {
+                    document.querySelectorAll('.control-btn-years').forEach(btn => {
+                        btn.classList.remove('active')
+                    })
+                    $(this).addClass('active')
+                })
+            </script>
+
         </div>
 	</body>
 </html>

@@ -195,7 +195,7 @@ jQuery(document).ready(function($) {
 		 items:1,
 		 margin:0,
 		 loop:true,
-		 autoplay:true,
+		//  autoplay:true,
 		 autoplayTimeout:5000,
 		 autoplayHoverPause:false,
 		 dots: false,
@@ -266,9 +266,15 @@ jQuery(document).ready(function($) {
 		 MIXITUP PORTFOLIO
 	 =============================================== */	
 	 //Mixitup
-	 $(function(){
-		 $('.home-projects').mixItUp();  
+
+	 var containerEl = document.querySelector('.projects-container');
+
+	 var mixer = mixitup(containerEl, {
+		 controls: {
+			 toggleLogic: 'and'
+		 }
 	 });
+
 	 
 	 /* ==============================================
 		 MAGNIFIC POPUP
