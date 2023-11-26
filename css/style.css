@@ -231,6 +231,7 @@ color:#a94442;
 cursor: pointer;
 padding:7px 25px;
 text-decoration:none;
+margin-right: 10px;
 }
 .control-btn.active {
   display: block;
@@ -1160,6 +1161,7 @@ margin-bottom:5px;
     background: linear-gradient(rgba(85, 133, 181, 0.7), rgba(85, 133, 181, 0.7)), url(../images/phases/1.jpg);
     background-position: center;
     background-size: cover;
+    margin-right: 10px;
     }
   
   .project-item figcaption:hover {
