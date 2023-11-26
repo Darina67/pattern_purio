@@ -2211,7 +2211,7 @@ i.fa{
 .column-wrapper{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 .column{
   max-width: 350px;
