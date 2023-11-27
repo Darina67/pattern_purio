@@ -1827,17 +1827,23 @@
                 // Функция для добавления радиокнопок для заболеваний
                 function populateRadioButtonsForDiseases(diseases) {
                     var container = $('#diseaseButtons');
-                    container.empty(); 
-
-                    
+                    container.empty();
+    
+    
     
                     // Добавляем радиокнопки для каждого заболевания
                     $.each(diseases, function (index, disease) {
+                        let checked
+                        if (index === 0) {
+                            checked = true
+                        } else {
+                            checked = false
+                        }
                         container.append($(
-                        `<label class="control-btn-disease control-btn"> 
-                            ${disease.name}
-                           <input type="radio" name="diseaseRadio" id="diseaseRadio${index}" value="${disease.name}" />
-                        </label>`
+                            `<label class="control-btn-disease control-btn ${checked ? 'active' : ''}"> 
+                                ${disease.name}
+                               <input type="radio" name="diseaseRadio" id="diseaseRadio${index}" value="${disease.name}" />
+                            </label>`
                         ))
                         // container.append($('<input>', {
                         //     type: 'radio',
@@ -1859,11 +1865,16 @@
     
                     // Добавляем радиокнопки для каждого года
                     $.each(years, function (index, year) {
+                        if (index === 0) {
+                            checked = true
+                        } else {
+                            checked = false
+                        }
                         container.append($(
-                        `<label class="control-btn control-btn-years"> 
-                            ${year}
-                           <input type="radio" name="yearRadio" id="yearRadio${index}" value="${year}" />
-                        </label>`
+                            `<label class="control-btn control-btn-years ${checked ? 'active' : ''}"> 
+                                ${year}
+                               <input type="radio" name="yearRadio" id="yearRadio${index}" value="${year}" />
+                            </label>`
                         ))
                         // container.append($('<input>', {
                         //     type: 'radio',
@@ -1885,7 +1896,7 @@
                     populateRadioButtonsForYears(years)
                     update("Все", years[0]); // Update with "All" disease and the first year (you can adjust this based on your needs)
                 });
-
+    
     
                 function update(selectedDisease, selectedYear) {
                     // Ищем заболевание во втором файле
@@ -1896,113 +1907,203 @@
                     // Если нашли соответствие, используем данные из второго файла, иначе используем данные из первого файла
                     var selectedPhases = matchingDisease ? matchingDisease.phases[selectedYear] : file1.find(item => item.name === selectedDisease);
                     var selectedFile = matchingDisease ? 2 : 1;
-    
-                    
-                    
-    
-                    // Выводим результат в консоль (вместо этого вы можете использовать данные как вам угодно)
-                    $(".projects-container").html('')
-                    if (selectedPhases) {
-                        // if (selectedPhases.phases) {
+                        $('.projects-container').html('');
+                        if (selectedPhases) {
                             if (selectedFile === 1) {
+                                // Loop through selectedPhases and append content with fadeIn effect
                                 for (var key in selectedPhases.phases) {
                                     let p = selectedPhases.phases
-                                    if (p.hasOwnProperty(key)) {
-                                        if(p[key]["title"] == "I"){
-                                            $imgPath = "images\\phases\\1.png";
-                                            $backgroundimg = "images/phases/1.png";
-                                        } 
-                                        if(p[key]["title"] == "II"){
-                                            $imgPath = "images\\phases\\2.png";
-                                            $backgroundimg = "images/phases/2.png";
-
-                                        } 
-                                        if(p[key]["title"] == "III"){
-                                            $imgPath = "images\\phases\\3.png";
-                                            $backgroundimg = "images/phases/3.png";
-
-                                        } 
-                                        if(p[key]["title"] == "IV"){
-                                            $imgPath = "images\\phases\\4.png";
-                                            $backgroundimg = "images/phases/4.png";
-
-                                        } 
+                            if (p.hasOwnProperty(key)) {
+                                if (p[key]["title"] == "I") {
+                                    $imgPath = "images\\phases\\1.png";
+                                    $backgroundimg = "images/phases/1.png";
+                                }
+                                if (p[key]["title"] == "II") {
+                                    $imgPath = "images\\phases\\2.png";
+                                    $backgroundimg = "images/phases/2.png";
     
-                                        $('.projects-container').append(
-                                            `
-                                        <article class="project-item ">
-                                <a href="${$imgPath}" class="popup">
-                                    <figure>
-                                        
-                                        <figcaption style="background: linear-gradient(rgba(85, 133, 181, 0.7), rgba(85, 133, 181, 0.7)), url(${$backgroundimg});     background-position: center; background-size: cover;">
-                                            <div class="caption-wrap">
-                                                <div class="actions">
-                                                    <h3>${p[key]["title"]}: ${p[key]["count"]} исследований</h3>
-                                                </div>
-                                            </div>
-                                        </figcaption>
-                                    </figure>
-                                </a>
-                                
-                            </article>
-                                        `
-                                        )
-                                    }
+                                }
+                                if (p[key]["title"] == "III") {
+                                    $imgPath = "images\\phases\\3.png";
+                                    $backgroundimg = "images/phases/3.png";
+    
+                                }
+                                if (p[key]["title"] == "IV") {
+                                    $imgPath = "images\\phases\\4.png";
+                                    $backgroundimg = "images/phases/4.png";
+    
                                 }
                             }
-                            if(selectedFile === 2) {
+    
+                            $('.projects-container').append(`
+                                            <article class="project-item ">
+                                    <a href="${$imgPath}" class="popup">
+                                        <figure>
+                                            
+                                            <figcaption style="background: linear-gradient(rgba(85, 133, 181, 0.7), rgba(85, 133, 181, 0.7)), url(${$backgroundimg});     background-position: center; background-size: cover;">
+                                                <div class="caption-wrap">
+                                                    <div class="actions">
+                                                        <h3>${p[key]["title"]}: ${p[key]["count"]} исследований</h3>
+                                                    </div>
+                                                </div>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                    
+                                </article>
+                                            `).hide().fadeIn(400);
+                                }
+                            } else if (selectedFile === 2) {
+                                // Loop through selectedPhases and append content with fadeIn effect
                                 for (var key in selectedPhases) {
                                     let p = selectedPhases
-                                    if (selectedPhases.hasOwnProperty(key)) {
-                                        if(p[key]["title"] == "I"){
-                                            $imgPath = "images\\phases\\1.png";
-                                            $backgroundimg = "images/phases/1.png";
-
-                                        } 
-                                        if(p[key]["title"] == "II"){
-                                            $imgPath = "images\\phases\\2.png";
-                                            $backgroundimg = "images/phases/2.png";
-
-                                        } 
-                                        if(p[key]["title"] == "III"){
-                                            $imgPath = "images\\phases\\3.png";
-                                            $backgroundimg = "images/phases/3.png";
-
-                                        } 
-                                        if(p[key]["title"] == "IV"){
-                                            $imgPath = "images\\phases\\4.png";
-                                            $backgroundimg = "images/phases/4.png";
-
-                                        } 
-                                        $('.projects-container').append(
-                                            `
-                                        <article class="project-item">
-                                <a href="${$imgPath}" class="popup">
-                                    <figure>
-                                        
-                                        <figcaption style="background: linear-gradient(rgba(85, 133, 181, 0.7), rgba(85, 133, 181, 0.7)), url(${$backgroundimg});     background-position: center; background-size: cover;">
-                                            <div class="caption-wrap">
-                                                <div class="actions">
-                                                    <h3>${p[key]["title"]}: ${p[key]["count"]} исследований</h3>
-                                                </div>
-                                            </div>
-                                        </figcaption>
-                                    </figure>
-                                </a>
-                            </article>
-                                        `)
-                                    }
+                            if (selectedPhases.hasOwnProperty(key)) {
+                                if (p[key]["title"] == "I") {
+                                    $imgPath = "images\\phases\\1.png";
+                                    $backgroundimg = "images/phases/1.png";
+    
                                 }
-                            // }
+                                if (p[key]["title"] == "II") {
+                                    $imgPath = "images\\phases\\2.png";
+                                    $backgroundimg = "images/phases/2.png";
     
+                                }
+                                if (p[key]["title"] == "III") {
+                                    $imgPath = "images\\phases\\3.png";
+                                    $backgroundimg = "images/phases/3.png";
+    
+                                }
+                                if (p[key]["title"] == "IV") {
+                                    $imgPath = "images\\phases\\4.png";
+                                    $backgroundimg = "images/phases/4.png";
+    
+                                }
+      
+                            }
+                        
+    
+                            $('.projects-container').append( `
+                                            <article class="project-item">
+                                    <a href="${$imgPath}" class="popup">
+                                        <figure>
+                                            
+                                            <figcaption style="background: linear-gradient(rgba(85, 133, 181, 0.7), rgba(85, 133, 181, 0.7)), url(${$backgroundimg});     background-position: center; background-size: cover;">
+                                                <div class="caption-wrap">
+                                                    <div class="actions">
+                                                        <h3>${p[key]["title"]}: ${p[key]["count"]} исследований</h3>
+                                                    </div>
+                                                </div>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </article>
+                                            `).hide().fadeIn(400);
+                                }
+                            }
                         }
-                    }
-                    console.log(selectedPhases);
+                    
+                
                 }
-
+                // // Выводим результат в консоль (вместо этого вы можете использовать данные как вам угодно)
+                // $(".projects-container").html('')
+                // if (selectedPhases) {
+                //     // if (selectedPhases.phases) {
+                //     if (selectedFile === 1) {
+                //         for (var key in selectedPhases.phases) {
+                //             let p = selectedPhases.phases
+                //             if (p.hasOwnProperty(key)) {
+                //                 if (p[key]["title"] == "I") {
+                //                     $imgPath = "images\\phases\\1.png";
+                //                     $backgroundimg = "images/phases/1.png";
+                //                 }
+                //                 if (p[key]["title"] == "II") {
+                //                     $imgPath = "images\\phases\\2.png";
+                //                     $backgroundimg = "images/phases/2.png";
+    
+                //                 }
+                //                 if (p[key]["title"] == "III") {
+                //                     $imgPath = "images\\phases\\3.png";
+                //                     $backgroundimg = "images/phases/3.png";
+    
+                //                 }
+                //                 if (p[key]["title"] == "IV") {
+                //                     $imgPath = "images\\phases\\4.png";
+                //                     $backgroundimg = "images/phases/4.png";
+    
+                //                 }
+    
+                //                 $('.projects-container').append(
+                //                     `
+                //                             <article class="project-item ">
+                //                     <a href="${$imgPath}" class="popup">
+                //                         <figure>
+                                            
+                //                             <figcaption style="background: linear-gradient(rgba(85, 133, 181, 0.7), rgba(85, 133, 181, 0.7)), url(${$backgroundimg});     background-position: center; background-size: cover;">
+                //                                 <div class="caption-wrap">
+                //                                     <div class="actions">
+                //                                         <h3>${p[key]["title"]}: ${p[key]["count"]} исследований</h3>
+                //                                     </div>
+                //                                 </div>
+                //                             </figcaption>
+                //                         </figure>
+                //                     </a>
+                                    
+                //                 </article>
+                //                             `
+                //                 )
+                //             }
+                //         }
+                //     }
+                //     if (selectedFile === 2) {
+                //         for (var key in selectedPhases) {
+                //             let p = selectedPhases
+                //             if (selectedPhases.hasOwnProperty(key)) {
+                //                 if (p[key]["title"] == "I") {
+                //                     $imgPath = "images\\phases\\1.png";
+                //                     $backgroundimg = "images/phases/1.png";
+    
+                //                 }
+                //                 if (p[key]["title"] == "II") {
+                //                     $imgPath = "images\\phases\\2.png";
+                //                     $backgroundimg = "images/phases/2.png";
+    
+                //                 }
+                //                 if (p[key]["title"] == "III") {
+                //                     $imgPath = "images\\phases\\3.png";
+                //                     $backgroundimg = "images/phases/3.png";
+    
+                //                 }
+                //                 if (p[key]["title"] == "IV") {
+                //                     $imgPath = "images\\phases\\4.png";
+                //                     $backgroundimg = "images/phases/4.png";
+    
+                //                 }
+                //                 $('.projects-container').append(
+                //                     `
+                //                             <article class="project-item">
+                //                     <a href="${$imgPath}" class="popup">
+                //                         <figure>
+                                            
+                //                             <figcaption style="background: linear-gradient(rgba(85, 133, 181, 0.7), rgba(85, 133, 181, 0.7)), url(${$backgroundimg});     background-position: center; background-size: cover;">
+                //                                 <div class="caption-wrap">
+                //                                     <div class="actions">
+                //                                         <h3>${p[key]["title"]}: ${p[key]["count"]} исследований</h3>
+                //                                     </div>
+                //                                 </div>
+                //                             </figcaption>
+                //                         </figure>
+                //                     </a>
+                //                 </article>
+                //                             `)
+                //             }
+                        
+                        
+    
+                //     }
+                // }
+                // console.log(selectedPhases);
                 
     
-                
     
                 // Обработчик изменения значения в радиокнопках для заболеваний
                 $(document).on('change', 'input[name=diseaseRadio]', function () {
@@ -2018,14 +2119,14 @@
                     update(selectedDisease, selectedYear);
                 });
     
-                $(document).on('click', '.control-btn-disease', function() {
+                $(document).on('click', '.control-btn-disease', function () {
                     document.querySelectorAll('.control-btn-disease').forEach(btn => {
                         btn.classList.remove('active')
                     })
                     $(this).addClass('active')
                 })
     
-                $(document).on('click', '.control-btn-years', function() {
+                $(document).on('click', '.control-btn-years', function () {
                     document.querySelectorAll('.control-btn-years').forEach(btn => {
                         btn.classList.remove('active')
                     })
