@@ -1828,6 +1828,8 @@
                 function populateRadioButtonsForDiseases(diseases) {
                     var container = $('#diseaseButtons');
                     container.empty(); 
+
+                    
     
                     // Добавляем радиокнопки для каждого заболевания
                     $.each(diseases, function (index, disease) {
@@ -1881,6 +1883,7 @@
                     // Используем данные из первого файла по умолчанию
                     populateRadioButtonsForDiseases(file1);
                     populateRadioButtonsForYears(years)
+                    update("Все", years[0]); // Update with "All" disease and the first year (you can adjust this based on your needs)
                 });
     
                 function update(selectedDisease, selectedYear) {
@@ -1955,6 +1958,8 @@
                     }
                     console.log(selectedPhases);
                 }
+
+                
     
                 
     
