@@ -1835,16 +1835,21 @@
                     $.each(diseases, function (index, disease) {
                         let checked
                         if (index === 0) {
-                            checked = true
+                            container.append($(
+                            `<label class="control-btn-disease control-btn active"> 
+                                ${disease.name}
+                               <input checked type="radio" name="diseaseRadio" id="diseaseRadio${index}" value="${disease.name}" />
+                            </label>`
+                        ))
                         } else {
-                            checked = false
-                        }
-                        container.append($(
-                            `<label class="control-btn-disease control-btn ${checked ? 'active' : ''}"> 
+                            container.append($(
+                            `<label class="control-btn-disease control-btn"> 
                                 ${disease.name}
                                <input type="radio" name="diseaseRadio" id="diseaseRadio${index}" value="${disease.name}" />
                             </label>`
                         ))
+                        }
+                        
                         // container.append($('<input>', {
                         //     type: 'radio',
                         //     name: 'diseaseRadio',
@@ -1951,7 +1956,7 @@
                                     </a>
                                     
                                 </article>
-                                            `).hide().fadeIn(400);
+                                            `).hide().fadeIn(200);
                                 }
                             } else if (selectedFile === 2) {
                                 // Loop through selectedPhases and append content with fadeIn effect
@@ -1997,7 +2002,7 @@
                                         </figure>
                                     </a>
                                 </article>
-                                            `).hide().fadeIn(400);
+                                            `).hide().fadeIn(200);
                                 }
                             }
                         }
