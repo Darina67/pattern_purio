@@ -205,6 +205,9 @@ jQuery(document).ready(function($) {
 	 
 	 $("#quote-slider").owlCarousel({
 		   items: 1,
+		   loop:true,
+		   autoplay:true,
+		   autoplayTimeout:15000,
 	   });
 	 
 	 $("#clients-slider").owlCarousel({

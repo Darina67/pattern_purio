@@ -1370,6 +1370,9 @@ font-size:30px;
 line-height:30px;
 margin-right:10px;
 }
+#more-features .btn{
+  margin-left: 20px;
+}
 
 .more-features-box {
 padding:35px 20px;
@@ -2027,6 +2030,7 @@ color:#fff;
 #contact-section h4 {
 font-size:25px;
 }
+
 
 #contact-section i {
 font-size:25px;
