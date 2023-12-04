@@ -112,6 +112,9 @@ margin:0 auto;
 text-align:center;
 width:60px;
 }
+span.fs-24{
+  font-size: 24px;
+}
 
 .flexslider {
 background:transparent;
@@ -1415,14 +1418,14 @@ width:100%;
 }
 
 #timeline ul.timeline li.note {
+  display: flex;
+  align-items: center;
 -moz-transition:all .3s;
 -webkit-transition:all .3s;
 background:#FFF;
-cursor:pointer;
 float:right;
 margin:35px 0;
 min-height:100px;
-padding:14px 14px 0;
 position:relative;
 text-align:left;
 transition:all .3s;
