@@ -900,6 +900,12 @@ justify-content: space-between;
 .services-box {
 padding:35px 20px;
 text-align:center;
+min-height: 500px;
+}
+.services-box a.btn{
+  position: absolute;
+  bottom: 0;
+  left: 39%;
 }
 .services-box p{
   /* text-align: left; */
