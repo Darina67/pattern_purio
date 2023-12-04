@@ -130,6 +130,10 @@ span.rf{
   font-style: italic;
   font-weight: bold;
 }
+span.orng-itlc{
+  color: #FF7400;
+  font-style: italic;
+}
 
 /* BS Buttons */
 .btn {
