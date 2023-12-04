@@ -779,7 +779,7 @@ z-index: 100;
   margin: 0 auto;
 }
 .caption-p.first-slide{
- padding-top: 160px;
+ padding-top: 130px;
 }
 .slide-caption {
 margin: 0 auto;
@@ -789,7 +789,7 @@ display: flex;
 }
 
 .slide-caption h1 {
-color:#fff;
+color:#FF7400;
 font-size:85px;
 font-weight:800;
 letter-spacing:2px;
