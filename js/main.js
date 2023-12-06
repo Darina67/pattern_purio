@@ -235,27 +235,27 @@ jQuery(document).ready(function($) {
 	   });
 	
   
-   $("#blog-slider").owlCarousel({
-	   dots:true,
-	   nav: false,
-	   responsive:{
-			 0:{
-			   items:1
-			 },
-			 420:{
-			   items:2
-			 },
-			 768:{
-			   items:3
-			 },
-			 1400: {
-				 items:5
-			 },
-			 1600: {
-				 items:6
-			 }
-		 }
-	   });
+//    $("#blog-slider").owlCarousel({
+// 	   dots:true,
+// 	   nav: false,
+// 	   responsive:{
+// 			 0:{
+// 			   items:1
+// 			 },
+// 			 420:{
+// 			   items:2
+// 			 },
+// 			 768:{
+// 			   items:3
+// 			 },
+// 			 1400: {
+// 				 items:5
+// 			 },
+// 			 1600: {
+// 				 items:6
+// 			 }
+// 		 }
+// 	   });
 	 
 	  /* ==============================================
 		 TOOLTIP
