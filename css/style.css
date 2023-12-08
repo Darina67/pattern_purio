@@ -1166,8 +1166,6 @@ margin-bottom:5px;
     transition:all ease .5s;
 }
 
-
-
   .project-item figcaption {
     -moz-backface-visibility:hidden;
     -moz-transition:all .3s;
@@ -2359,6 +2357,27 @@ vertical-align:middle;
 .socials li:hover {
 background:#93A7D1;
 border:1px solid #93A7D1;
+}
+
+/*cookies*/
+.cookie-message {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 10000;
+}
+
+#agree-button {
+  background-color: #ff7400;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
 }
 
 @media (min-width: 1200px){

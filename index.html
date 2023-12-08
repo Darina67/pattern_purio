@@ -1689,6 +1689,10 @@
                 </div>
                     <!-- Copyright -->
                 </footer>
+                <div id="cookie-message" class="cookie-message">
+                    <p>Наш сайт использует файлы cookie, чтобы улучшить работу сайта, повысить его эффективность и удобство. Продолжая использовать сайт keystat.ru, вы соглашаетесь на использование файлов cookie.</p>
+                    <button id="agree-button">Соглашаюсь</button>
+                </div>
             <!-- Footer -->
         	<!-- end footer -->
       		<!-- CORE JAVASCRIPTS -->  
@@ -1790,6 +1794,24 @@
                     populateRadioButtonsForDiseases(file1);
                     populateRadioButtonsForYears(years);
                     update("Все области", years[0]);
+
+                    /*cookie*/
+                    var cookieMessage = document.getElementById('cookie-message');
+                    var agreeButton = document.getElementById('agree-button');
+
+                    // Check if the user has already agreed (using localStorage)
+                    if (localStorage.getItem('cookie-agreed')) {
+                        cookieMessage.style.display = 'none';
+                    }
+
+                    // Set the click event for the "Agree" button
+                    agreeButton.addEventListener('click', function () {
+                        cookieMessage.style.display = 'none';
+
+                        // Set a flag in localStorage to remember user's choice
+                        localStorage.setItem('cookie-agreed', 'true');
+                    });
+
                 });
     
     
