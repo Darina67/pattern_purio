@@ -169,19 +169,7 @@ jQuery(document).ready(function($) {
 		 triggerOnce: true
 	 });
 		
-	/* ==============================================
-		 BUTTON TO TOP
-	 =============================================== */	
-	 // fade in #back-top
-	 $(function () {
-		 // scroll body to 0px on click
-		 $('#back-top').click(function () {
-			 $('body,html').animate({
-				 scrollTop: 0
-			 }, 3000);
-			 return false;
-		 });
-	 });
+
 	 
 	 /* ==============================================
 		 OWL CAROUSEL
@@ -301,20 +289,19 @@ jQuery(document).ready(function($) {
 	 }
  
 	 
-	 /* ==============================================
-		 NAV
-	 =============================================== */	
-	 $("#nav").sticky({
-		 topSpacing: 0
-	 });
-	 
-	 $('.home-nav').onePageNav({
-		 scrollSpeed: 1200,
-		 currentClass: 'active',
-		 changeHash: true,
-		 filter: ':not(.external)'
-	 });
-	 
+		/* ==============================================
+		NAV
+	=============================================== */	
+	$("#nav").sticky({
+		topSpacing: 0
+	});
+	
+	$('.home-nav').onePageNav({
+		scrollSpeed: 1200,
+		currentClass: 'active',
+		changeHash: true,
+	});
+	
  });
  //End Document.ready
  
