@@ -1151,19 +1151,34 @@ margin-bottom:5px;
   margin-top:20%;
   }
 
-  .project-item:hover .hover-info {
-    display: block;
-    transition:all ease .5s;
+  .project-item {
+    position: relative;
+    overflow: hidden; /* Обеспечивает скрытие части дочерних элементов, которые выходят за пределы .project-item */
 }
 
 .project-item:hover .unhover-info {
-  top: -40%;
-  transition:all ease .5s;
+    transform: translateY(-500%);
+    transition: transform ease .5s;
 }
 
-.hover-info {
-    display: none;
-    transition:all ease .5s;
+.project-item .hover-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+
+    background-position: center;
+    background-size: cover;
+    transition: opacity ease .5s;
+}
+
+.project-item:hover .hover-info {
+    opacity: 1;
 }
 
   .project-item figcaption {
