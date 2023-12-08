@@ -175,19 +175,32 @@ jQuery(document).ready(function($) {
 		 OWL CAROUSEL
 	 =============================================== */
 	 
-	 $("#slides ul").owlCarousel({
-		 animateOut: 'fadeOut',
-		 animateIn: 'fadeIn',
-		 items:1,
-		 margin:0,
-		 loop:true,
-		 autoplay:true,
-		 autoplayTimeout:5000,
-		 autoplayHoverPause:false,
-		 dots: true,
-		 stagePadding:0,
-		 smartSpeed:1000,
-	 });
+			// Инициализация слайдера и сохранение ссылки на него
+			var slider = $("#slides ul").owlCarousel({
+				animateOut: 'fadeOut',
+				animateIn: 'fadeIn',
+				items: 1,
+				margin: 0,
+				loop: true,
+				autoplay: true,
+				autoplayTimeout: 5000,
+				autoplayHoverPause: false,
+				dots: true,
+				stagePadding: 0,
+				smartSpeed: 1000,
+			});
+
+			// Функция для перехода на первый слайд
+			function goToFirstSlide() {
+				slider.trigger('to.owl.carousel', 0);
+			}
+
+			// Обработчик события клика на ссылку "Главная"
+			$('li.active a[href="#slides"]').on('click', function(event) {
+				event.preventDefault();
+				goToFirstSlide();
+				// Здесь можете добавить другие действия, если необходимо
+			});
 	 
 	 $("#quote-slider").owlCarousel({
 		   items: 1,

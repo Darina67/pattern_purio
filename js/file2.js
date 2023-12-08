@@ -4,49 +4,49 @@ var file2 = [
         phases: {
             2002: [
                 {
-                title: "IV/NIS",
+                title: "IV",
                 count: 2
                 }
             ],
             2003: [
                 {
-                title: "IV/NIS",
+                title: "IV",
                 count: 3
                 }
             ],
             2004: [
                 {
-                title: "IV/NIS",
+                title: "IV",
                 count: 3
                 }
             ],
             2005: [
                 {
-                title: "IV/NIS",
+                title: "IV",
                 count: 1
                 }
             ],
             2006: [
                 {
-                title: "IV/NIS",
+                title: "IV",
                 count: 4
                 }
             ],
             2007: [
                 {
-                title: "IV/NIS",
+                title: "IV",
                 count: 1
                 }
             ],
             2008: [
                 {
-                title: "IV/NIS",
+                title: "IV",
                 count: 5
                 }
             ],
             2009: [
                 {
-                title: "IV/NIS",
+                title: "IV",
                 count: 2
                 }
             ],
@@ -56,7 +56,7 @@ var file2 = [
             ],
             2012: [
                 {
-                title: "IV/NIS",
+                title: "IV",
                 count: 1
                 }
             ],
@@ -68,7 +68,7 @@ var file2 = [
                 count: 2
                 },
                 {
-                title: "IV/NIS",
+                title: "IV",
                 count: 1
                 }
             ],
@@ -252,7 +252,7 @@ var file2 = [
                 count: 1
                 },
                 {
-                title: "IV/NIS",
+                title: "IV",
                 count: 2
                 }
             ],
@@ -348,13 +348,13 @@ var file2 = [
             ],
             2009: [
                 {
-                title: "IV/NIS",
+                title: "IV",
                 count: 1
                 }
             ],
             2010: [
                 {
-                title: "IV/NIS",
+                title: "IV",
                 count: 1
                 }
             ],
@@ -382,13 +382,13 @@ var file2 = [
             ],
             2018: [
                 {
-                title: "IV/NIS",
+                title: "IV",
                 count: 1
                 }
             ],
             2019: [
                 {
-                title: "IV/NIS",
+                title: "IV",
                 count: 1
                 }
             ],
@@ -431,7 +431,7 @@ var file2 = [
             ],
             2011: [
                 {
-                title: "IV/NIS",
+                title: "IV",
                 count: 1
                 }
             ],
@@ -443,7 +443,7 @@ var file2 = [
             ],
             2015: [
                 {
-                title: "IV/NIS",
+                title: "IV",
                 count: 1
                 }
             ],
@@ -502,13 +502,13 @@ var file2 = [
             ],
             2012: [
                 {
-                title: "IV/NIS",
+                title: "IV",
                 count: 1
                 }
             ],
             2013: [
                 {
-                title: "IV/NIS",
+                title: "IV",
                 count: 2
                 }
             ],
@@ -575,7 +575,7 @@ var file2 = [
                 count: 1
                 },
                 {
-                title: "IV/NIS",
+                title: "IV",
                 count: 1
                 }
             ],

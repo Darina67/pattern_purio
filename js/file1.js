@@ -1,6 +1,6 @@
 var file1 = [
     {
-        name: "Все",
+        name: "Все области",
         phases: {
             0: {
                 title: "I",
