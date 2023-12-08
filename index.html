@@ -1788,8 +1788,8 @@
                 $(document).ready(function () {
                     // Используем данные из первого файла по умолчанию
                     populateRadioButtonsForDiseases(file1);
-                    populateRadioButtonsForYears(years)
-                    update("Все", years[0]); // Update with "All" disease and the first year (you can adjust this based on your needs)
+                    populateRadioButtonsForYears(years);
+                    update("Все области", years[0]);
                 });
     
     
@@ -1797,6 +1797,7 @@
                     // Ищем заболевание во втором файле
                     var matchingDisease = file2.find(function (item) {
                         return item.phases[selectedYear] && item.name === selectedDisease;
+
                     });
     
                     // Если нашли соответствие, используем данные из второго файла, иначе используем данные из первого файла
@@ -1875,8 +1876,6 @@
                                 }
       
                             }
-                        
-    
                             $('.projects-container').append( `
                                             <article class="project-item">
                                     <a href="${$imgPath}" class="popup">
@@ -1885,7 +1884,8 @@
                                             <figcaption style="background: linear-gradient(rgba(85, 133, 181, 0.7), rgba(85, 133, 181, 0.7)), url(${$backgroundimg});     background-position: center; background-size: cover;">
                                                 <div class="caption-wrap">
                                                     <div class="actions">
-                                                        <h3><b>Фаза: </b>${p[key]["title"]}<br>Число исследований: ${p[key]["count"]}</h3>
+                                                        <h3 class="unhover-info"><b>Фаза: </b>${p[key]["title"]}<br>Число исследований: ${p[key]["count"]}</h3>
+                                                        <h3 class="hover-info"><b>${selectedDisease}<br>${selectedYear}</h3>
                                                     </div>
                                                 </div>
                                             </figcaption>

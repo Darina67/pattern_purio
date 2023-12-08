@@ -1151,6 +1151,23 @@ margin-bottom:5px;
   margin-top:20%;
   }
 
+  .project-item:hover .hover-info {
+    display: block;
+    transition:all ease .5s;
+}
+
+.project-item:hover .unhover-info {
+  top: -40%;
+  transition:all ease .5s;
+}
+
+.hover-info {
+    display: none;
+    transition:all ease .5s;
+}
+
+
+
   .project-item figcaption {
     -moz-backface-visibility:hidden;
     -moz-transition:all .3s;
@@ -1196,14 +1213,14 @@ margin-bottom:5px;
   color:#fff;
   cursor:auto;
   position:absolute;
-  top:0;
+  top:40%;
   transition:all ease .5s;
   width:100%;
   }
   
-  .project-item:hover h3 {
-  top:40%;
-  }
+  /* .project-item:hover h3 {
+    top:-40%;
+  } */
 
 /*
 * FEATURES SECTION
