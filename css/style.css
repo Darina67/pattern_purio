@@ -814,7 +814,7 @@ text-transform:uppercase;
 line-height: 1.4;
 }
 #slides .owl-controls {
-    top:40%;
+   bottom: 10%;
     position: absolute;
     width: 100%;
 }

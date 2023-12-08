@@ -176,17 +176,15 @@ jQuery(document).ready(function($) {
 	 =============================================== */
 	 
 	 $("#slides ul").owlCarousel({
-		 navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
-		 nav: true,
-		   animateOut: 'fadeOut',
-		   animateIn: 'fadeIn',
+		 animateOut: 'fadeOut',
+		 animateIn: 'fadeIn',
 		 items:1,
 		 margin:0,
 		 loop:true,
 		 autoplay:true,
 		 autoplayTimeout:5000,
 		 autoplayHoverPause:false,
-		 dots: false,
+		 dots: true,
 		 stagePadding:0,
 		 smartSpeed:1000,
 	 });
