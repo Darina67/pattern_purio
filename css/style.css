@@ -2445,6 +2445,9 @@ right: -12.3%;
 .navbar-nav.navbar-right:last-child {
 margin-right: 0;
 }
+.about-wrapper{
+  justify-content: center;
+}
 
 }
 
@@ -2578,6 +2581,19 @@ display:none;
 footer #back-top {
 left:46%;
 }
+.about-wrapper{
+  justify-content: center;
+}
+.slide-caption h1{
+  font-size: 56px;
+  margin:0 auto 35px auto;
+}
+img.keystat-logo.pl-media{
+  width: 400px;
+}
+.caption-wrapper{
+  top: 17%;
+}
 
 }
 
@@ -2636,6 +2652,9 @@ form{
 .column-wrapper{
   display: grid;
   justify-content: center;
+}
+.slide-caption h1{
+  font-size: 56px;
 }
 
 
@@ -3204,5 +3223,8 @@ img.mfp-img {
 @media (min-width: 992px) {
   .col-md-4{
     width:43.333333333333%;
+  }
+  .about-wrapper{
+    justify-content: center;
   }
 }
