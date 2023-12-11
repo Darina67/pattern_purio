@@ -2752,6 +2752,12 @@ iframe.map{
   .services-box a.btn{
     left: 35%;
   }
+  .caption-p.first-slide{
+    padding-top: 116px;
+  }
+  .a.btn.second-slide{
+    bottom: 25%;
+  }
 
 }
 
