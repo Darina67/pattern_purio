@@ -2697,6 +2697,10 @@ width:100%;
 .projects-container .project-item {
 margin-bottom: 20px;
 width:100%;
+padding: 12px;
+}
+.project-item figcaption{
+  margin-right: 0;
 }
 
 footer {
@@ -2758,6 +2762,7 @@ iframe.map{
   .a.btn.second-slide{
     bottom: 25%;
   }
+
 
 }
 
