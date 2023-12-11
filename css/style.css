@@ -2737,10 +2737,10 @@ iframe.map{
     padding-left: 15px;
   }
   .slide-caption .btn{
-    bottom: -415%;
+    bottom: -25%;
   }
   .slide-caption .btn.first-slide{
-    bottom: -420%;
+    bottom: -368%;
   }
   
   /* .controls{
