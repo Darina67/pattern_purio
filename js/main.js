@@ -182,7 +182,7 @@ jQuery(document).ready(function($) {
 				items: 1,
 				margin: 0,
 				loop: true,
-				// autoplay: true,
+				autoplay: true,
 				autoplayTimeout: 5000,
 				autoplayHoverPause: false,
 				dots: true,
