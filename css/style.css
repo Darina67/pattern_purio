@@ -2767,6 +2767,12 @@ iframe.map{
   .a.btn.second-slide{
     bottom: 25%;
   }
+  #timeline ul.timeline li.note.animated.float-left:nth-of-type(2n+1):before{
+    left: 47%;
+    top: -19%;
+    border-right: none;
+    border-bottom: none;
+  }
 
 
 }
