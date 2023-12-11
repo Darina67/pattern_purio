@@ -1395,6 +1395,11 @@ background:transparent;
 #clients img{
 max-width:100%;   
 border: 1px solid #fff;
+padding-right: 10px;
+}
+#clients img.last-child{
+  padding-right: 0;
+  height: 106px;
 }
 
 
