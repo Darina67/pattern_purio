@@ -1409,14 +1409,9 @@ background:transparent;
 * CLIENTS
 * -------------------------------------------------- */   
 #clients img{ 
-width: 263px;
-height: 263px;
-}
-#clients .row.wrapper{
-  flex-wrap: nowrap
-}
-.container-clients{
-  width: ;
+width: 100%;
+height: 100%;
+object-fit: contain;
 }
 
 
@@ -2422,6 +2417,7 @@ border:1px solid #93A7D1;
 }
 
 @media (min-width: 1200px){
+  
 
 .projects-container .project-item{
 width:25%;
@@ -2458,6 +2454,7 @@ right: -12.3%;
   text-align: center;
   display: block;
 }
+
 
 }
 
@@ -2790,6 +2787,8 @@ iframe.map{
     border-right: none;
     border-bottom: none;
   }
+
+
 
 
 }
