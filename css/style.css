@@ -2454,6 +2454,10 @@ right: -12.3%;
   text-align: center;
   display: block;
 }
+#main-video{
+  width: 650px;
+  height: auto;
+}
 
 
 }
@@ -2467,6 +2471,9 @@ margin-right: 0;
 .about-wrapper{
   justify-content: center;
 }
+
+
+
 
 }
 
@@ -2612,6 +2619,10 @@ img.keystat-logo.pl-media{
 }
 .caption-wrapper{
   top: 17%;
+}
+#main-video{
+  width: 450px;
+  height: auto;
 }
 
 }
@@ -2788,7 +2799,10 @@ iframe.map{
     border-bottom: none;
   }
 
-
+  #main-video{
+    width: 350px;
+    height: auto;
+  }
 
 
 }
@@ -3243,7 +3257,10 @@ img.mfp-img {
     transform-origin: 100%; }
   .mfp-container {
     padding-left: 6px;
-    padding-right: 6px; } }
+    padding-right: 6px; 
+  }
+
+ }
 .mfp-ie7 .mfp-img {
   padding: 0; }
 .mfp-ie7 .mfp-bottom-bar {
@@ -3268,4 +3285,5 @@ img.mfp-img {
   .about-wrapper{
     justify-content: center;
   }
+
 }
