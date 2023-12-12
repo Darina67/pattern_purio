@@ -204,6 +204,18 @@
                             <h1 class="section-head">О <strong>компании</strong></h1>
                             <hr class="style" style="width:13%;">
                             <p>КОМПАНИЯ КЕЙСТАТ РАБОТАЕТ В ОБЛАСТИ КЛИНИЧЕСКИХ ИССЛЕДОВАНИЙ С 2002 ГОДА.</p>
+                            <div class="main-video">
+                            <div class="col-md-12 col-sm-6 col-xs-6 col-ts-12">
+                                <article class="animated" data-animation="fadeInLeft">
+                                    <figure class="image-container">
+                                        <video id="main-video" width="auto" height="auto" controls muted autoplay>
+                                            <source src="video\video_2.mp4" type="video/mp4">
+                                            Ваш браузер не поддерживает тег video.
+                                          </video>
+                                    </figure>
+                                </article>
+                            </div>
+                          </div>
                         </div>
                     </div>
                     <div class="row">
@@ -375,34 +387,6 @@
                 <!-- end container-->
             </section>
 
-            <section id="main-video" class="space">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-8 col-sm-offset-2 client-intro text-center">
-                            <h1 class="section-head">Промо<strong> ролик</strong></h1>
-                            <hr class="style" style="width:13%;">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio fuga pariatur, a quas iure, sit exercitationem quibusdam nobis totam est explicabo dolores? Qui doloremque asperiores fugiat delectus dolorem est provident?</p>
-                        </div>
-                     </div>
-                     <!--- end row -->
-                     <div class="row wrapper">
-                        <!-- col 3 -->
-                        <div class="col-md-6 col-sm-6 col-xs-6 col-ts-12">
-                            <article class="animated" data-animation="fadeInLeft">
-                                <figure class="image-container">
-                                    <a href="video\video_1.mp4" target="_blank">
-                                        <img alt="" class="img-responsive" src="images\videos-preview\1.png">
-                                        </a>
-                                </figure>
-                                <div class="info">
-                                    <h3>Обзор документов разлдела "Менеджмент данных" файла по клинического исследованию.</h3>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                </div>
-                <!-- end container-->
-            </section>
             <!-- end main video section-->
             <!-- portfolio section-->
             <section id="projects" class="space">
@@ -501,13 +485,13 @@
                             <div class="panel animated" data-animation="fadeInDown">
                                 <div class="panel-title">
                                     <h4>
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="collapsed">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="mixitup-control-active" aria-expanded="true">
                                             <span class="plus-square"></span>
                                         <h4 class="features h4">Управление сбором и обработкой данных
                                             (менеджмент данных)</h4></a>
                                     </h4>
                                 </div>
-                                <div id="collapse1" class="panel-collapse collapse">
+                                <div id="collapse1" class="panel-collapse collapse in">
                                     <div class="text">
                                         <ul class="main-list">
                                             <li class="list-unstyled"> Разработка макета электронной Индивидуальной Регистрационной Карты (эИРК)</li>
@@ -566,19 +550,56 @@
                                 </ul>
                                     </div>
                                 </div>
-                            </div>              
+                            </div>
                             <!-- accordion item -->
                             <div class="panel animated" data-animation="fadeInDown">
+                                <div class="panel-title">
+                                    <h4>
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse6" class="mixitup-control-active" aria-expanded="true">
+                                        <span class="plus-square"></span>
+                                            <h4 class="features h4">Электронная ИРК Visual Stat Expert</h4></a>
+                                    </h4>
+                                </div>
+                                <div id="collapse6" class="panel-collapse collapse in">
+                                    <div class="text">
+                                        <ul class="main-list">
+                                            <li class="list-unstyled"> Разработка и развёртывание эИРК исследования на платформе Visual Stat Expert</li>
+                                            <li class="list-unstyled"> Проект-специфичная настройка компонентов платформы:
+                                                <ul class="sub-list">
+                                                    <li class="list-unstyled"> Системы интерактивной онлайн рандомизации и функционала выдачи рандомизационных кодов (IWRS)</li>
+                                                    <li class="list-unstyled"> Системы экстренного разослепления группы терапии</li>
+                                                    <li class="list-unstyled"> Системы управления заказом, выдачей и возвратом исследуемых препаратов</li>
+                                                    <li class="list-unstyled"> Системы загрузки первичной документации</li>
+                                                    <li class="list-unstyled"> Отчётов и выгрузок данных для просмотра и анализа</li>
+                                                    <li class="list-unstyled"> E-mail оповещений</li>
+                                                </ul>
+                                            </li>
+                                            <li class="list-unstyled"> Разработка спецификации эИРК (описания Базы Данных), включая аннотированную ИРК</li>
+                                            <li class="list-unstyled"> Программирование функционала чистки данных (edit checks)</li>
+                                            <li class="list-unstyled"> Настройка функционала отложенной валидации данных (batch validation)</li>
+                                            <li class="list-unstyled"> Организация удаленного ввода данных (ежедневное резервное копирование на локальный и удаленный ресурс, программное обслуживание системы для бесперебойного функционирования, тестирование процедуры аварийного восстановления системы и данных, управление доступами)</li>
+                                            <li class="list-unstyled"> Импортирование данных вендоров (центральная лаборатория, ЭКГ, и т.д.)</li>
+                                            <li class="list-unstyled"> Подготовка ИРК с итоговыми данными пациентов в дизайне согласованного макета; печать ИРК в формате .pdf.</li>
+                                            </ul>
+                                    </div>
+                                </div>
+                            </div>                 
+   
+                        </div>
+                        <!-- col 6 -->
+                        <div class="col-md-6">
+                        <!-- accordion item -->
+                        <div class="panel animated" data-animation="fadeInDown">
                             <div class="panel-title">
                                 <h4>
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="collapsed">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="mixitup-control-active" aria-expanded="true">
                                         <span class="plus-square"></span>
-                                      <h4 class="features h4">Медицинская статистика
+                                    <h4 class="features h4">Медицинская статистика
                                         (биостатистика)</h4></a>
                                 </h4>
                             </div>
-                            <div id="collapse2" class="panel-collapse collapse">
-                                <div class="text">
+                            <div id="collapse2" class="panel-collapse collapse in">
+                                <div class="text big-padding">
                                     <ul class="main-list">
                                         <li class="list-unstyled"> Расчёт и обоснование размера выборки клинического исследования</li>
                                         <li class="list-unstyled"> Разработка и написание статистической части Протокола клинического исследования</li>
@@ -629,54 +650,19 @@
                                     </ul>
                                 </div>
                             </div>
-                        </div>     
-                        </div>
-                        <!-- col 6 -->
-                        <div class="col-md-6">
+                        </div>  
+
 
                             <!-- accordion item -->
                             <div class="panel animated" data-animation="fadeInDown">
                                 <div class="panel-title">
                                     <h4>
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse6" class="collapsed">
-                                        <span class="plus-square"></span>
-                                          <h4 class="features h4">Электронная ИРК Visual Stat Expert</h4></a>
-                                    </h4>
-                                </div>
-                                <div id="collapse6" class="panel-collapse collapse">
-                                    <div class="text">
-                                        <ul class="main-list">
-                                            <li class="list-unstyled"> Разработка и развёртывание эИРК исследования на платформе Visual Stat Expert</li>
-                                            <li class="list-unstyled"> Проект-специфичная настройка компонентов платформы:
-                                                <ul class="sub-list">
-                                                    <li class="list-unstyled"> Системы интерактивной онлайн рандомизации и функционала выдачи рандомизационных кодов (IWRS)</li>
-                                                    <li class="list-unstyled"> Системы экстренного разослепления группы терапии</li>
-                                                    <li class="list-unstyled"> Системы управления заказом, выдачей и возвратом исследуемых препаратов</li>
-                                                    <li class="list-unstyled"> Системы загрузки первичной документации</li>
-                                                    <li class="list-unstyled"> Отчётов и выгрузок данных для просмотра и анализа</li>
-                                                    <li class="list-unstyled"> E-mail оповещений</li>
-                                                </ul>
-                                            </li>
-                                            <li class="list-unstyled"> Разработка спецификации эИРК (описания Базы Данных), включая аннотированную ИРК</li>
-                                            <li class="list-unstyled"> Программирование функционала чистки данных (edit checks)</li>
-                                            <li class="list-unstyled"> Настройка функционала отложенной валидации данных (batch validation)</li>
-                                            <li class="list-unstyled"> Организация удаленного ввода данных (ежедневное резервное копирование на локальный и удаленный ресурс, программное обслуживание системы для бесперебойного функционирования, тестирование процедуры аварийного восстановления системы и данных, управление доступами)</li>
-                                            <li class="list-unstyled"> Импортирование данных вендоров (центральная лаборатория, ЭКГ, и т.д.)</li>
-                                            <li class="list-unstyled"> Подготовка ИРК с итоговыми данными пациентов в дизайне согласованного макета; печать ИРК в формате .pdf.</li>
-                                           </ul>
-                                    </div>
-                                </div>
-                            </div>                   
-                            <!-- accordion item -->
-                            <div class="panel animated" data-animation="fadeInDown">
-                                <div class="panel-title">
-                                    <h4>
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse7" class="collapsed">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse7" class="mixitup-control-active" aria-expanded="true">
                                         <span class="plus-square"></span>
                                           <h4 class="features h4">Консультации и обучение</h4></a>
                                     </h4>
                                 </div>
-                                <div id="collapse7" class="panel-collapse collapse">
+                                <div id="collapse7" class="panel-collapse collapse in">
                                     <div class="text">
                                         <ul class="main-list">
                                             <li class="list-unstyled"> Оценка и управление рисками
@@ -755,9 +741,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-8 col-sm-offset-2 client-intro text-center">
-                            <h1 class="section-head">Наши<strong> видео</strong></h1>
+                            <h1 class="section-head">Наши<strong> видеолекции</strong></h1>
                             <hr class="style" style="width:13%;">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui voluptatem fugiat omnis a, recusandae repellendus rem minus sunt rerum, excepturi distinctio iste at natus temporibus dolorem repellat ab laborum enim.</p>
+                            <p>Менеджмент данных и биостатистика</p>
                         </div>
                      </div>
                      <!--- end row -->
@@ -769,11 +755,17 @@
                                     <a href="video\video_1.mp4" target="_blank">
                                         <img alt="" class="img-responsive" src="images\videos-preview\1.png">
                                       </a>
-                                    
-                                </figure>
-                                <div class="info">
-                                    <h3>Обзор документов разлдела "Менеджмент данных" файла по клинического исследованию.</h3>
-                                </div>
+                                </figure>                           
+                            </article>
+                        </div>
+                        <!-- col 3 -->
+                        <div class="col-md-3 col-sm-6 col-xs-6 col-ts-12">
+                            <article class="animated" data-animation="fadeInLeft">
+                                <figure class="image-container">
+                                    <a href="video\video_1.mp4" target="_blank">
+                                        <img alt="" class="img-responsive" src="images\videos-preview\1.png">
+                                      </a>
+                                </figure>        
                             </article>
                         </div>
                         <!-- col 3 -->
@@ -785,23 +777,7 @@
                                       </a>
                                     
                                 </figure>
-                                <div class="info">
-                                    <h3>Обзор документов разлдела "Менеджмент данных" файла по клинического исследованию.</h3>
-                                </div>
-                            </article>
-                        </div>
-                        <!-- col 3 -->
-                        <div class="col-md-3 col-sm-6 col-xs-6 col-ts-12">
-                            <article class="animated" data-animation="fadeInLeft">
-                                <figure class="image-container">
-                                    <a href="video\video_1.mp4" target="_blank">
-                                        <img alt="" class="img-responsive" src="images\videos-preview\1.png">
-                                      </a>
-                                    
-                                </figure>
-                                <div class="info">
-                                    <h3>Обзор документов разлдела "Менеджмент данных" файла по клинического исследованию.</h3>
-                                </div>
+                              
                             </article>
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-6 col-ts-12">
@@ -809,13 +785,9 @@
                                 <figure class="image-container">
                                     <a href="video\video_1.mp4" target="_blank">
                                         <img alt="" class="img-responsive" src="images\videos-preview\1.png">
-                                      </a>
-                                    
+                                      </a>                                    
                                 </figure>
-                                <div class="info">
-                                    <h3>Обзор документов разлдела "Менеджмент данных" файла по клинического исследованию.</h3>
-                                </div>
-                            </article>
+                             </article>
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-6 col-ts-12">
                         <article class="animated" data-animation="fadeInLeft">
@@ -824,9 +796,6 @@
                                     <img alt="" class="img-responsive" src="images\videos-preview\1.png">
                                     </a>
                             </figure>
-                            <div class="info">
-                                <h3>Обзор документов разлдела "Менеджмент данных" файла по клинического исследованию.</h3>
-                            </div>
                         </article>
                         </div>
             <div class="col-md-3 col-sm-6 col-xs-6 col-ts-12">
@@ -834,12 +803,8 @@
                     <figure class="image-container">
                         <a href="video\video_1.mp4" target="_blank">
                             <img alt="" class="img-responsive" src="images\videos-preview\1.png">
-                        </a>
-                        
+                        </a>                
                     </figure>
-                    <div class="info">
-                        <h3>Обзор документов разлдела "Менеджмент данных" файла по клинического исследованию.</h3>
-                    </div>
                 </article>
                 </div>
                     </div>
@@ -1757,6 +1722,7 @@
             <script type="text/javascript" src="js\modernizr.min.js"></script>
       		<script type="text/javascript" src="js\main.js"></script>
               <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+            
               <script>
                 var years = [
                     "За всё время", 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023
@@ -1857,6 +1823,7 @@
                     });
 
                 });
+                
     
     
                 function update(selectedDisease, selectedYear) {
@@ -2094,7 +2061,7 @@
                     $(this).addClass('active')
                 })
             </script>
-
+            
         </div>
 	</body>
 </html>

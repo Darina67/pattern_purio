@@ -137,6 +137,13 @@ span.orng-itlc{
   color: #FF7400;
   font-style: italic;
 }
+.image-container {
+  padding-bottom: 20px;
+}
+.big-padding{
+  padding-bottom: 192px !important;
+}
+
 
 /* BS Buttons */
 .btn {
@@ -933,6 +940,15 @@ position:relative;
 /*
 * ABOUT SECTION
 * -------------------------------------------------- */
+#main-video{
+  width: 720px;
+  height: auto;
+}
+.main-video{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
 .tabbed .nav > li > a:hover, .tabbed .nav > li > a:focus {
 background: transparent;
 border:1px solid transparent;
