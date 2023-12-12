@@ -902,7 +902,7 @@ z-index: 0;
 .row.wrapper{
   display: flex;
   flex-wrap: wrap;
-justify-content: space-between;
+  justify-content: space-between;
 }
 .row.wrapper:last-child{
   justify-content: center;
@@ -1411,6 +1411,9 @@ background:transparent;
 #clients img{ 
 width: 263px;
 height: 263px;
+}
+#clients .row.wrapper{
+  flex-wrap: nowrap
 }
 .container-clients{
   width: ;
