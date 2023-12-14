@@ -112,8 +112,8 @@ margin:0 auto;
 text-align:center;
 width:60px;
 }
-span.fs-24{
-  font-size: 24px;
+span.fс-orng{
+  color: #FF7400;
 }
 
 .flexslider {
@@ -1444,6 +1444,9 @@ font-size:21px;
   margin: 0 auto;
 }
 
+#more-features .buttons{
+  display: flex;
+}
 /*
 * TIMELINE SECTION
 * -------------------------------------------------- */
