@@ -1338,6 +1338,9 @@ margin-left:10px;
 .quote {
 text-align:center;
 }
+.contact-section__quote{
+font-size: 18px;
+}
 
 .quote p {
 font-size:22px;
