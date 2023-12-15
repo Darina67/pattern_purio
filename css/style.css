@@ -917,6 +917,9 @@ min-height: 500px;
   bottom: 0;
   left: 39%;
 }
+.services-box a.btn.btn-btm{
+  bottom: 19%;
+}
 .services-box p{
   /* text-align: left; */
 }
