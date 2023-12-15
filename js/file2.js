@@ -1,5 +1,122 @@
 var file2 = [
     {
+        name: "Все области",
+        phases: {
+            2002: [
+                {
+                title: "I",
+                count: "", 
+                },
+                {
+                title: "II",
+                count: "", 
+                },
+            ],
+            2003: [
+                {
+                title: "I",
+                count: 3
+                }
+            ],
+            2004: [
+                {
+                title: "IV",
+                count: 3
+                }
+            ],
+            2005: [
+                {
+                title: "IV",
+                count: 1
+                }
+            ],
+            2006: [
+                {
+                title: "IV",
+                count: 4
+                }
+            ],
+            2007: [
+                {
+                title: "IV",
+                count: 1
+                }
+            ],
+            2008: [
+                {
+                title: "IV",
+                count: 5
+                }
+            ],
+            2009: [
+                {
+                title: "IV",
+                count: 2
+                }
+            ],
+            2010: [
+            ],
+            2011: [
+            ],
+            2012: [
+                {
+                title: "IV",
+                count: 1
+                }
+            ],
+            2013: [
+            ],
+            2014: [
+                {
+                title: "III",
+                count: 2
+                },
+                {
+                title: "IV",
+                count: 1
+                }
+            ],
+            2015: [
+                {
+                title: "II",
+                count: 1
+                }
+            ],
+            2016: [
+            ],
+            2017: [
+                {
+                title: "I",
+                count: 1
+                }
+            ],
+            2018: [
+            ],
+            2019: [
+            ],
+            2020: [
+                {
+                title: "II",
+                count: 1
+                },
+                {
+                title: "III",
+                count: 1
+                }
+            ],
+            2021: [
+                {
+                title: "I",
+                count: 1
+                }
+            ],
+            2022: [
+            ],
+            2023: [
+            ]
+        }
+    },
+    {
         name: "Cердечно-сосудистые заболевания",
         phases: {
             2002: [

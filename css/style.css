@@ -745,9 +745,11 @@ background-size:cover;
 
 #slides .image2{
 background:url(../images/sliders/darken/22.png);
-background-position-x:50% !important;
+background-position: 25% 45% !important;
 background-size:cover;
+background-repeat: no-repeat;
 }
+
 
 #slides .image3{
 background:url(../images/sliders/darken/33.png);
@@ -796,6 +798,7 @@ margin: 0 auto;
 justify-content: space-between;
 flex-direction: column;
 display: flex;
+min-width: 200px; /* Настройте ширину по вашему усмотрению */
 }
 
 .slide-caption h1 {
@@ -1166,7 +1169,6 @@ margin-bottom:5px;
   }
   
   .project-item .actions {
-  cursor:pointer;
   margin-top:20%;
   }
 
@@ -2855,8 +2857,7 @@ iframe.map{
 }
 
 #slides, #wrapper, #slides .owl-carousel, #slides .owl-carousel .owl-stage-outer, #slides .owl-carousel .owl-stage, #slides .owl-wrapper-outer, #slides .owl-wrapper, #slides .owl-item, #slides .owl-item li {
-    height: 100% !important;
-    width: 100%;
+    height: 100vh;
     margin: 0;
     padding: 0;
     list-style: none;
