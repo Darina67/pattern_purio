@@ -200,7 +200,7 @@ jQuery(document).ready(function($) {
 				event.preventDefault();
 				goToFirstSlide();
 				// Здесь можете добавить другие действия, если необходимо
-			});
+			});			
 	 
 	 $("#quote-slider").owlCarousel({
 		   items: 1,
