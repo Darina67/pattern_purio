@@ -1178,7 +1178,7 @@ margin-bottom:5px;
 }
 
 .project-item:hover .unhover-info {
-    transform: translateY(-500%);
+    transform: translateY(-600%);
     transition: transform ease .5s;
 }
 

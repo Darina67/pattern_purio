@@ -1914,22 +1914,26 @@
                                 }
       
                             }
-                            $('.projects-container').append( `
-                                            <article class="project-item">
-                                    <div class="popup">
-                                        <figure>              
-                                            <figcaption style="background: linear-gradient(rgba(85, 133, 181, 0.7), rgba(85, 133, 181, 0.7)), url(${$backgroundimg});     background-position: center; background-size: cover;">
-                                                <div class="caption-wrap">
-                                                    <div class="actions">
-                                                        <h3 class="unhover-info"><b>Фаза: </b>${p[key]["title"]}<br>Число исследований: ${p[key]["count"]}</h3>
-                                                        <h3 class="hover-info"><b>${selectedDisease}<br>${selectedYear}</h3>
-                                                    </div>
+                            $('.projects-container').append(`
+                            <article class="project-item">
+                                <div class="popup">
+                                    <figure>
+                                        <figcaption style="background: linear-gradient(rgba(85, 133, 181, 0.7), rgba(85, 133, 181, 0.7)), url(${$backgroundimg}); background-position: center; background-size: cover;">
+                                            <div class="caption-wrap">
+                                                <div class="actions">
+                                                    ${p[key]["count"] === "" ? 
+                                                        `<h3 class="unhover-info"><b>Фаза: </b>${p[key]["title"]}</h3>` :
+                                                        `<h3 class="unhover-info"><b>Фаза: </b>${p[key]["title"]}<br>Число исследований: ${p[key]["count"]}</h3>`
+                                                    }
+                                                    <h3 class="hover-info"><b>${selectedDisease}<br>${selectedYear}</b></h3>
                                                 </div>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                </article>
-                                            `).hide().fadeIn(200);
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </article>
+                        `).hide().fadeIn(200);
+
                                 }
                             }
                         }
