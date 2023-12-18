@@ -772,9 +772,9 @@ left: 0%;
 margin: -8% 0px 0px 0px;
 z-index: 100;
 }
-/* .caption-wrapper.first-slide{
-  top: 29%;
-} */
+.caption-wrapper.second-slide{
+
+}
 .about-wrapper{
   max-width: 1200px;
   display: flex;
@@ -799,11 +799,12 @@ justify-content: space-between;
 flex-direction: column;
 display: flex;
 min-width: 200px; /* Настройте ширину по вашему усмотрению */
+align-items: center;
 }
 
 .slide-caption h1 {
 color:#FF7400;
-font-size:85px;
+font-size:59.5px;
 font-weight:800;
 letter-spacing:2px;
 line-height:100px;
