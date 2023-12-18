@@ -1354,6 +1354,11 @@ font-weight:400;
 line-height:30px;
 position:relative;
 z-index:2;
+
+min-height: 180px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 #quote-section i {

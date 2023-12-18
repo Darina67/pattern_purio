@@ -175,39 +175,95 @@ jQuery(document).ready(function($) {
 		 OWL CAROUSEL
 	 =============================================== */
 	 
-			// Инициализация слайдера и сохранение ссылки на него
-			var slider = $("#slides ul").owlCarousel({
-				animateOut: 'fadeOut',
-				animateIn: 'fadeIn',
-				items: 1,
-				margin: 0,
-				loop: true,
-				// autoplay: true,
-				autoplayTimeout: 5000,
-				autoplayHoverPause: false,
-				dots: true,
-				stagePadding: 0,
-				smartSpeed: 1000,
-			});
+	
 
-			// Функция для перехода на первый слайд
-			function goToFirstSlide() {
-				slider.trigger('to.owl.carousel', 0);
-			}
-
-			// Обработчик события клика на ссылку "Главная"
-			$('li.active a[href="#slides"]').on('click', function(event) {
-				event.preventDefault();
-				goToFirstSlide();
-				// Здесь можете добавить другие действия, если необходимо
-			});			
+			
 	 
-	 $("#quote-slider").owlCarousel({
-		   items: 1,
-		   loop:true,
-		   autoplay:true,
-		   autoplayTimeout:15000,
-	   });
+	//  $("#quote-slider").owlCarousel({
+	// 	   items: 1,
+	// 	   loop:true,
+	// 	   autoplay:true,
+	// 	   autoplayTimeout:15000,
+	//    });
+
+
+	$(document).ready(function() {
+    // Инициализация слайдера
+    $("#quote-slider").owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 15000,
+    });
+		// Инициализация слайдера и сохранение ссылки на него
+	var slider = $("#slides ul").owlCarousel({
+		animateOut: 'fadeOut',
+		animateIn: 'fadeIn',
+		items: 1,
+		margin: 0,
+		loop: true,
+		autoplay: true,
+		autoplayTimeout: 5000,
+		autoplayHoverPause: false,
+		dots: true,
+		stagePadding: 0,
+		smartSpeed: 1000,
+	});
+
+	// Функция для перехода на первый слайд
+	function goToFirstSlide() {
+		slider.trigger('to.owl.carousel', 0);
+	}
+
+	// Обработчик события клика на ссылку "Главная"
+	$('li.active a[href="#slides"]').on('click', function(event) {
+		event.preventDefault();
+		goToFirstSlide();
+	});		
+
+
+	    // Добавление обработчика события скролла
+		$(window).on('scroll', function() {
+			// Проверка, если секция slides ul видима на экране
+			if (isInViewport($('#slides ul'))) {
+				// Переключение слайдера на первый элемент
+				$('#slides ul').trigger('to.owl.carousel', [0]);
+			}
+		});
+	
+		// Функция для проверки, находится ли элемент в области видимости
+		function isInViewport(element) {
+			var rect = element[0].getBoundingClientRect();
+			return (
+				rect.top >= 0 &&
+				rect.left >= 0 &&
+				rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+				rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+			);
+		}
+
+
+    // Добавление обработчика события скролла
+    $(window).on('scroll', function() {
+        // Проверка, если секция quote-slider видима на экране
+        if (isInViewport($('#quote-slider'))) {
+            // Переключение слайдера на первый элемент
+            $('#quote-slider').trigger('to.owl.carousel', [0]);
+        }
+    });
+
+    // Функция для проверки, находится ли элемент в области видимости
+    function isInViewport(element) {
+        var rect = element[0].getBoundingClientRect();
+        return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+    }
+});
+
 	 
 	 $("#clients-slider").owlCarousel({
 			dots:false,
