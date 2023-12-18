@@ -1453,6 +1453,35 @@ font-size:21px;
   display: flex;
 }
 /*
+* educational-materials SECTION
+* -------------------------------------------------- */
+       .video-block {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .video-block__title {
+        margin-bottom: 10px;
+        font-size: 1.5em;
+    }
+
+    .video-block__more {
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    #educational-materials  .wrapper {
+        text-align: center;
+    }
+
+    #educational-materials .wrapper .col-md-3 {
+        display: none;
+    }
+/*
 * TIMELINE SECTION
 * -------------------------------------------------- */
 #timeline {
