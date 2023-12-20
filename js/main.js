@@ -175,10 +175,6 @@ jQuery(document).ready(function($) {
 		 OWL CAROUSEL
 	 =============================================== */
 	 
-	
-
-			
-	 
 	//  $("#quote-slider").owlCarousel({
 	// 	   items: 1,
 	// 	   loop:true,
