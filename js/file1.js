@@ -21,27 +21,6 @@ var file1 = [
         }
     },
     {
-        name: "Cердечно-сосудистые заболевания",
-        phases: {
-            0: {
-                title: "I",
-                count: 2
-            },
-            1: {
-                title: "II",
-                count: 2
-            },
-            2: {
-                title: "III",
-                count: 3
-            },
-            3: {
-                title: "IV",
-                count: 23
-            }
-        }
-    },
-    {
         name: "Анестезиология",
         phases: {
             0: {
@@ -261,6 +240,27 @@ var file1 = [
             3: {
                 title: "IV",
                 count: 4
+            }
+        }
+    },
+    {
+        name: "Cердечно-сосудистые заболевания",
+        phases: {
+            0: {
+                title: "I",
+                count: 2
+            },
+            1: {
+                title: "II",
+                count: 2
+            },
+            2: {
+                title: "III",
+                count: 3
+            },
+            3: {
+                title: "IV",
+                count: 23
             }
         }
     },
