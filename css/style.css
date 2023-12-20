@@ -88,6 +88,11 @@ word-wrap:break-word;
   font-size: 20px;
   line-height: 1.4;
 }
+p.section-subtitle{
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1.4;
+}
 
 hr {
 border-top:1px solid #111;
@@ -1471,7 +1476,8 @@ font-size:21px;
 
     .video-block__title {
         margin-bottom: 10px;
-        font-size: 1.5em;
+        font-size: 20px;
+        line-height: 1.4;
     }
 
     .video-block__more {
