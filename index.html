@@ -2023,6 +2023,7 @@
                         } else {
                             checked = false
                         }
+                        
                         container.append($(
                             `<label class="control-btn control-btn-years ${checked ? 'active' : ''}"> 
                                 ${year}
@@ -2079,6 +2080,9 @@
     
     
                 function update(selectedDisease, selectedYear) {
+                    if (selectedYear === undefined) {
+                            selectedYear = years[0];
+                    }
                     // Ищем заболевание во втором файле
                     var matchingDisease = file2.find(function (item) {
                         return item.phases[selectedYear] && item.name === selectedDisease;
