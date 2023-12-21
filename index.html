@@ -206,7 +206,7 @@
                         <div class=" col-sm-8 col-sm-offset-2 client-intro text-center">
                             <h1 class="section-head">О <strong>компании</strong></h1>
                             <hr class="style" style="width:13%;">
-                            <p class="section-subtitle">КОМПАНИЯ КЕЙСТАТ РАБОТАЕТ В ОБЛАСТИ КЛИНИЧЕСКИХ ИССЛЕДОВАНИЙ <br> С 2002 ГОДА.</p>
+                            <p class="section-subtitle">КОМПАНИЯ КЕЙСТАТ РАБОТАЕТ В ОБЛАСТИ КЛИНИЧЕСКИХ ИССЛЕДОВАНИЙ <br> С 2002 ГОДА</p>
                             <div class="main-video">
                                 <article class="animated" data-animation="fadeInLeft">
                                     <figure class="video-container">
@@ -406,55 +406,7 @@
                     <div id="yearButtons" class="controls" style="margin-top: 20px;">
                         <!-- Радиокнопки для годов будут добавлены динамически с использованием jQuery -->
                     </div>
-                    <!-- <div id="filters" class="controls">
-                                            <li><button class="control" data-filter="all">Все</button></li>
-                                            <li><button data-toggle=".сardiovascular" class="control">Cердечно-сосудистые заболевания</button></li>
-                                            <li><button data-toggle=".urology" class="control">Урология</button></li>
-                                            <li><button data-toggle=".liver-disease" class="control">Заболевания печени</button></li>
-                                            <li><button data-toggle=".hematology" class="control">Гематология</button></li>
-                                            <li><button data-toggle=".oncology" class="control">Онкология</button></li>
-                                            <li><button data-toggle=".viral_infections" class="control">Вирусные инфекции</button></li>
-                                            <li><button data-toggle=".rheumatology" class="control">Ревматология</button></li>
-                                            <li><button data-toggle=".ophthalmology" class="control">Офтальмология</button></li>
-                                            <li><button data-toggle=".musculoskeletal-disease" class="control">Заболевания опорно-двигательного аппарата</button></li>
-                                            <li><button data-toggle=".respiratory-diseases" class="control">Заболевания органов дыхания</button></li>
-                                            <li><button data-toggle=".cns" class="control">Центральная нервная система</button></li>
-                                            <li><button data-toggle=".traumatology" class="control">Травматология</button></li>
-                                            <li><button data-toggle=".gynecology" class="control">Гинекология</button></li>
-                                            <li><button data-toggle=".anesthesiology" class="control">Анестезиология</button></li>
-                                            <li><button data-toggle=".cardiology" class="control">Кардиология</button></li>
-                                            <li><button data-toggle=".gastrointestinal-tract" class="control">Заболевания органов ЖКТ</button></li>
-                                            <li><button data-toggle=".immunology" class="control">Иммунология</button></li>
-                                            <li><button data-toggle=".dermatology" class="control">Дерматология</button></li>
-                                            <li><button data-toggle=".neurology" class="control">Неврология</button></li>
-                                            <li><button data-toggle=".dentistry" class="control">Стоматология</button></li>
-                                            <li><button data-toggle=".endocrinology" class="control">Эндокринология</button></li>
-                                            <li><button data-toggle=".other" class="control">Другие области</button></li>  
-                                        </div>
-                                        <div id="year-filters" class="controls">
-                                            <li><button class="control" data-toggle=".twothousandtwo">2002</button></li>
-                                            <li><button class="control" data-toggle=".twothousandandthree">2003</button></li>
-                                            <li><button class="control" data-toggle=".twothousandandfour">2004</button></li>
-                                            <li><button class="control" data-toggle=".twothousandandfive">2005</button></li>
-                                            <li><button class="control" data-toggle=".twothousandandsix">2006</button></li>
-                                            <li><button class="control" data-toggle=".twothousandandseventh">2007</button></li>
-                                            <li><button class="control" data-toggle=".twothousandandeight">2008</button></li>
-                                            <li><button class="control" data-toggle=".twothousandandninth">2009</button></li>
-                                            <li><button class="control" data-toggle=".twothousandtenth">2010</button></li>
-                                            <li><button class="control" data-toggle=".twothousandandeleventh">2011</button></li>
-                                            <li><button class="control" data-toggle=".twothousandandtwelfth">2012</button></li>
-                                            <li><button class="control" data-toggle=".twothousandthirteenth">2013</button></li>
-                                            <li><button class="control" data-toggle=".twothousandfourteen">2014</button></li>
-                                            <li><button class="control" data-toggle=".twothousandfifteen">2015</button></li>
-                                            <li><button class="control" data-toggle=".twothousandandsixteenth">2016</button></li>
-                                            <li><button class="control" data-toggle=".twothousandseventeen">2017</button></li>
-                                            <li><button class="control" data-toggle=".twothousandeighteen">2018</button></li>
-                                            <li><button class="control" data-toggle=".twothousandnineteen">2019</button></li>
-                                            <li><button class="control" data-toggle=".twothousandtwenty">2020</button></li>
-                                            <li><button class="control" data-toggle=".twothousandtwenty-one">2021</button></li>
-                                            <li><button class="control" data-toggle=".twothousandtwenty-second">2022</button></li>
-                                            <li><button class="control" data-toggle=".twothousandtwenty-third">2023</button></li>
-                                        </div> -->
+
                     <div class="row">
                         <div class="projects-container animated text-center" data-animation="fadeInDown">
                             <!-- portfolio item -->
@@ -1981,6 +1933,26 @@
 
 
               <script>
+                /*ставим кнопки в изначальное положение, если покинули секцию фильтров*/
+
+                // Изначальные значения
+                var initialCategory = "Все области";
+                var initialYear = years[0];
+
+                // Обработчик события прокрутки страницы
+                $(window).scroll(function() {
+                    // Получение верхней границы секции "projects"
+                    var projectsSectionTop = $('#projects').offset().top;
+
+                    // Получение верхней видимой части окна
+                    var windowTop = $(window).scrollTop();
+
+                    // Если секция "projects" не видима, вызываем функцию update с изначальными значениями
+                    if (windowTop > projectsSectionTop) {
+                        update(initialCategory, initialYear);
+                    }
+                });
+
 
 
                 var years = [
