@@ -1659,6 +1659,10 @@ margin:-63px auto;
 position:relative;
 text-align:center;
 width:70px;
+
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 #timeline ul.timeline li.time + li.note {
