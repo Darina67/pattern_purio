@@ -110,12 +110,14 @@ span.circular {
 background:#056a97;
 border-radius:50%;
 color:#fff;
-display:block;
 height:60px;
 line-height:50px;
 margin:0 auto;
-text-align:center;
 width:60px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 span.fс-orng{
   color: #FF7400;
@@ -983,6 +985,9 @@ border-top:3px solid #FF7400;
 .tabbed .tab-content > .tab-pane {
 padding:10px 0;
 }
+#col-sm-7__tabbed{
+  padding-right: 9px;
+}
 
 .progress {
 height:auto;
@@ -992,6 +997,7 @@ position:relative;
   height: auto;
   margin-bottom: 0px;
 }
+
 
 .progress-bar {
 background:#ff7400;
@@ -2338,7 +2344,7 @@ border-top-right-radius:0;
 }
 
 i.fa{
-  padding-right: 5px;
+  /* padding-right: 5px; */
   font-size: 25px;
 }
 .column-wrapper{
