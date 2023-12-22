@@ -784,210 +784,210 @@ var file2 = [
   {
     name: "Анестезиология",
     phases: {
-      2002: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2003: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2004: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2005: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2006: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2007: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2008: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2009: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2010: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2011: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2012: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2013: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
+      // 2002: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2003: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2004: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2005: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2006: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2007: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2008: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2009: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2010: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2011: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2012: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2013: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
       2014: [
         { title: "I",
         count: "",
@@ -1005,384 +1005,384 @@ var file2 = [
           count: "",
         },
       ],
-      2015: [
-    { title: "I",
-      count: "",
-    },
-    {
-      title: "II",
-      count: "",
-    },
-    {
-      title: "III",
-      count: "",
-    },
-    {
-      title: "IV",
-      count: "",
-    }],
-      2016: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2017: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2018: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2019: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2020: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2021: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2022: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2023: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
+    //   2015: [
+    // { title: "I",
+    //   count: "",
+    // },
+    // {
+    //   title: "II",
+    //   count: "",
+    // },
+    // {
+    //   title: "III",
+    //   count: "",
+    // },
+    // {
+    //   title: "IV",
+    //   count: "",
+    // }],
+    //   2016: [
+    //     { title: "I",
+    //     count: "",
+    //   },
+    //   {
+    //     title: "II",
+    //     count: "",
+    //   },
+    //   {
+    //     title: "III",
+    //     count: "",
+    //   },
+    //   {
+    //     title: "IV",
+    //     count: "",
+    //   }
+    //   ],
+    //   2017: [
+    //     { title: "I",
+    //     count: "",
+    //   },
+    //   {
+    //     title: "II",
+    //     count: "",
+    //   },
+    //   {
+    //     title: "III",
+    //     count: "",
+    //   },
+    //   {
+    //     title: "IV",
+    //     count: "",
+    //   }
+    //   ],
+    //   2018: [
+    //     { title: "I",
+    //     count: "",
+    //   },
+    //   {
+    //     title: "II",
+    //     count: "",
+    //   },
+    //   {
+    //     title: "III",
+    //     count: "",
+    //   },
+    //   {
+    //     title: "IV",
+    //     count: "",
+    //   }
+    //   ],
+    //   2019: [
+    //     { title: "I",
+    //     count: "",
+    //   },
+    //   {
+    //     title: "II",
+    //     count: "",
+    //   },
+    //   {
+    //     title: "III",
+    //     count: "",
+    //   },
+    //   {
+    //     title: "IV",
+    //     count: "",
+    //   }
+    //   ],
+    //   2020: [
+    //     { title: "I",
+    //     count: "",
+    //   },
+    //   {
+    //     title: "II",
+    //     count: "",
+    //   },
+    //   {
+    //     title: "III",
+    //     count: "",
+    //   },
+    //   {
+    //     title: "IV",
+    //     count: "",
+    //   }
+    //   ],
+    //   2021: [
+    //     { title: "I",
+    //     count: "",
+    //   },
+    //   {
+    //     title: "II",
+    //     count: "",
+    //   },
+    //   {
+    //     title: "III",
+    //     count: "",
+    //   },
+    //   {
+    //     title: "IV",
+    //     count: "",
+    //   }
+    //   ],
+    //   2022: [
+    //     { title: "I",
+    //     count: "",
+    //   },
+    //   {
+    //     title: "II",
+    //     count: "",
+    //   },
+    //   {
+    //     title: "III",
+    //     count: "",
+    //   },
+    //   {
+    //     title: "IV",
+    //     count: "",
+    //   }
+    //   ],
+    //   2023: [
+    //     { title: "I",
+    //     count: "",
+    //   },
+    //   {
+    //     title: "II",
+    //     count: "",
+    //   },
+    //   {
+    //     title: "III",
+    //     count: "",
+    //   },
+    //   {
+    //     title: "IV",
+    //     count: "",
+    //   }
+    //   ],
     },
   },
   {
     name: "Вирусные инфекции",
     phases: {
-      2001: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2002: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2003: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2004: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2005: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2006: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2007: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2008: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2009: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2010: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2011: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2012: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2013: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
+      // 2001: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2002: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2003: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2004: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2005: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2006: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2007: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2008: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2009: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2010: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2011: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2012: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2013: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
       2014: [
         { title: "I",
         count: "",
@@ -1472,23 +1472,23 @@ var file2 = [
           count: "",
         },
       ],
-      2019: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
+      // 2019: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
       2020: [
         { title: "I",
         count: "",
@@ -1506,351 +1506,351 @@ var file2 = [
           count: 2,
         },
       ],
-      2021: [
-        { title: "I",
-        count: "",
-      },
-        {
-          title: "II",
-          count: 1,
-        },
-        {
-          title: "III",
-          count: 1,
-        },
-        {
-          title: "IV",
-          count: "",
-        },
-      ],
-      2022: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2023: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
+      // 2021: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      //   {
+      //     title: "II",
+      //     count: 1,
+      //   },
+      //   {
+      //     title: "III",
+      //     count: 1,
+      //   },
+      //   {
+      //     title: "IV",
+      //     count: "",
+      //   },
+      // ],
+      // 2022: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2023: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
     },
   },
   {
     name: "Гематология",
     phases: {
-      2002: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2003: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2004: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2005: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2006: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2007: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2008: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2009: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2010: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2011: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2012: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2013: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2014: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2015: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2016: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2017: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2018: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
+      // 2002: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2003: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2004: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2005: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2006: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2007: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2008: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2009: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2010: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2011: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2012: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2013: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2014: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2015: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2016: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2017: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2018: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
       2019: [
         { title: "I",
         count: "",
@@ -1885,181 +1885,181 @@ var file2 = [
           count: "",
         },
       ],
-      2021: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2022: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2023: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
+      // 2021: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2022: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2023: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
     },
   },
   {
     name: "Гинекология",
     phases: {
-      2002: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2003: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2004: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2005: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2006: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2007: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2008: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
+      // 2002: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2003: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2004: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2005: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2006: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2007: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2008: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
       2009: [
         { title: "I",
         count: "",
@@ -2094,108 +2094,108 @@ var file2 = [
           count: 1,
         },
       ],
-      2011: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2012: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2013: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2014: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2015: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2016: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
+      // 2011: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2012: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2013: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2014: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2015: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2016: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
       2017: [
         {
           title: "I",
@@ -2266,232 +2266,232 @@ var file2 = [
         },
 
       ],
-      2021: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2022: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2023: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
+      // 2021: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2022: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2023: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
     },
   },
   {
     name: "Дерматология",
     phases: {
-      2002: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2003: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2004: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2005: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2005: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2006: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2007: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2008: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2009: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2010: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
+      // 2002: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2003: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2004: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2005: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2005: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2006: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2007: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2008: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2009: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2010: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
       2011: [
         { title: "I",
         count: "",
@@ -2509,57 +2509,57 @@ var file2 = [
           count: 1,
         },
       ],
-      2012: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2013: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2014: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
+      // 2012: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2013: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2014: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
       2015: [
         { title: "I",
         count: "",
@@ -2594,23 +2594,23 @@ var file2 = [
           count: "",
         },
       ],
-      2017: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
+      // 2017: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
       2018: [
         { title: "I",
         count: "",
@@ -2628,40 +2628,40 @@ var file2 = [
         count: "",
       }
       ],
-      2019: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2020: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
+      // 2019: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2020: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
       2021: [
         { title: "I",
         count: "",
@@ -2679,215 +2679,215 @@ var file2 = [
           count: "",
         }
       ],
-      2022: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2023: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
+      // 2022: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2023: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
     },
   },
   {
     name: "Другие области",
     phases: {
-      2002: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2003: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2004: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2005: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2006: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2007: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2008: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2009: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2010: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2011: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
+      // 2002: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2003: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2004: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2005: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2006: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2007: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2008: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2009: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2010: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2011: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
       2012: [
         { title: "I",
         count: "",
@@ -2922,57 +2922,57 @@ var file2 = [
           count: 2,
         },
       ],
-      2014: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2015: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2016: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
+      // 2014: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2015: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2016: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
       2017: [
         {
           title: "I",
@@ -2991,351 +2991,351 @@ var file2 = [
           count: "",
         }
       ],
-      2018: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2019: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2020: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2021: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2022: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2023: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
+      // 2018: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2019: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2020: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2021: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2022: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2023: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
     },
   },
   {
     name: "Заболевания опорно-двигательного аппарата",
     phases: {
-      2002: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2003: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2004: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2005: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2006: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2007: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2008: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2009: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2010: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2011: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2012: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2013: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2014: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2015: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
+      // 2002: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2003: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2004: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2005: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2006: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2007: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2008: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2009: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2010: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2011: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2012: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2013: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2014: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2015: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
       2016: [
         {
           title: "I",
@@ -3372,108 +3372,108 @@ var file2 = [
           count: "",
         }
       ],
-      2018: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2019: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2020: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2021: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2022: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2023: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
+      // 2018: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2019: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2020: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2021: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2022: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
+      // 2023: [
+      //   { title: "I",
+      //   count: "",
+      // },
+      // {
+      //   title: "II",
+      //   count: "",
+      // },
+      // {
+      //   title: "III",
+      //   count: "",
+      // },
+      // {
+      //   title: "IV",
+      //   count: "",
+      // }
+      // ],
     },
   },
   {

@@ -360,7 +360,7 @@ jQuery(document).ready(function($) {
 	});
 	
 	$('.home-nav').onePageNav({
-		scrollSpeed: 1200,
+		scrollSpeed: 300,
 		currentClass: 'active',
 		changeHash: true,
 	});
