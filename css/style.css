@@ -1992,6 +1992,7 @@ text-align:center;
 display:block;
 width: 80px;
 height: 70px;
+object-fit: scale-down;
 }
 
 .post-media,.post-title,.post-meta {
