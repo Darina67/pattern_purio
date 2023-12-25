@@ -1,19 +1,22 @@
-	/*cookie*/
-	var cookieMessage = document.getElementById('cookie-message');
-	var agreeButton = document.getElementById('agree-button');
+document.addEventListener('DOMContentLoaded', function () {
+    var cookieMessage = document.getElementById('cookie-message');
+    var agreeButton = document.getElementById('agree-button');
 
-	// Check if the user has already agreed (using localStorage)
-	if (localStorage.getItem('cookie-agreed')) {
-		cookieMessage.style.display = 'none';
-	}
+    // Check if the user has already agreed (using localStorage)
+    if (!localStorage.getItem('cookie-agreed')) {
+        cookieMessage.style.display = 'block';  // or 'flex', or any other appropriate display value
+    }
 
-	// Set the click event for the "Agree" button
-	agreeButton.addEventListener('click', function () {
-		cookieMessage.style.display = 'none';
+    // Set the click event for the "Agree" button
+    agreeButton.addEventListener('click', function () {
+        cookieMessage.style.display = 'none';
 
-		// Set a flag in localStorage to remember user's choice
-		localStorage.setItem('cookie-agreed', 'true');
-	});
+        // Set a flag in localStorage to remember user's choice
+        localStorage.setItem('cookie-agreed', 'true');
+    });
+});
+
+
 /*прокрутка к секции где видео при выходе из полноэкранного режима*/
 
 document.addEventListener('fullscreenchange', function (event) {
