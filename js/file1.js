@@ -23,22 +23,10 @@ var file1 = [
     {
         name: "Анестезиология",
         phases: {
-            0: {
-                title: "I",
-                count: ""
-            },
-            1: {
-                title: "II",
-                count: ""
-            },
             2: {
                 title: "III",
                 count: 1
             },
-            3: {
-                title: "IV",
-                count: ""
-            }
         }
     },
     {
@@ -65,10 +53,6 @@ var file1 = [
     {
         name: "Гематология",
         phases: {
-            0: {
-                title: "I",
-                count: ""
-            },
             1: {
                 title: "II",
                 count: 2
@@ -77,10 +61,6 @@ var file1 = [
                 title: "III",
                 count: 1
             },
-            3: {
-                title: "IV",
-                count: ""
-            }
         }
     },
     {
@@ -89,10 +69,6 @@ var file1 = [
             0: {
                 title: "I",
                 count: 1
-            },
-            1: {
-                title: "II",
-                count: ""
             },
             2: {
                 title: "III",
@@ -107,14 +83,6 @@ var file1 = [
     {
         name: "Дерматология",
         phases: {
-            0: {
-                title: "I",
-                count: ""
-            },
-            1: {
-                title: "II",
-                count: ""
-            },
             2: {
                 title: "III",
                 count: 3
@@ -131,10 +99,6 @@ var file1 = [
             0: {
                 title: "I",
                 count: 2
-            },
-            1: {
-                title: "II",
-                count: ""
             },
             2: {
                 title: "III",
@@ -174,10 +138,6 @@ var file1 = [
                 title: "I",
                 count: 1
             },
-            1: {
-                title: "II",
-                count: ""
-            },
             2: {
                 title: "III",
                 count: 6
@@ -191,17 +151,9 @@ var file1 = [
     {
         name: "Заболевания печени",
         phases: {
-            0: {
-                title: "I",
-                count: ""
-            },
             1: {
                 title: "II",
                 count: 2
-            },
-            2: {
-                title: "III",
-                count: ""
             },
             3: {
                 title: "IV",
@@ -212,10 +164,6 @@ var file1 = [
     {
         name: "Иммунология",
         phases: {
-            0: {
-                title: "I",
-                count: ""
-            },
             1: {
                 title: "II",
                 count: 2
@@ -233,43 +181,19 @@ var file1 = [
     {
         name: "Кардиология",
         phases: {
-            0: {
-                title: "I",
-                count: ""
-            },
-            1: {
-                title: "II",
-                count: ""
-            },
             2: {
                 title: "III",
                 count: 1
             },
-            3: {
-                title: "IV",
-                count: ""
-            }
         }
     },
     {
         name: "Неврология",
         phases: {
-            0: {
-                title: "I",
-                count: ""
-            },
             1: {
                 title: "III",
                 count: 1
             },
-            2: {
-                title: "III",
-                count: ""
-            },
-            3: {
-                title: "IV",
-                count: ""
-            }
         }
     },
     {
@@ -296,14 +220,6 @@ var file1 = [
     {
         name: "Офтальмология",
         phases: {
-            0: {
-                title: "I",
-                count: ""
-            },
-            1: {
-                title: "II",
-                count: ""
-            },
             2: {
                 title: "III",
                 count: 1
@@ -359,31 +275,15 @@ var file1 = [
     {
         name: "Стоматология",
         phases: {
-            0: {
-                title: "I",
-                count: ""
-            },
-            1: {
-                title: "II",
-                count: ""
-            },
             2: {
                 title: "III",
                 count: 2
             },
-            3: {
-                title: "IV",
-                count: ""
-            }
         }
     },
     {
         name: "Травматология",
         phases: {
-            0: {
-                title: "I",
-                count: ""
-            },
             1: {
                 title: "II",
                 count: 1
@@ -392,10 +292,6 @@ var file1 = [
                 title: "III",
                 count: 2
             },
-            3: {
-                title: "IV",
-                count: ""
-            }
         }
     },
     {
@@ -404,10 +300,6 @@ var file1 = [
             0: {
                 title: "I",
                 count: 3
-            },
-            1: {
-                title: "II",
-                count: ""
             },
             2: {
                 title: "III",
@@ -425,10 +317,6 @@ var file1 = [
             0: {
                 title: "I",
                 count: 7
-            },
-            1: {
-                title: "II",
-                count: ""
             },
             2: {
                 title: "III",
@@ -448,10 +336,6 @@ var file1 = [
                 title: "I",
                 count: 6
             },
-            1: {
-                title: "II",
-                count: ""
-            },
             2: {
                 title: "III",
                 count: 2
@@ -468,14 +352,6 @@ var file1 = [
             0: {
                 title: "I",
                 count: 1
-            },
-            1: {
-                title: "II",
-                count: ""
-            },
-            2: {
-                title: "III",
-                count: ""
             },
             3: {
                 title: "IV",
