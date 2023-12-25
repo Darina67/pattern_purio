@@ -17,6 +17,25 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+/*обучающие материалы раскрытие блока*/
+// Hide all col blocks initially within the specific section
+$('#educational-materials .wrapper .col-md-3').hide();
+
+// Handle click on "Подробнее" button within the specific section
+$('#educational-materials .video-block__more').click(function () {
+	// Get the target ID from data attribute
+	var targetId = $(this).parent().data('target');
+	
+	// Toggle visibility of col blocks within the specific section
+	$('#' + targetId + ' .col-md-3').slideToggle();
+	
+	// Toggle text on the button
+	var buttonText = $(this).text() == 'Подробнее' ? 'Скрыть' : 'Подробнее';
+	$(this).text(buttonText);
+});
+
+
+
 /*прокрутка к секции где видео при выходе из полноэкранного режима*/
 
 document.addEventListener('fullscreenchange', function (event) {
