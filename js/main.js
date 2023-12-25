@@ -1,4 +1,17 @@
 
+/*прокрутка к секции где видео при выходе из полноэкранного режима*/
+
+document.addEventListener('fullscreenchange', function (event) {
+	var fullscreenElement = document.fullscreenElement || document.mozFullScreenElement || document.webkitFullscreenElement;
+	
+	if (!fullscreenElement) {
+		// Проверяем, что выход из полноэкранного режима произошел
+		// и перемещаем страницу обратно к секции "about"
+		var aboutSection = document.getElementById('about');
+		aboutSection.scrollIntoView({ behavior: 'smooth' });
+	}
+});
+
 jQuery(document).ready(function($) {
 	'use strict';	
   
