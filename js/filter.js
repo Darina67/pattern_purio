@@ -172,17 +172,7 @@ $(document).ready(function () {
     populateRadioButtonsForYears(file1, initialCategory);
     update(initialCategory, initialYear);
 
-    var cookieMessage = document.getElementById('cookie-message');
-    var agreeButton = document.getElementById('agree-button');
 
-    if (localStorage.getItem('cookie-agreed')) {
-        cookieMessage.style.display = 'none';
-    }
-
-    agreeButton.addEventListener('click', function () {
-        cookieMessage.style.display = 'none';
-        localStorage.setItem('cookie-agreed', 'true');
-    });
 
     $('#educational-materials .wrapper .col-md-3').hide();
 
