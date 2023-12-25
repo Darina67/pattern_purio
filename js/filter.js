@@ -33,13 +33,21 @@ function populateRadioButtonsForYears(diseases, selectedDisease) {
     var container = $('#yearButtons');
     container.empty();
 
+    // Add "За все время" button for the selected disease
+    container.append($(
+        `<label class="control-btn control-btn-years ${selectedDisease === initialCategory ? 'active' : ''}"> 
+            За всё время
+            <input ${selectedDisease === initialCategory ? 'checked' : ''} type="radio" name="yearRadio" value="За всё время" data-disease="${selectedDisease}" />
+        </label>`
+    ));
+
     if (selectedDisease === initialCategory) {
         // If "Все области" is selected, display all years
-        $.each(years, function (index, year) {
+        $.each(years.slice(1), function (index, year) {
             container.append($(
-                `<label class="control-btn control-btn-years ${index === 0 ? 'active' : ''}"> 
+                `<label class="control-btn control-btn-years"> 
                     ${year}
-                   <input ${index === 0 ? 'checked' : ''} type="radio" name="yearRadio" value="${year}" />
+                   <input type="radio" name="yearRadio" value="${year}" />
                 </label>`
             ));
         });
@@ -53,9 +61,9 @@ function populateRadioButtonsForYears(diseases, selectedDisease) {
 
         $.each(availableYears, function (index, year) {
             container.append($(
-                `<label class="control-btn control-btn-years ${index === 0 ? 'active' : ''}"> 
+                `<label class="control-btn control-btn-years"> 
                     ${year}
-                   <input ${index === 0 ? 'checked' : ''} type="radio" name="yearRadio" value="${year}" />
+                   <input type="radio" name="yearRadio" value="${year}" />
                 </label>`
             ));
         });
@@ -66,6 +74,11 @@ function update(selectedDisease, selectedYear) {
     if (selectedYear === undefined) {
         selectedYear = years[0];
     }
+         // Удалите текущий класс "active" у всех кнопок годов
+         $('#yearButtons .control-btn-years').removeClass('active');
+
+         // Найдите и добавьте класс "active" для кнопки года, соответствующей selectedYear
+         $(`#yearButtons .control-btn-years input[value="${selectedYear}"]`).parent().addClass('active');
 
     $('.projects-container').html('');
 
@@ -171,17 +184,6 @@ $(document).ready(function () {
     populateRadioButtonsForDiseases(file1);
     populateRadioButtonsForYears(file1, initialCategory);
     update(initialCategory, initialYear);
-
-
-
-    $('#educational-materials .wrapper .col-md-3').hide();
-
-    $('#educational-materials .video-block__more').click(function () {
-        var targetId = $(this).parent().data('target');
-        $('#' + targetId + ' .col-md-3').slideToggle();
-        var buttonText = $(this).text() == 'Подробнее' ? 'Скрыть' : 'Подробнее';
-        $(this).text(buttonText);
-    });
 });
 
 $(document).on('change', 'input[name=diseaseRadio]', function () {
@@ -209,3 +211,4 @@ $(document).on('click', '.control-btn-years', function () {
     });
     $(this).addClass('active');
 });
+

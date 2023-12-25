@@ -9174,35 +9174,11 @@ var file2 = [
     phases: {
       2002: [
         {
-          title: "I",
-          count: "",
-        },
-        {
-          title: "II",
-          count: "",
-        },
-        {
-          title: "III",
-          count: "",
-        },
-        {
           title: "IV",
           count: "2",
         },
       ],
       2003: [
-        {
-          title: "I",
-          count: "",
-        },
-        {
-          title: "II",
-          count: "",
-        },
-        {
-          title: "III",
-          count: "",
-        },
         {
           title: "IV",
           count: "7",
@@ -9210,35 +9186,11 @@ var file2 = [
       ],
       2004: [
         {
-          title: "I",
-          count: "",
-        },
-        {
-          title: "II",
-          count: "",
-        },
-        {
-          title: "III",
-          count: "",
-        },
-        {
           title: "IV",
           count: "12",
         },
       ],
       2005: [
-        {
-          title: "I",
-          count: "",
-        },
-        {
-          title: "II",
-          count: "",
-        },
-        {
-          title: "III",
-          count: "",
-        },
         {
           title: "IV",
           count: "9",
@@ -9246,35 +9198,11 @@ var file2 = [
       ],
       2006: [
         {
-          title: "I",
-          count: "",
-        },
-        {
-          title: "II",
-          count: "",
-        },
-        {
-          title: "III",
-          count: "",
-        },
-        {
           title: "IV",
           count: "11",
         },
       ],
       2007: [
-        {
-          title: "I",
-          count: "",
-        },
-        {
-          title: "II",
-          count: "",
-        },
-        {
-          title: "III",
-          count: "",
-        },
         {
           title: "IV",
           count: "10",
@@ -9282,35 +9210,11 @@ var file2 = [
       ],
       2008: [
         {
-          title: "I",
-          count: "",
-        },
-        {
-          title: "II",
-          count: "",
-        },
-        {
-          title: "III",
-          count: "",
-        },
-        {
           title: "IV",
           count: "14",
         },
       ],
       2009: [
-        {
-          title: "I",
-          count: "",
-        },
-        {
-          title: "II",
-          count: "",
-        },
-        {
-          title: "III",
-          count: "",
-        },
         {
           title: "IV",
           count: "14",
@@ -9318,31 +9222,11 @@ var file2 = [
       ],
       2010: [
         {
-          title: "I",
-          count: "",
-        },
-        {
-          title: "II",
-          count: "",
-        },
-        {
-          title: "III",
-          count: "",
-        },
-        {
           title: "IV",
           count: "6",
         },
       ],
       2011: [
-        {
-          title: "I",
-          count: "",
-        },
-        {
-          title: "II",
-          count: "",
-        },
         {
           title: "III",
           count: "1",
@@ -9354,31 +9238,11 @@ var file2 = [
       ],
       2012: [
         {
-          title: "I",
-          count: "",
-        },
-        {
-          title: "II",
-          count: "",
-        },
-        {
-          title: "III",
-          count: "",
-        },
-        {
           title: "IV",
           count: "7",
         },
       ],
       2013: [
-        {
-          title: "I",
-          count: "",
-        },
-        {
-          title: "II",
-          count: "",
-        },
         {
           title: "III",
           count: "6",
@@ -9428,10 +9292,6 @@ var file2 = [
         {
           title: "I",
           count: "10",
-        },
-        {
-          title: "II",
-          count: "",
         },
         {
           title: "III",
@@ -9498,10 +9358,6 @@ var file2 = [
       ],
       2020: [
         {
-          title: "I",
-          count: "",
-        },
-        {
           title: "II",
           count: "3",
         },
@@ -9527,10 +9383,6 @@ var file2 = [
           title: "III",
           count: "4",
         },
-        {
-          title: "IV",
-          count: "",
-        },
       ],
       2022: [
         {
@@ -9545,24 +9397,8 @@ var file2 = [
           title: "III",
           count: "3",
         },
-        {
-          title: "IV",
-          count: "",
-        },
       ],
       2023: [
-        {
-          title: "I",
-          count: "",
-        },
-        {
-          title: "II",
-          count: "",
-        },
-        {
-          title: "III",
-          count: "",
-        },
         {
           title: "IV",
           count: "2",
@@ -9574,34 +9410,12 @@ var file2 = [
     name: "Cердечно-сосудистые заболевания",
     phases: {
       2002: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 2,
         },
       ],
       2003: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 3,
@@ -9609,183 +9423,47 @@ var file2 = [
       ],
       2004: [
         {
-          title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-        {
           title: "IV",
           count: 3,
         },
       ],
       2005: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
         },
       ],
       2006: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 4,
         },
       ],
       2007: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
         },
       ],
       2008: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 5,
         },
       ],
       2009: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 2,
         },
       ],
-      2010: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2011: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
       2012: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
         },
       ],
-      2013: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
       2014: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
         {
           title: "III",
           count: 2,
@@ -9796,20 +9474,9 @@ var file2 = [
         },
       ],
       2015: [
-        { title: "I",
-        count: "",
-      },
         {
           title: "II",
           count: 1,
-        },
-        {
-          title: "III",
-          count: "",
-        },
-        {
-          title: "IV",
-          count: "",
         },
       ],
       2016: [ 
@@ -9824,67 +9491,14 @@ var file2 = [
       title: "III",
       count: "",
     },
-    {
-      title: "IV",
-      count: "",
-    }
   ],
       2017: [
         {
           title: "I",
           count: 1,
         },
-        {
-          title: "II",
-          count: "",
-        },
-        {
-          title: "III",
-          count: "",
-        },
-        {
-          title: "IV",
-          count: "",
-        },
-      ],
-      2018: [
-    { title: "I",
-      count: "",
-    },
-    {
-      title: "II",
-      count: "",
-    },
-    {
-      title: "III",
-      count: "",
-    },
-    {
-      title: "IV",
-      count: "",
-    }
-  ],
-      2019: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
       ],
       2020: [
-        { title: "I",
-        count: "",
-      },
         {
           title: "II",
           count: 1,
@@ -9892,10 +9506,6 @@ var file2 = [
         {
           title: "III",
           count: 1,
-        },
-        {
-          title: "IV",
-          count: "",
         }
       ],
       2021: [
@@ -9903,52 +9513,6 @@ var file2 = [
           title: "I",
           count: 1,
         },
-        {
-          title: "II",
-          count: "",
-        },
-        {
-          title: "III",
-          count: "",
-        },
-        {
-          title: "IV",
-          count: "",
-        },
-      ],
-      2022: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
-      2023: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
       ],
     },
   },
@@ -10160,20 +9724,9 @@ var file2 = [
       // }
       // ],
       2014: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
         {
           title: "III",
           count: 1,
-        },
-        {
-          title: "IV",
-          count: "",
         },
       ],
     //   2015: [
@@ -10555,20 +10108,9 @@ var file2 = [
       // }
       // ],
       2014: [
-        { title: "I",
-        count: "",
-      },
         {
           title: "II",
           count: 1,
-        },
-        {
-          title: "III",
-          count: "",
-        },
-        {
-          title: "IV",
-          count: "",
         },
       ],
       2015: [
@@ -10584,27 +10126,11 @@ var file2 = [
           title: "III",
           count: 2,
         },
-        {
-          title: "IV",
-          count: "",
-        },
       ],
       2016: [
         {
           title: "I",
           count: 3,
-        },
-        {
-          title: "II",
-          count: "",
-        },
-        {
-          title: "III",
-          count: "",
-        },
-        {
-          title: "IV",
-          count: "",
         },
       ],
       2017: [
@@ -10620,10 +10146,6 @@ var file2 = [
           title: "III",
           count: 1,
         },
-        {
-          title: "IV",
-          count: "",
-        },
       ],
       2018: [
         {
@@ -10633,14 +10155,6 @@ var file2 = [
         {
           title: "II",
           count: 1,
-        },
-        {
-          title: "III",
-          count: "",
-        },
-        {
-          title: "IV",
-          count: "",
         },
       ],
       // 2019: [
@@ -10661,13 +10175,6 @@ var file2 = [
       // }
       // ],
       2020: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
         {
           title: "III",
           count: 1,
@@ -11023,37 +10530,15 @@ var file2 = [
       // }
       // ],
       2019: [
-        { title: "I",
-        count: "",
-      },
         {
           title: "II",
           count: 1,
-        },
-        {
-          title: "III",
-          count: "",
-        },
-        {
-          title: "IV",
-          count: "",
         },
       ],
       2020: [
-        { title: "I",
-        count: "",
-      },
         {
           title: "II",
           count: 1,
-        },
-        {
-          title: "III",
-          count: "",
-        },
-        {
-          title: "IV",
-          count: "",
         },
       ],
       // 2021: [
@@ -11232,34 +10717,12 @@ var file2 = [
       // }
       // ],
       2009: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
         },
       ],
       2010: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
@@ -11373,67 +10836,26 @@ var file2 = [
           count: 1,
         },
         {
-          title: "II",
-          count: "",
-        },
-        {
           title: "III",
           count: 1,
         },
-        {
-          title: "IV",
-          count: "",
-        },
       ],
       2018: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
         },
       ],
       2019: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
         },
       ],
       2020: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
         {
           title: "III",
           count: 1,
-        },
-        {
-          title: "IV",
-          count: "",
         },
 
       ],
@@ -11664,17 +11086,6 @@ var file2 = [
       // }
       // ],
       2011: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
@@ -11732,37 +11143,15 @@ var file2 = [
       // }
       // ],
       2015: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
         },
       ],
       2016: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
         {
           title: "III",
           count: 1,
-        },
-        {
-          title: "IV",
-          count: "",
         },
       ],
       // 2017: [
@@ -11783,22 +11172,11 @@ var file2 = [
       // }
       // ],
       2018: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
         {
           title: "III",
           count: 1,
         },
-        {
-        title: "IV",
-        count: "",
-      }
-      ],
+         ],
       // 2019: [
       //   { title: "I",
       //   count: "",
@@ -11834,21 +11212,10 @@ var file2 = [
       // }
       // ],
       2021: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
         {
           title: "III",
           count: 1,
         },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       // 2022: [
       //   { title: "I",
@@ -12060,34 +11427,12 @@ var file2 = [
       // }
       // ],
       2012: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
         },
       ],
       2013: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 2,
@@ -12149,18 +11494,6 @@ var file2 = [
           title: "I",
           count: 1,
         },
-        {
-          title: "II",
-          count: "",
-        },
-        {
-          title: "III",
-          count: "",
-        },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       // 2018: [
       //   { title: "I",
@@ -12513,14 +11846,6 @@ var file2 = [
           count: 1,
         },
         {
-          title: "II",
-          count: "",
-        },
-        {
-          title: "III",
-          count: "",
-        },
-        {
           title: "IV",
           count: 1,
         },
@@ -12530,18 +11855,6 @@ var file2 = [
           title: "I",
           count: 1,
         },
-        {
-          title: "II",
-          count: "",
-        },
-        {
-          title: "III",
-          count: "",
-        },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       // 2018: [
       //   { title: "I",
@@ -12736,17 +12049,6 @@ var file2 = [
       // }
       // ],
       2007: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
@@ -12770,17 +12072,6 @@ var file2 = [
       // }
       // ],
       2009: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
@@ -12804,17 +12095,6 @@ var file2 = [
       // }
       // ],
       2011: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 2,
@@ -12838,20 +12118,9 @@ var file2 = [
       // }
       // ],
       2013: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
         {
           title: "III",
           count: 3,
-        },
-        {
-          title: "IV",
-          count: "",
         },
       ],
       2014: [
@@ -12860,16 +12129,8 @@ var file2 = [
           count: 1,
         },
         {
-          title: "II",
-          count: "",
-        },
-        {
           title: "III",
           count: 3,
-        },
-        {
-          title: "IV",
-          count: "",
         },
       ],
       2015: [
@@ -12881,31 +12142,12 @@ var file2 = [
           title: "II",
           count: 1,
         },
-        {
-          title: "III",
-          count: "",
-        },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       2016: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
         {
           title: "III",
           count: 2,
         },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       // 2017: [
       //   { title: "I",
@@ -12959,21 +12201,10 @@ var file2 = [
       // }
       // ],
       2020: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
         {
           title: "III",
           count: 1,
         },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       // 2021: [
       //   { title: "I",
@@ -12993,22 +12224,7 @@ var file2 = [
       //   }
       // ],
       2022: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
+       ],
       // 2023: [
       //   { title: "I",
       //   count: "",
@@ -13600,38 +12816,16 @@ var file2 = [
       // }
       // ],
       2014: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
         {
           title: "III",
           count: 3,
         },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       2015: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
         {
           title: "III",
           count: 1,
         },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       // 2016: [
       //   { title: "I",
@@ -13655,18 +12849,6 @@ var file2 = [
           title: "I",
           count: 1,
         },
-        {
-          title: "II",
-          count: "",
-        },
-        {
-          title: "III",
-          count: "",
-        },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       // 2018: [
       //   { title: "I",
@@ -13686,17 +12868,6 @@ var file2 = [
       // }
       // ],
       2019: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
@@ -13720,21 +12891,10 @@ var file2 = [
       // }
       // ],
       2021: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
         {
           title: "III",
           count: 2,
         },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       // 2022: [
       //   { title: "I",
@@ -13810,34 +12970,12 @@ var file2 = [
       // }
       // ],
       2004: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
         },
       ],
       2005: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
@@ -13980,38 +13118,16 @@ var file2 = [
       // }
       // ],
       2014: [
-        { title: "I",
-        count: "",
-      },
         {
           title: "II",
           count: 1,
         },
-        {
-          title: "III",
-          count: "",
-        },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       2015: [
-        { title: "I",
-        count: "",
-      },
         {
           title: "II",
           count: 1,
         },
-        {
-          title: "III",
-          count: "",
-        },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       // 2016: [
       //   { title: "I",
@@ -14427,17 +13543,6 @@ var file2 = [
       // }
       // ],
       2018: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
@@ -14461,9 +13566,6 @@ var file2 = [
       // }
       // ],
       2020: [
-        { title: "I",
-        count: "",
-      },
         {
           title: "II",
           count: 1,
@@ -14472,10 +13574,6 @@ var file2 = [
           title: "III",
           ount: 1,
         },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       // 2021: [
       //   { title: "I",
@@ -14496,21 +13594,10 @@ var file2 = [
       // ],
       2022: [
         
-        { title: "I",
-        count: "",
-      },
         {
           title: "II",
           count: 1,
         },
-        {
-          title: "III",
-          count: "",
-        },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       // 2023: [
       //   { title: "I",
@@ -14756,21 +13843,10 @@ var file2 = [
       // }
       // ],
       2015: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
         {
           title: "III",
           count: 1,
         },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       // 2016: [
       //           { title: "I",
@@ -15135,21 +14211,10 @@ var file2 = [
       // }
       // ],
       2015: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
         {
           title: "III",
           count: 1,
         },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
     //   2016: [
     //             { title: "I",
@@ -15310,149 +14375,54 @@ var file2 = [
       // }
       // ],
       2003: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
         },
       ],
       2004: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 2,
         },
       ],
       2005: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
         },
       ],
       2006: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
         },
       ],
       2007: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 2,
         },
       ],
       2008: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 4,
         },
       ],
       2009: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 5,
         },
       ],
       2010: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 2,
         },
       ],
       2011: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
         {
           title: "III",
           count: 1,
@@ -15501,23 +14471,8 @@ var file2 = [
           title: "I",
           count: 2,
         },
-        {
-          title: "II",
-          count: "",
-        },
-        {
-          title: "III",
-          count: "",
-        },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       2015: [
-        { title: "I",
-        count: "",
-      },
         {
           title: "II",
           count: 2,
@@ -15526,28 +14481,12 @@ var file2 = [
           title: "III",
           count: 2,
         },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       2016: [
         {
           title: "I",
           count: 1,
         },
-        {
-          title: "II",
-          count: "",
-        },
-        {
-          title: "III",
-          count: "",
-        },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       // 2017: [
       //   { title: "I",
@@ -15588,18 +14527,6 @@ var file2 = [
           title: "I",
           count: 1,
         },
-        {
-          title: "II",
-          count: "",
-        },
-        {
-          title: "III",
-          count: "",
-        },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       // 2020: [
       //   { title: "I",
@@ -15641,30 +14568,11 @@ var file2 = [
           count: 1,
         },
         {
-          title: "II",
-          count: "",
-        },
-        {
           title: "III",
           count: 1,
         },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       2023: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 2,
@@ -15863,13 +14771,6 @@ var file2 = [
       // }
       // ],
       2013: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
         {
           title: "III",
           count: 1,
@@ -16140,17 +15041,6 @@ var file2 = [
       // }
       // ],
       2007: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
@@ -16225,17 +15115,6 @@ var file2 = [
       // }
       // ],
       2012: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 2,
@@ -16316,14 +15195,6 @@ var file2 = [
           count: 1,
         },
         {
-          title: "II",
-          count: "",
-        },
-        {
-          title: "III",
-          count: "",
-        },
-        {
           title: "IV",
           count: 1,
         },
@@ -16332,14 +15203,6 @@ var file2 = [
         {
           title: "I",
           count: 1,
-        },
-        {
-          title: "II",
-          count: "",
-        },
-        {
-          title: "III",
-          count: "",
         },
         {
           title: "IV",
@@ -16409,10 +15272,6 @@ var file2 = [
         {
           title: "III",
           count: 1,
-        },
-        {
-          title: "IV",
-          count: "",
         },
       ],
       // 2023: [ 
@@ -16642,20 +15501,9 @@ var file2 = [
       // }
       // ],
       2014: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
         {
           title: "III",
           count: 1,
-        },
-        {
-          title: "IV",
-          count: "",
         },
       ],
       // 2015: [ 
@@ -16693,20 +15541,9 @@ var file2 = [
       // }
       // ],
       2017: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
         {
           title: "III",
           count: 1,
-        },
-        {
-          title: "IV",
-          count: "",
         },
       ],
       // 2018: [ 
@@ -17038,21 +15875,10 @@ var file2 = [
       // }
       // ],
       2015: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
         {
           title: "III",
           count: 1,
         },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       // 2016: [ 
       //           { title: "I",
@@ -17089,38 +15915,12 @@ var file2 = [
       // }
       // ],
       2018: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
-      {
-        title: "IV",
-        count: "",
-      }
-      ],
+       ],
       2019: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
         {
           title: "III",
           count: 1,
         },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       // 2020: [ 
       //           { title: "I",
@@ -17213,17 +16013,6 @@ var file2 = [
       // }
       // ],
       2003: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
@@ -17247,17 +16036,6 @@ var file2 = [
       // }
       // ],
       2005: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
@@ -17298,34 +16076,12 @@ var file2 = [
       // }
       // ],
       2008: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
         },
       ],
       2009: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
@@ -17400,21 +16156,10 @@ var file2 = [
       // }
       // ],
       2014: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
         {
           title: "III",
           count: 1,
         },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       // 2015: [ 
       //           { title: "I",
@@ -17438,31 +16183,11 @@ var file2 = [
           title: "I",
           count: 1,
         },
-        {
-          title: "II",
-          count: "",
-        },
-        {
-          title: "III",
-          count: "",
-        },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       2017: [
         {
           title: "I",
           count: 1,
-        },
-        {
-          title: "II",
-          count: "",
-        },
-        {
-          title: "III",
-          count: "",
         },
         {
           title: "IV",
@@ -17473,14 +16198,6 @@ var file2 = [
         {
           title: "I",
           count: 1,
-        },
-        {
-          title: "II",
-          count: "",
-        },
-        {
-          title: "III",
-          count: "",
         },
         {
           title: "IV",
@@ -17595,34 +16312,12 @@ var file2 = [
       // }
       // ],
       2003: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 2,
         },
       ],
       2004: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 4,
@@ -17646,34 +16341,12 @@ var file2 = [
       // }
       // ],
       2006: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
         },
       ],
       2007: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
@@ -17714,34 +16387,12 @@ var file2 = [
       // }
       // ],
       2010: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
         },
       ],
       2011: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
@@ -17765,34 +16416,12 @@ var file2 = [
       // }
       // ],
       2013: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
         {
           title: "III",
           count: 1,
         },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       2014: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
@@ -17804,53 +16433,29 @@ var file2 = [
           count: 2,
         },
         {
-          title: "II",
-          count: "",
-        },
-        {
           title: "III",
           count: 2,
         },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       2016: [
         {
           title: "I",
           count: 2,
         },
-        {
-          title: "II",
-          count: "",
-        },
           {
             title: "III",
             count: 1,
           },
-          {
-            title: "IV",
-            count: "",
-          }
       ],
       2017: [
         {
           title: "I",
           count: 3,
         },
-        {
-          title: "II",
-          count: "",
-        },
           {
             title: "III",
             count: 1,
           },
-          {
-            title: "IV",
-            count: "",
-          }
       ],
       // 2018: [ 
       //           { title: "I",
@@ -17994,85 +16599,30 @@ var file2 = [
       // }
       // ],
       2004: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 2,
         },
       ],
       2005: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 5,
         },
       ],
       2006: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 5,
         },
       ],
       2007: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 4,
         },
       ],
       2008: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 4,
@@ -18096,64 +16646,24 @@ var file2 = [
       //   },
       // ],
       2010: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 2,
         },
       ],
       2011: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 1,
         },
       ],
       2012: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
-      {
-        title: "III",
-        count: "",
-      },
         {
           title: "IV",
           count: 3,
         },
       ],
       2013: [
-        { title: "I",
-        count: "",
-      },
-      {
-        title: "II",
-        count: "",
-      },
         {
           title: "III",
           count: 1,
@@ -18203,17 +16713,9 @@ var file2 = [
           count: 2,
         },
         {
-          title: "II",
-          count: "",
-        },
-        {
           title: "III",
           count: 1,
         },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       2017: [
         {
@@ -18221,17 +16723,9 @@ var file2 = [
           count: 1,
         },
         {
-          title: "II",
-          count: "",
-        },
-        {
           title: "III",
           count: 1,
         },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       2018: [
         {
@@ -18239,17 +16733,9 @@ var file2 = [
           count: 3,
         },
         {
-          title: "II",
-          count: "",
-        },
-        {
           title: "III",
           count: 1,
         },
-        {
-          title: "IV",
-          count: "",
-        }
       ],
       // 2019: [ 
       //           { title: "I",
