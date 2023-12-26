@@ -407,12 +407,12 @@ jQuery(document).ready(function($) {
 		/* ==============================================
 		NAV
 	=============================================== */	
-	$("#nav").sticky({
-		topSpacing: 0
-	});
+	// $("#nav").sticky({
+	// 	topSpacing: 0
+	// });
 	
 	$('.home-nav').onePageNav({
-		scrollSpeed: 0,
+		scrollSpeed: 1200,
 		currentClass: 'active',
 		changeHash: true,
 	});
