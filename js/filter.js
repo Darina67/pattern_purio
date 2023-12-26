@@ -206,3 +206,28 @@ $(document).on('click', '.control-btn-years', function () {
     $('.control-btn-years').removeClass('active');
     $(this).addClass('active');
 });
+
+// Check if the section is currently visible
+function isSectionVisible() {
+    var section = $('#projects'); // Replace 'projects' with the actual ID of your section
+    var windowHeight = $(window).height();
+    var scrollPos = $(window).scrollTop() || document.documentElement.scrollTop;
+    var sectionOffset = section.offset().top;
+
+    // Adjust the condition to check if the section is at least partially visible
+    return scrollPos + windowHeight > sectionOffset;
+}
+
+function setDefaultValues() {
+    populateRadioButtonsForDiseases(file1);
+    populateRadioButtonsForYears(file1, initialCategory);
+    update(initialCategory, initialYear);
+}
+
+// Add this event listener to handle scrolling
+$(window).scroll(function () {
+    if (!isSectionVisible()) {
+        // If the section is not visible, set default values
+        setDefaultValues();
+    }
+});
