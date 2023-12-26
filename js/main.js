@@ -410,11 +410,19 @@ jQuery(document).ready(function($) {
 	$("#nav").sticky({
 		topSpacing: 0
 	});
+	
+	// $('.home-nav').onePageNav({
+	// 	scrollSpeed: 0,
+	// 	currentClass: 'active',
+	// 	changeHash: true,
+	// });
+	
  });
- $(document).ready(function() {
-    function initOnePageNav() {
-        var scrollSpeed = window.innerWidth < 768 ? 1000 : 0;
+ //End Document.ready
 
+ $(document).ready(function() {
+    // Функция для инициализации onePageNav с заданным scrollSpeed
+    function initializeOnePageNav(scrollSpeed) {
         $('.home-nav').onePageNav({
             scrollSpeed: scrollSpeed,
             currentClass: 'active',
@@ -422,15 +430,16 @@ jQuery(document).ready(function($) {
         });
     }
 
-    initOnePageNav();
+    // Проверка ширины окна при загрузке страницы
+    var initialScrollSpeed = window.innerWidth < 768 ? 1000 : 0;
+    initializeOnePageNav(initialScrollSpeed);
 
+    // Обработка изменения размера окна
     $(window).on('resize', function() {
-        initOnePageNav();
+        var scrollSpeed = window.innerWidth < 768 ? 1000 : 0;
+        initializeOnePageNav(scrollSpeed);
     });
 });
-
-
-
 
  
 	 
