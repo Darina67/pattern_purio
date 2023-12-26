@@ -231,3 +231,41 @@ $(window).scroll(function () {
         setDefaultValues();
     }
 });
+
+
+var isProjectsSectionVisible = true; // Изначально считаем, что секция видима
+
+// Обработчик события прокрутки страницы
+$(window).scroll(function() {
+    // Получение верхней и нижней границ секции "projects"
+    var projectsSectionTop = $('#projects').offset().top;
+    var projectsSectionBottom = projectsSectionTop + $('#projects').outerHeight();
+
+    // Получение верхней и нижней видимой части окна
+    var windowTop = $(window).scrollTop();
+    var windowBottom = windowTop + $(window).height();
+
+    // Проверяем, если секция "projects" не видима
+    if (windowBottom < projectsSectionTop || windowTop > projectsSectionBottom) {
+        // Если она ранее была видима, вызываем функцию update и активируем изначальные кнопки
+        if (isProjectsSectionVisible) {
+            update(initialCategory, initialYear);
+            activateInitialButtons();
+            isProjectsSectionVisible = false;
+        }
+    } else {
+        // Секция "projects" видима
+        isProjectsSectionVisible = true;
+    }
+});
+
+// Функция для активации изначальных кнопок
+function activateInitialButtons() {
+    // Активируем кнопку для заболеваний
+    $('.control-btn-disease').removeClass('active');
+    $('.control-btn-disease:first-child').addClass('active');
+
+    // Активируем кнопку для годов
+    $('controls.year-buttons .control-btn-years').removeClass('active');
+    $('controls.year-buttons .control-btn-years:first-child').addClass('active');
+}
