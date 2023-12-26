@@ -407,18 +407,31 @@ jQuery(document).ready(function($) {
 		/* ==============================================
 		NAV
 	=============================================== */	
-	// $("#nav").sticky({
-	// 	topSpacing: 0
-	// });
-	
-	$('.home-nav').onePageNav({
-		scrollSpeed: 1200,
-		currentClass: 'active',
-		changeHash: true,
+	$("#nav").sticky({
+		topSpacing: 0
 	});
-	
  });
- //End Document.ready
+ $(document).ready(function() {
+    function initOnePageNav() {
+        var scrollSpeed = window.innerWidth < 768 ? 1000 : 0;
+
+        $('.home-nav').onePageNav({
+            scrollSpeed: scrollSpeed,
+            currentClass: 'active',
+            changeHash: true,
+        });
+    }
+
+    initOnePageNav();
+
+    $(window).on('resize', function() {
+        initOnePageNav();
+    });
+});
+
+
+
+
  
 	 
  $(window).load(function() {
