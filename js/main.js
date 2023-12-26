@@ -431,12 +431,12 @@ jQuery(document).ready(function($) {
     }
 
     // Проверка ширины окна при загрузке страницы
-    var initialScrollSpeed = window.innerWidth < 768 ? 1000 : 0;
+    var initialScrollSpeed = window.innerWidth < 768 ? 1200 : 0;
     initializeOnePageNav(initialScrollSpeed);
 
     // Обработка изменения размера окна
     $(window).on('resize', function() {
-        var scrollSpeed = window.innerWidth < 768 ? 1000 : 0;
+        var scrollSpeed = window.innerWidth < 768 ? 1200 : 0;
         initializeOnePageNav(scrollSpeed);
     });
 });
