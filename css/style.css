@@ -2564,6 +2564,9 @@ margin-right: 0;
 .about-wrapper{
   justify-content: center;
 }
+.b-for-mobile {
+  display: none; /* Скрываем блок для мобильных устройств на ПК */
+}
 
 
 
@@ -2914,6 +2917,12 @@ iframe.map{
 
   .services-box a.btn.btn-btm{
     bottom: 0;
+  }
+  .b-for-pc {
+    display: none; /* Скрываем блок для ПК на мобильных устройствах */
+  }
+  .controls.year-buttons{
+    display: none;
   }
 
 

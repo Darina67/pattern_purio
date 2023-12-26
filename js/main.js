@@ -34,6 +34,8 @@ $('#educational-materials .video-block__more').click(function () {
 	$(this).text(buttonText);
 });
 
+/*аккордион на телефонах для опыта*/
+
 
 
 /*прокрутка к секции где видео при выходе из полноэкранного режима*/

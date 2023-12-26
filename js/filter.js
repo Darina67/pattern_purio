@@ -8,15 +8,15 @@ var isProjectsSectionVisible = true;
 console.log(initialYear);
 
 function activateInitialButtons() {
-    $('#diseaseButtons .control-btn-disease').removeClass('active');
-    $('#diseaseButtons .control-btn-disease:first-child').addClass('active');
+    $('.control-btn-disease').removeClass('active');
+    $('.control-btn-disease:first-child').addClass('active');
 
-    $('#yearButtons .control-btn-years').removeClass('active');
-    $('#yearButtons .control-btn-years:first-child').addClass('active');
+    $('.control-btn-years').removeClass('active');
+    $('.control-btn-years:first-child').addClass('active');
 }
 
 function populateRadioButtonsForDiseases(diseases) {
-    var container = $('#diseaseButtons');
+    var container = $('.disease-buttons');
     container.empty();
 
     $.each(diseases, function (index, disease) {
@@ -30,7 +30,7 @@ function populateRadioButtonsForDiseases(diseases) {
 }
 
 function populateRadioButtonsForYears(diseases, selectedDisease) {
-    var container = $('#yearButtons');
+    var container = $('.year-buttons');
     container.empty();
 
     // Add "За все время" button for the selected disease
@@ -75,10 +75,10 @@ function update(selectedDisease, selectedYear) {
         selectedYear = years[0];
     }
          // Удалите текущий класс "active" у всех кнопок годов
-         $('#yearButtons .control-btn-years').removeClass('active');
+         $('.controls.year-buttons .control-btn-years').removeClass('active');
 
          // Найдите и добавьте класс "active" для кнопки года, соответствующей selectedYear
-         $(`#yearButtons .control-btn-years input[value="${selectedYear}"]`).parent().addClass('active');
+         $(`.controls.year-buttons .control-btn-years input[value="${selectedYear}"]`).parent().addClass('active');
 
     $('.projects-container').html('');
 
@@ -179,7 +179,6 @@ function update(selectedDisease, selectedYear) {
     }
 }
 
-
 $(document).ready(function () {
     populateRadioButtonsForDiseases(file1);
     populateRadioButtonsForYears(file1, initialCategory);
@@ -196,19 +195,14 @@ $(document).on('change', 'input[name=yearRadio]', function () {
     let selectedDisease = $('input[name=diseaseRadio]:checked').val();
     let selectedYear = $(this).val();
     update(selectedDisease, selectedYear);
-});;
+});
 
 $(document).on('click', '.control-btn-disease', function () {
-    document.querySelectorAll('.control-btn-disease').forEach(btn => {
-        btn.classList.remove('active');
-    });
+    $('.control-btn-disease').removeClass('active');
     $(this).addClass('active');
 });
 
 $(document).on('click', '.control-btn-years', function () {
-    document.querySelectorAll('.control-btn-years').forEach(btn => {
-        btn.classList.remove('active');
-    });
+    $('.control-btn-years').removeClass('active');
     $(this).addClass('active');
 });
-
