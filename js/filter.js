@@ -10,7 +10,7 @@ var years=["За всё время",2002,2003,2004,2005,2006,2007,2008,2009,2010
                 </label>`))});else{var i=e.find(function(e){return e.name===a}),n=i?Object.keys(i.phases).map(Number):[];$.each(n,function(e,a){t.append($(`<label class="control-btn control-btn-years"> 
                     ${a}
                    <input type="radio" name="yearRadio" value="${a}" />
-                </label>`))})}}function update(e,a){void 0===a&&(a=years[0]),$(".controls.year-buttons .control-btn-years").removeClass("active"),$(`.controls.year-buttons .control-btn-years input[value="${a}"]`).parent().addClass("active"),$(".projects-container").html("");var t=file1.find(function(a){return a.name===e});if("За всё время"===a&&t)for(var i in t.phases){let n=t.phases[i],s;"I"==n.title?s=$imgPath="images/phases/1.png":"II"==n.title?s=$imgPath="images/phases/2.png":"III"==n.title?s=$imgPath="images/phases/3.png":"IV"==n.title&&(s=$imgPath="images/phases/4.png"),$(".projects-container").append(`
+                </label>`))})}}function update(e,a){void 0===a&&(a=years[0]),$(".controls.year-buttons .control-btn-years").removeClass("active"),$(`.controls.year-buttons .control-btn-years input[value="${a}"]`).parent().addClass("active"),$(".projects-container").html("");var t=file1.find(function(a){return a.name===e});if("За всё время"===a&&t)for(var i in t.phases){let n=t.phases[i],s;"I"==n.title?s=$imgPath="images/phases/1.webp":"II"==n.title?s=$imgPath="images/phases/2.webp":"III"==n.title?s=$imgPath="images/phases/3.webp":"IV"==n.title&&(s=$imgPath="images/phases/4.webp"),$(".projects-container").append(`
                 <article class="project-item">
                     <div class="popup">
                         <figure>
@@ -25,7 +25,7 @@ var years=["За всё время",2002,2003,2004,2005,2006,2007,2008,2009,2010
                         </figure>
                     </div>
                 </article>
-            `).hide().fadeIn(200)}else{var o=file2.find(function(t){return t.phases[a]&&t.name===e}),r=o?o.phases[a]:file1.find(a=>a.name===e);if(r)for(var i in r){let l=r[i],c;"I"==l.title?c=$imgPath="images/phases/1.png":"II"==l.title?c=$imgPath="images/phases/2.png":"III"==l.title?c=$imgPath="images/phases/3.png":"IV"==l.title&&(c=$imgPath="images/phases/4.png"),$(".projects-container").append(`
+            `).hide().fadeIn(200)}else{var o=file2.find(function(t){return t.phases[a]&&t.name===e}),r=o?o.phases[a]:file1.find(a=>a.name===e);if(r)for(var i in r){let l=r[i],c;"I"==l.title?c=$imgPath="images/phases/1.webp":"II"==l.title?c=$imgPath="images/phases/2.webp":"III"==l.title?c=$imgPath="images/phases/3.webp":"IV"==l.title&&(c=$imgPath="images/phases/4.webp"),$(".projects-container").append(`
                     <article class="project-item">
                         <div class="popup">
                             <figure>
