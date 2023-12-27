@@ -407,36 +407,14 @@ jQuery(document).ready(function($) {
 		/* ==============================================
 		NAV
 	=============================================== */	
-	// $("#nav").sticky({
-	// 	topSpacing: 0
-	// });
+	$("#nav").sticky({
+		topSpacing: 0
+	});
 	
 	
  });
  //End Document.ready
-
- $(document).ready(function() {
-    // Функция для инициализации onePageNav с заданным scrollSpeed
-    function initializeOnePageNav(scrollSpeed) {
-        $('.home-nav').onePageNav({
-            scrollSpeed: scrollSpeed,
-            currentClass: 'active',
-            changeHash: true,
-        });
-    }
-
-    // Проверка ширины окна при загрузке страницы
-    var initialScrollSpeed = window.innerWidth < 768 ? 1200 : 0;  // Измените значение скорости прокрутки
-
-    initializeOnePageNav(initialScrollSpeed);
-
-    // Обработка изменения размера окна
-    $(window).on('resize', function() {
-        var scrollSpeed = window.innerWidth < 768 ? 1200 : 0;
-        initializeOnePageNav(scrollSpeed);
-    });
-});
-
+  
  
 	 
  $(window).load(function() {
