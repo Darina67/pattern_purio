@@ -411,10 +411,36 @@ jQuery(document).ready(function($) {
 		topSpacing: 0
 	});
 	
+	// $('.home-nav').onePageNav({
+	// 	scrollSpeed: 0,
+	// 	currentClass: 'active',
+	// 	changeHash: true,
+	// });
 	
  });
  //End Document.ready
-  
+
+ $(document).ready(function() {
+    // Функция для инициализации onePageNav с заданным scrollSpeed
+    function initializeOnePageNav(scrollSpeed) {
+        $('.home-nav').onePageNav({
+            scrollSpeed: scrollSpeed,
+            currentClass: 'active',
+            changeHash: true,
+        });
+    }
+
+    // Проверка ширины окна при загрузке страницы
+    var initialScrollSpeed = window.innerWidth < 768 ? 800 : 0;
+    initializeOnePageNav(initialScrollSpeed);
+
+    // Обработка изменения размера окна
+    $(window).on('resize', function() {
+        var scrollSpeed = window.innerWidth < 768 ? 800 : 0;
+        initializeOnePageNav(scrollSpeed);
+    });
+});
+
  
 	 
  $(window).load(function() {
@@ -425,7 +451,7 @@ jQuery(document).ready(function($) {
 	 =============================================== */
 	 
 	 $(".loader-item").delay(7000).fadeOut();
-	 $("#pageloader").delay(8000).fadeOut("slow");
+	 $("#pageloader").delay(12000).fadeOut("slow");
 	 
  });
 
