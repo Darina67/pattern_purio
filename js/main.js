@@ -411,11 +411,6 @@ jQuery(document).ready(function($) {
 		topSpacing: 0
 	});
 	
-	// $('.home-nav').onePageNav({
-	// 	scrollSpeed: 0,
-	// 	currentClass: 'active',
-	// 	changeHash: true,
-	// });
 	
  });
  //End Document.ready
@@ -431,12 +426,13 @@ jQuery(document).ready(function($) {
     }
 
     // Проверка ширины окна при загрузке страницы
-    var initialScrollSpeed = window.innerWidth < 768 ? 800 : 0;
+    var initialScrollSpeed = window.innerWidth < 768 ? 1200 : 0;  // Измените значение скорости прокрутки
+
     initializeOnePageNav(initialScrollSpeed);
 
     // Обработка изменения размера окна
     $(window).on('resize', function() {
-        var scrollSpeed = window.innerWidth < 768 ? 800 : 0;
+        var scrollSpeed = window.innerWidth < 768 ? 1200 : 0;
         initializeOnePageNav(scrollSpeed);
     });
 });
@@ -451,7 +447,7 @@ jQuery(document).ready(function($) {
 	 =============================================== */
 	 
 	 $(".loader-item").delay(7000).fadeOut();
-	 $("#pageloader").delay(12000).fadeOut("slow");
+	 $("#pageloader").delay(8000).fadeOut("slow");
 	 
  });
 
