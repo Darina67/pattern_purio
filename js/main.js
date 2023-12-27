@@ -122,8 +122,8 @@ jQuery(document).ready(function($) {
 				 $('#side-menu').clone( true ).attr("id", "mmenu-side-menu").mmenu({
 					 position: "right",
 					 zposition:"front",
-					 moveBackground:true,
-					 clone:true,
+					 moveBackground:false,
+					 clone:false,
 					 dragOpen:false,
 					 });
 				 $('#mmenu-side-menu ul').removeClass('nav navbar-nav navbar-right');
