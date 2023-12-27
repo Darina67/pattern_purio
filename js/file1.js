@@ -57,10 +57,6 @@ var file1 = [
                 title: "II",
                 count: 2
             },
-            2: {
-                title: "III",
-                count: 1
-            },
         }
     },
     {
@@ -99,10 +95,6 @@ var file1 = [
             0: {
                 title: "I",
                 count: 2
-            },
-            2: {
-                title: "III",
-                count: 1
             },
             3: {
                 title: "IV",
