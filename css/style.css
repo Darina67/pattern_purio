@@ -1327,7 +1327,7 @@ text-align:left;
 * QUOTE
 * -------------------------------------------------- */
 #quote-section {
-/* background:url(../images/background.webp) center center fixed; */
+background:url(../images/background.webp) center center fixed;
 color:#fff;
 background-size:cover;
 }
