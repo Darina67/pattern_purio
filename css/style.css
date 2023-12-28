@@ -2571,6 +2571,9 @@ margin-right: 0;
 .b-for-mobile {
   display: none; /* Скрываем блок для мобильных устройств на ПК */
 }
+html {
+  scroll-behavior: smooth;
+}
 
 
 
