@@ -766,6 +766,7 @@ background-size:cover;
 .keystat-logo{
   max-height: 150px;
   object-fit: contain;
+
 }
 
 .caption-wrapper {
@@ -2725,9 +2726,6 @@ left:46%;
   font-size: 56px;
   margin:0 auto 35px auto;
 }
-img.keystat-logo.pl-media{
-  width: 400px;
-}
 .caption-wrapper{
   top: 17%;
 }
@@ -2774,10 +2772,11 @@ iframe.map{
 .about-wrapper{
   justify-content: center;
 }
-.keystat-logo.pl-media{
+img.keystat-logo.pl-media{
 padding-left: 20px;
-max-width: 315px;
+height: 100%;
 margin: 0 auto;
+width: 100%;
 
 }
 #timeline ul.timeline li.time + li.note{
@@ -2874,9 +2873,6 @@ iframe.map{
 .about-wrapper{
   justify-content: center;
 }
-.keystat-logo.pl-media{
-  padding-left: 20px;
-  }
   #timeline ul.timeline li.time + li.note{
     margin-top: -30px;
   }
