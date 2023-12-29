@@ -1,17 +1,1 @@
-section.privacy{
-    padding-bottom: 50px;
-    padding-top: 50px;
-   
-}
-.privacy-list{
-    padding-left: 10px;
-    line-height: 1.4;
-}
-.privacy-text{
-    color: #565656;
-    line-height: 19px;
-}
- p{
-    font-size: 14px !important;
-    line-height: 19px;
-}
+section.privacy{padding-bottom:50px;padding-top:50px}.privacy-list{padding-left:10px;line-height:1.4}.privacy-text{color:#565656;line-height:19px} p{font-size:14px !important;line-height:19px}
